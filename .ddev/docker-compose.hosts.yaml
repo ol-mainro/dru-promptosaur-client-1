@@ -1,0 +1,5 @@
+services:
+  web:
+    extra_hosts:
+      - "lcapi.web:host-gateway"
+      - "client-cms.web:host-gateway"

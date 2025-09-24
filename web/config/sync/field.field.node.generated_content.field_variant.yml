@@ -1,0 +1,19 @@
+uuid: 3f77c814-a29b-42f6-a3cb-a61a073613c3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_variant
+    - node.type.generated_content
+id: node.generated_content.field_variant
+field_name: field_variant
+entity_type: node
+bundle: generated_content
+label: 'Décliné pour'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
