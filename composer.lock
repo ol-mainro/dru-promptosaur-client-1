@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d82bcf8180d31eac02ce079d5c88238f",
+    "content-hash": "1a43bfbc4afd0850114388734e1a71f9",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3126,6 +3126,67 @@
             }
         },
         {
+            "name": "drupal/config_pages",
+            "version": "2.19.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/config_pages.git",
+                "reference": "8.x-2.19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/config_pages-8.x-2.19.zip",
+                "reference": "8.x-2.19",
+                "shasum": "8791c8558b2095c72e605b76cfd26a514dab1e42"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.19",
+                    "datestamp": "1756896072",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "m.krestnicov",
+                    "homepage": "https://www.drupal.org/user/3193903"
+                },
+                {
+                    "name": "qwaygon",
+                    "homepage": "https://www.drupal.org/user/636624"
+                },
+                {
+                    "name": "shumer",
+                    "homepage": "https://www.drupal.org/user/2297432"
+                }
+            ],
+            "description": "ConfigPages module",
+            "homepage": "http://drupal.org/project/config_pages",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/config_pages",
+                "issues": "http://drupal.org/project/issues/config_pages"
+            }
+        },
+        {
             "name": "drupal/core",
             "version": "11.2.4",
             "source": {
@@ -3898,6 +3959,297 @@
             "homepage": "https://www.drupal.org/project/date_augmenter",
             "support": {
                 "source": "https://git.drupalcode.org/project/date_augmenter"
+            }
+        },
+        {
+            "name": "drupal/domain",
+            "version": "2.0.0-beta4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/domain.git",
+                "reference": "2.0.0-beta4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/domain-2.0.0-beta4.zip",
+                "reference": "2.0.0-beta4",
+                "shasum": "4e0479bcda36894e2b2310bf57a670b456cd609f"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "require-dev": {
+                "drupal/domain_access": "*",
+                "drupal/domain_config": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0-beta4",
+                    "datestamp": "1756880886",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "agentrickard",
+                    "homepage": "https://www.drupal.org/user/20975"
+                },
+                {
+                    "name": "danrod",
+                    "homepage": "https://www.drupal.org/user/19150"
+                },
+                {
+                    "name": "mably",
+                    "homepage": "https://www.drupal.org/user/3375160"
+                },
+                {
+                    "name": "nonsie",
+                    "homepage": "https://www.drupal.org/user/29899"
+                },
+                {
+                    "name": "webflo",
+                    "homepage": "https://www.drupal.org/user/254778"
+                }
+            ],
+            "description": "Creates domain records within a Drupal installation.",
+            "homepage": "https://www.drupal.org/project/domain",
+            "support": {
+                "source": "https://git.drupalcode.org/project/domain"
+            }
+        },
+        {
+            "name": "drupal/domain_access",
+            "version": "2.0.0-beta4",
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12",
+                "drupal/domain": "*"
+            },
+            "type": "metapackage",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0-beta4",
+                    "datestamp": "1756880886",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "agentrickard",
+                    "homepage": "https://www.drupal.org/user/20975"
+                },
+                {
+                    "name": "danrod",
+                    "homepage": "https://www.drupal.org/user/19150"
+                },
+                {
+                    "name": "mably",
+                    "homepage": "https://www.drupal.org/user/3375160"
+                },
+                {
+                    "name": "nonsie",
+                    "homepage": "https://www.drupal.org/user/29899"
+                },
+                {
+                    "name": "webflo",
+                    "homepage": "https://www.drupal.org/user/254778"
+                }
+            ],
+            "description": "Domain-based access control for content.",
+            "homepage": "https://www.drupal.org/project/domain",
+            "support": {
+                "source": "https://git.drupalcode.org/project/domain"
+            }
+        },
+        {
+            "name": "drupal/domain_config_pages",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/domain_config_pages.git",
+                "reference": "1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/domain_config_pages-1.0.1.zip",
+                "reference": "1.0.1",
+                "shasum": "a976ef97e76082ef7f5c3bbc8643c8df21a0dea1"
+            },
+            "require": {
+                "drupal/config_pages": "^2.0",
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12",
+                "drupal/domain": "^2.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.1",
+                    "datestamp": "1744133378",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Diels (tim-diels)",
+                    "homepage": "https://www.drupal.org/u/tim-diels",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Provides a domain context plugin for Config Pages.",
+            "homepage": "https://drupal.org/project/domain_config_pages",
+            "support": {
+                "source": "https://git.drupalcode.org/project/domain_config_pages",
+                "issues": "https://drupal.org/project/issues/domain_config_pages"
+            }
+        },
+        {
+            "name": "drupal/domain_menu_access",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/domain_menu_access.git",
+                "reference": "2.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/domain_menu_access-2.0.1.zip",
+                "reference": "2.0.1",
+                "shasum": "d2b94e6fbd4657b604ac15866d5b798fc40700b7"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12",
+                "drupal/domain": "^1.0 || ^2.0",
+                "drupal/domain_access": "*"
+            },
+            "require-dev": {
+                "drupal/menu_block": "^1.0",
+                "phpstan/phpstan-deprecation-rules": "^1.1",
+                "phpstan/phpstan-strict-rules": "^1.5"
+            },
+            "suggest": {
+                "drupal/menu_block": "Provides configurable blocks of menu links and is needed to allow to install the submodule domain_menu_access_menu_block"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.1",
+                    "datestamp": "1744139145",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "maciej.zgadzaj",
+                    "homepage": "https://www.drupal.org/u/maciejzgadzaj",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Oleksandr Dekhteruk (pifagor)",
+                    "homepage": "https://www.drupal.org/u/pifagor",
+                    "role": "Co-maintainer"
+                },
+                {
+                    "name": "Sebastien MALOT (Sebastien M.)",
+                    "homepage": "https://www.drupal.org/u/sebastien-m",
+                    "role": "Co-maintainer"
+                },
+                {
+                    "name": "Tim Diels (tim-diels)",
+                    "homepage": "https://www.drupal.org/u/tim-diels",
+                    "role": "Co-maintainer"
+                }
+            ],
+            "description": "Domain-based access control for menu link.",
+            "homepage": "https://www.drupal.org/project/domain_menu_access",
+            "support": {
+                "source": "https://git.drupalcode.org/project/domain_menu_access",
+                "issues": "https://drupal.org/project/issues/domain_menu_access"
+            }
+        },
+        {
+            "name": "drupal/domain_theme_switch",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/domain_theme_switch.git",
+                "reference": "2.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/domain_theme_switch-2.1.0.zip",
+                "reference": "2.1.0",
+                "shasum": "65699df42cfe7951ab1ae393e18e83cb3b63bd3c"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12",
+                "drupal/domain": "^2.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.0",
+                    "datestamp": "1733125182",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "abramm",
+                    "homepage": "https://www.drupal.org/user/3216035"
+                },
+                {
+                    "name": "aloknarwaria",
+                    "homepage": "https://www.drupal.org/user/906640"
+                },
+                {
+                    "name": "bohart",
+                    "homepage": "https://www.drupal.org/user/289861"
+                },
+                {
+                    "name": "mably",
+                    "homepage": "https://www.drupal.org/user/3375160"
+                }
+            ],
+            "description": "Theme switch for different domains.",
+            "homepage": "https://drupal.org/project/domain_theme_switch",
+            "support": {
+                "source": "https://git.drupalcode.org/project/domain_theme_switch",
+                "issues": "https://www.drupal.org/project/issues/domain_theme_switch"
             }
         },
         {
@@ -5804,6 +6156,50 @@
             }
         },
         {
+            "name": "drupal/mahi",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/mahi.git",
+                "reference": "1.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/mahi-1.1.1.zip",
+                "reference": "1.1.1",
+                "shasum": "e45c0252b514b216668f95f59ac5c8080b86a786"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "1.1.1",
+                    "datestamp": "1757908203",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ravis",
+                    "homepage": "https://www.drupal.org/user/79351"
+                }
+            ],
+            "description": "<p>Mahi is a light weight modern Drupal 9, 10, 11 theme by <a href=\"https://drupar.com/\" target=\"_blank\">Drupar.com</a></p><p><a href=\"https://drupar.com/theme/mahi\" target=\"_blank\">Theme Homepage</a> | <a href=\"https://drupar.com/doc/mahi\" target=\"_blank\">User Guide</a></p>",
+            "homepage": "https://www.drupal.org/project/mahi",
+            "support": {
+                "source": "https://git.drupalcode.org/project/mahi"
+            }
+        },
+        {
             "name": "drupal/mailsystem",
             "version": "4.5.0",
             "source": {
@@ -6058,6 +6454,50 @@
                 "source": "https://git.drupalcode.org/project/metatag",
                 "issues": "https://www.drupal.org/project/issues/metatag",
                 "docs": "https://www.drupal.org/docs/8/modules/metatag"
+            }
+        },
+        {
+            "name": "drupal/mili",
+            "version": "11.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/mili.git",
+                "reference": "11.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/mili-11.1.0.zip",
+                "reference": "11.1.0",
+                "shasum": "9bc396b1f05ddea043c06bbd4fbbb7e3963e1fe5"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "11.1.0",
+                    "datestamp": "1756967857",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ravis",
+                    "homepage": "https://www.drupal.org/user/79351"
+                }
+            ],
+            "description": "Mili is a light weight drupal 9, 10 and 11 theme by <a href=\"https://drupar.com\" target=\"_blank\">Drupar.com</a>",
+            "homepage": "https://www.drupal.org/project/mili",
+            "support": {
+                "source": "https://git.drupalcode.org/project/mili"
             }
         },
         {
@@ -7684,6 +8124,50 @@
             }
         },
         {
+            "name": "drupal/thex",
+            "version": "11.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/thex.git",
+                "reference": "11.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/thex-11.0.0.zip",
+                "reference": "11.0.0",
+                "shasum": "7f1bcee36306d3b5e23cfe6be66612f2bf9fd0e3"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "11.0.0",
+                    "datestamp": "1723617140",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ravis",
+                    "homepage": "https://www.drupal.org/user/79351"
+                }
+            ],
+            "description": "<p>A clean, light weight and mobile optimized base theme for Drupal 9, 10 and 11 by <a href=\"https://drupar.com/\" target=\"_blank\">Drupar.com</a><br /><a href=\"https://drupar.com/theme/thex\" target=\"_blank\">Theme Page</a> | <a href=\"https://drupar.com/doc/thex\" target=\"_blank\">Theme User Guide</a> | <a href=\"https://www.drupal.org/project/thex\" target=\"_blank\">Project Page</a></p>",
+            "homepage": "https://www.drupal.org/project/thex",
+            "support": {
+                "source": "https://git.drupalcode.org/project/thex"
+            }
+        },
+        {
             "name": "drupal/token",
             "version": "1.16.0",
             "source": {
@@ -7927,6 +8411,50 @@
             "homepage": "https://www.drupal.org/project/ultimate_cron",
             "support": {
                 "source": "https://git.drupalcode.org/project/ultimate_cron"
+            }
+        },
+        {
+            "name": "drupal/vani",
+            "version": "11.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/vani.git",
+                "reference": "11.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/vani-11.0.0.zip",
+                "reference": "11.0.0",
+                "shasum": "cd3c1e03f97d3e31aa97cc9348e63c1e8681d04b"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "11.0.0",
+                    "datestamp": "1723468405",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ravis",
+                    "homepage": "https://www.drupal.org/user/79351"
+                }
+            ],
+            "description": "A light weight, Clean, flexible, fully responsive and multi-purpose Drupal 8, 9, 10, 11 theme by <a href=\"https://drupar.com\" target=\"_blank\">Drupar.com</a><br /><a href=\"https://drupar.com/theme/vani\" target=\"_blank\">Theme Page</a> | <a href=\"https://drupar.com/vani-documentation\" target=\"_blank\">Theme Documentation</a> | <a href=\"https://demo2.drupar.com/vani\" target=\"_blank\">Demo</a>",
+            "homepage": "https://www.drupal.org/project/vani",
+            "support": {
+                "source": "https://git.drupalcode.org/project/vani"
             }
         },
         {
@@ -15139,6 +15667,7 @@
     "aliases": [],
     "minimum-stability": "beta",
     "stability-flags": {
+        "drupal/domain_access": 10,
         "drupal/project_browser": 10,
         "drupal/recipe_installer_kit": 15,
         "drupal/ultimate_cron": 10,

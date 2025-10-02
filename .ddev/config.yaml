@@ -4,7 +4,13 @@ docroot: web
 php_version: "8.3"
 webserver_type: nginx-fpm
 xdebug_enabled: false
-additional_hostnames: []
+additional_hostnames:
+  - "client-1.promptosaur"
+  - "client-2.promptosaur"
+  - "client-3.promptosaur"
+  - "tourisme-scientifique.promptosaur"
+  - "famille.promptosaur"
+  - "aliced.promptosaur"
 additional_fqdns: []
 database:
     type: mariadb
