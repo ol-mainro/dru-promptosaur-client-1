@@ -1,7 +1,7 @@
 uuid: 814402bc-6ef3-44bd-b7c0-e04f4976b12f
 langcode: fr
 status: true
-dependencies:
+dependencies: null
 _core:
   default_config_hash: E07X6ihfUL42K5oeJuYKdhPpDwQRPymzcPSHi_4YGgk
 name: Markdown

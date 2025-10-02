@@ -1,0 +1,22 @@
+uuid: b1d03d8e-7e50-4dfb-95f8-8daab030b958
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nava
+_core:
+  default_config_hash: EJYkls2r3VXweQ6HWA62xqSLC6wdvlEe5R3fsa-1RJc
+id: nava_breadcrumbs
+theme: nava
+region: page_header
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

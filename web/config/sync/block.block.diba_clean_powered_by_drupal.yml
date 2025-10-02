@@ -1,0 +1,22 @@
+uuid: 640d1ac7-851a-45cc-a054-b1078ee1e1fe
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - diba_clean
+_core:
+  default_config_hash: p1v9LOpq1kIhGeI3n-OIP0t-fKkzA_mGHaRgkDEU57g
+id: diba_clean_powered_by_drupal
+theme: diba_clean
+region: hidden
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 094905c0-c465-4826-afbc-9a151d241e7a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - diba_clean
+_core:
+  default_config_hash: _T5V0Drb4kw82V-vwQwT3RZnwMJqqGkCs2va0drtgkw
+id: diba_clean_local_tasks
+theme: diba_clean
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

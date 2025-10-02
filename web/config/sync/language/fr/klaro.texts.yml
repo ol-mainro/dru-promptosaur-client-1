@@ -1,0 +1,27 @@
+consentModal:
+  privacyPolicy:
+    name: 'politique de confidentialité'
+    text: |
+      Pour en savoir plus, merci de lire notre {privacyPolicy}.
+consentNotice:
+  changeDescription: 'Des changements ont été apportés depuis votre dernière visite, veuillez renouveler votre consentement.'
+  description: |
+    Nous utilisons des cookies et traitons des données personnelles pour les finalités suivantes : {purposes}.
+  learnMore: Personnaliser
+ok: Accepter
+save: Enregistrer
+decline: Refuser
+close: Fermer
+acceptAll: 'Tout accepter'
+acceptSelected: 'Accepter la sélection'
+service:
+  required:
+    title: '(toujours requis)'
+    description: 'Ce service est toujours requis.'
+  purposes: Finalités
+  purpose: Objectif
+contextualConsent:
+  acceptAlways: Toujours
+  acceptOnce: 'Oui (cette fois-ci)'
+  description: 'Charger le contenu externe fourni par {title} ?'
+poweredBy: 'Propulsé par Klaro!'

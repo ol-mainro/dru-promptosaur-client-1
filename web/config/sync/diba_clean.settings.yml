@@ -1,0 +1,32 @@
+_core:
+  default_config_hash: ZYPOyVAPTBOkBL6QAgNIY5K2ZzfWWfN5o6RrZ2u2AXs
+b5_body_schema: none
+b5_body_bg_schema: none
+b5_navbar_schema: none
+b5_navbar_bg_schema: none
+b5_footer_schema: none
+b5_footer_bg_schema: none
+b5_top_container: container
+b5_top_container_config: ''
+dc_logo1_path: 'https://maqueta.diba.cat/v3/assets/img/logos/diba.svg'
+dc_logo1_link: 'https://diba.cat'
+dc_logo1_label: 'Diputació de Barcelona'
+dc_logo2_path: ''
+dc_logo2_link: ''
+dc_logo2_label: ''
+dc_color_schema: diba
+dc_secondary_menu_type: condensed
+dc_precontent_container: container
+dc_content_container: container
+dc_postcontent_container: container
+dc_link_enable: false
+dc_link_facebook: ''
+dc_link_x: ''
+dc_link_instagram: ''
+dc_link_linkedin: ''
+dc_link_telegram: ''
+dc_link_threads: ''
+dc_link_youtube: ''
+dc_content_class: 'order-1 order-lg-2 text-justify'
+dc_sidebar_left_class: 'order-2 order-lg-1'
+dc_sidebar_right_class: order-3

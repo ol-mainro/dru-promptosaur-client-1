@@ -1,0 +1,15 @@
+uuid: 9ee53642-2ca7-4189-baea-8d0bd488e856
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.client_2_promptosaur_ddev_site
+  module:
+    - domain_access
+id: domain_access_remove_editor_action_client_2_promptosaur_ddev_site
+label: 'Remove editors from the CMS encore domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id:
+    - client_2_promptosaur_ddev_site

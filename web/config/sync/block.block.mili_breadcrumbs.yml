@@ -1,0 +1,22 @@
+uuid: 963eea98-9612-4f63-9a4d-ba7c81ee0fdf
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mili
+_core:
+  default_config_hash: ZZjEYJJ6DABe-CfukWy8Ts26QoT--Kt549NDmOq0ygY
+id: mili_breadcrumbs
+theme: mili
+region: page_header
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

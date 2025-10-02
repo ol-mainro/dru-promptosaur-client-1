@@ -1,0 +1,22 @@
+uuid: 4834fff1-8d89-4341-b428-30e1eb54b8b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - diba_clean
+_core:
+  default_config_hash: Sy5mrX-6j8dv1ZjUTzYS9fw1Zxzst2rFks48uwl3yP8
+id: diba_clean_messages
+theme: diba_clean
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: aa846d22-cbd0-4e78-8868-bd92a65333dd
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mahi
+_core:
+  default_config_hash: dVXNe1IMzNakM6XQ6x1Iku6tj2LTd_xSoEmijNhFUjg
+id: mahi_primary_local_tasks
+theme: mahi
+region: content
+weight: -12
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: cc11a425-1287-4a03-90d7-5c6202fac950
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mili
+_core:
+  default_config_hash: q_ygOm1_gXW5HZkErmmf3hqopV21IUNVraRI45xe9WY
+id: mili_powered
+theme: mili
+region: hidden_blocks
+weight: -9
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

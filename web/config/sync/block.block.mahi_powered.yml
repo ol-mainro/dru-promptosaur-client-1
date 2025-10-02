@@ -1,0 +1,22 @@
+uuid: 1b62d097-7340-4116-b3d8-5a53b4a320ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mahi
+_core:
+  default_config_hash: V9UXsAvkCs7smSITh8JQxBok2w1J2sij-DuV24kjl3s
+id: mahi_powered
+theme: mahi
+region: hidden_blocks
+weight: -13
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

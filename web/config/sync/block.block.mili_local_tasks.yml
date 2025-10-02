@@ -1,0 +1,22 @@
+uuid: bd856e32-2595-4926-adc8-143b5d105027
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mili
+_core:
+  default_config_hash: 7ZTVnbf2iYgHkq33XL7cuHAghUjDBL3Fpq-zwS5psfI
+id: mili_local_tasks
+theme: mili
+region: content
+weight: -9
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

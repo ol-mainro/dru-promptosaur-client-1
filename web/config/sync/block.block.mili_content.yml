@@ -1,0 +1,22 @@
+uuid: 2911e7f6-eb4e-49a8-98e5-62c2da8fcb82
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mili
+_core:
+  default_config_hash: rxeLeVdrJTy0iOh2edH69D0sy6cT3e-bh8qBoVXqDl8
+id: mili_content
+theme: mili
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

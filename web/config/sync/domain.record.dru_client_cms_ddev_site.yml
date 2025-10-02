@@ -1,0 +1,11 @@
+uuid: f964cf1a-d118-4d58-b333-459ee5c66372
+langcode: en
+status: true
+dependencies: {  }
+id: dru_client_cms_ddev_site
+domain_id: 3720081
+hostname: dru-client-cms.ddev.site
+name: 'My Drupal CMS site'
+scheme: https
+weight: -2
+is_default: false

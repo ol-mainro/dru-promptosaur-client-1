@@ -1,0 +1,19 @@
+uuid: b9d02b27-98b5-40ab-a4f5-c2172aa1ceed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_inline_tags
+    - node.type.generated_content
+id: node.generated_content.field_inline_tags
+field_name: field_inline_tags
+entity_type: node
+bundle: generated_content
+label: 'Inline tags'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,25 @@
+_core:
+  default_config_hash: OwipglqZd0r_AajgzmFsm6b6EMvbgIzzGQpKmh_iVRs
+container_width: 1300
+header_width: header_width_contained
+main_width: main_width_contained
+footer_width: footer_width_contained
+social_icons: 1
+facebook_url: 'https://www.facebook.com/idewdot'
+twitter_url: 'https://twitter.com/dewdots'
+instagram_url: 'https://www.instagram.com/google'
+linkedin_url: 'https://in.linkedin.com/company/google'
+youtube_url: 'https://www.youtube.com/@dev_tut'
+whatsapp_url: ''
+github_url: 'https://github.com/dewdot'
+telegram_url: ''
+vimeo_url: ''
+vk_url: ''
+highlight_author_comment: 0
+node_author_pic: 0
+node_tags: 0
+copyright_text: 1
+scrolltotop: 1
+css_extra: 0
+css_code: ''
+bootstrapicons: 0

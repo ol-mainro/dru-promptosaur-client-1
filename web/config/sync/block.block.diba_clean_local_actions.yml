@@ -1,0 +1,20 @@
+uuid: 8231cdc7-a8b9-4762-a587-a51a1a96976c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - diba_clean
+_core:
+  default_config_hash: oWq7ybuDZREwCnNzfhvDj5MuvZfL59PfwWG27aG2l3I
+id: diba_clean_local_actions
+theme: diba_clean
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

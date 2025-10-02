@@ -1,0 +1,25 @@
+uuid: bd0ee7eb-0384-4c3a-aa47-05fde134ec42
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - diba_clean
+_core:
+  default_config_hash: PvvrA290jFO_HOde9xlLvTIud8TNCB_BKBKYATF0nDc
+id: diba_clean_branding
+theme: diba_clean
+region: hidden
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

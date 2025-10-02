@@ -1,0 +1,22 @@
+uuid: 8db001c9-b575-4b90-9150-e7dfd9fd63d6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - diba_clean_example
+_core:
+  default_config_hash: 5ra2HNIksWbp6AhPpTufTGSlgx2FR7RR_ssxdjgFg4I
+id: diba_clean_example_messages
+theme: diba_clean_example
+region: top_first
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

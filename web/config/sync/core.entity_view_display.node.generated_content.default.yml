@@ -1,0 +1,55 @@
+uuid: 7cffbbd1-4f08-42a2-b65b-8e5e72c2f8f6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.generated_content.body
+    - field.field.node.generated_content.field_assigned_user
+    - field.field.node.generated_content.field_domain_access
+    - field.field.node.generated_content.field_domain_all_affiliates
+    - field.field.node.generated_content.field_inline_tags
+    - field.field.node.generated_content.field_tags
+    - field.field.node.generated_content.field_variant
+    - node.type.generated_content
+  module:
+    - text
+    - user
+id: node.generated_content.default
+targetEntityType: node
+bundle: generated_content
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_inline_tags:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_assigned_user: true
+  field_domain_access: true
+  field_domain_all_affiliates: true
+  field_variant: true
+  langcode: true

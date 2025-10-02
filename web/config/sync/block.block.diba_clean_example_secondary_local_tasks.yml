@@ -1,0 +1,22 @@
+uuid: 53294f87-eab4-4f48-afcb-2c7d1e2d9d04
+langcode: en
+status: true
+dependencies:
+  theme:
+    - diba_clean_example
+_core:
+  default_config_hash: 3KAyDgB3FHENrBwroAUcCPvkfPHBMFcRDnsZFyFMuwc
+id: diba_clean_example_secondary_local_tasks
+theme: diba_clean_example
+region: top_first
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

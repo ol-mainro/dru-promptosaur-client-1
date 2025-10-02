@@ -1,0 +1,23 @@
+uuid: 26f6a18f-1d55-4e2b-9f6e-3fdd7be7c72d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - nava
+_core:
+  default_config_hash: VWb0lGWrFtZscO3FyYC0Za4_lgMhRIJgYcDJ69J8xWo
+id: nava_syndicate
+theme: nava
+region: hidden_blocks
+weight: -17
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

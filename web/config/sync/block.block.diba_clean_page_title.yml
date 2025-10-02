@@ -1,0 +1,20 @@
+uuid: 09994f2c-66bc-4270-beb6-c187bb40b3d9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - diba_clean
+_core:
+  default_config_hash: 3RW4v5B8NcuummNSxwIYpyx4WWnosBOftOjgeg4Lc3w
+id: diba_clean_page_title
+theme: diba_clean
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: 32ebbda9-3486-4344-ac5c-0d40720f5f84
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - diba_clean
+_core:
+  default_config_hash: iX55z2u_3e2IHpeTL02M69PGZwDHEX0dHhIDsn3Bw6U
+id: diba_clean_main_navigation
+theme: diba_clean
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

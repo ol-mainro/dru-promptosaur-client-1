@@ -1,0 +1,20 @@
+uuid: 811cede2-2d7b-45b3-851c-f9ae71409923
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mili
+_core:
+  default_config_hash: dm1xYrzAHCahCRIflAXNPW-Zmmm0C4zcWbUg-Kgq2lM
+id: mili_local_actions
+theme: mili
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

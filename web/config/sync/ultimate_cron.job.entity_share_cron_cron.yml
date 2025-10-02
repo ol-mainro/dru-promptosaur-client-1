@@ -1,0 +1,17 @@
+uuid: d5c096f0-3085-458b-9000-280f486f00e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_share_cron
+title: 'Default cron handler'
+id: entity_share_cron_cron
+weight: -10
+module: entity_share_cron
+callback: 'entity_share_cron#cron'
+scheduler:
+  id: simple
+launcher:
+  id: serial
+logger:
+  id: database

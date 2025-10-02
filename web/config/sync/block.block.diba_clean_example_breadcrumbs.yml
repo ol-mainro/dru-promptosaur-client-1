@@ -1,0 +1,22 @@
+uuid: 788566d6-a8e1-41de-ab64-90fbf73e127f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - diba_clean_example
+_core:
+  default_config_hash: rUKMsaj4XvIHtU3kRiHIA6Rkn4IHzCkhTiUZudMkp14
+id: diba_clean_example_breadcrumbs
+theme: diba_clean_example
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

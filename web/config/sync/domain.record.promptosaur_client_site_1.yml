@@ -1,0 +1,11 @@
+uuid: 4d737432-60c7-4e2e-872c-6e36353d526c
+langcode: fr
+status: true
+dependencies: {  }
+id: promptosaur_client_site_1
+domain_id: 205207
+hostname: client-1.promptosaur.ddev.site
+name: 'Mon site client 1'
+scheme: https
+weight: -4
+is_default: true

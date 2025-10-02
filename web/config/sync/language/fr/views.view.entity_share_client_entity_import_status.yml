@@ -1,0 +1,90 @@
+display:
+  default:
+    display_title: 'Par défaut'
+    display_options:
+      fields:
+        id:
+          label: 'Identifiant (ID)'
+          separator: ', '
+        entity_uuid:
+          separator: ', '
+        entity_id:
+          label: "Identifiant (ID) de l'entité"
+          separator: ', '
+        langcode:
+          label: Langue
+          separator: ', '
+        entity_label:
+          label: "Lier à l'entité"
+        entity_type_id:
+          label: "Type d'entité"
+          separator: ', '
+        entity_bundle:
+          label: Type
+        remote_website:
+          label: 'A distance'
+          separator: ', '
+        channel_id:
+          label: Canal
+          separator: ', '
+        last_import:
+          label: 'Dernière importation'
+          separator: ', '
+        policy:
+          label: Politique
+          separator: ', '
+        operations:
+          label: Actions
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+          expose:
+            items_per_page_label: 'Éléments par page'
+            items_per_page_options_all_label: '- Tout -'
+            offset_label: Décalage
+      exposed_form:
+        options:
+          submit_button: Appliquer
+          reset_button_label: Réinitialiser
+          exposed_sorts_label: 'Trier par'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      sorts:
+        last_import:
+          expose:
+            label: 'Dernière importation'
+        channel_id:
+          expose:
+            label: Canal
+        entity_type_id:
+          expose:
+            label: "Type d'entité"
+        langcode:
+          expose:
+            label: Langue
+      filters:
+        remote_website:
+          expose:
+            label: 'A distance'
+        channel_id:
+          expose:
+            label: Canal
+        entity_type_id:
+          expose:
+            label: "Type d'entité"
+        entity_bundle:
+          expose:
+            label: "Sous-type de l'entité"
+        langcode:
+          expose:
+            label: 'Langue initiale'
+        entity_id:
+          expose:
+            label: "Identifiant (ID) de l'entité"
+        policy:
+          expose:
+            label: Politique
+  page_1:
+    display_title: Page

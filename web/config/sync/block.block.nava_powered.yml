@@ -1,0 +1,22 @@
+uuid: ef0a52e7-137b-4d00-86dd-b0643845aede
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - nava
+_core:
+  default_config_hash: yF1NcATLLhLNdhKxZGXUHr3AgkVf3mITKtTbmEGArQw
+id: nava_powered
+theme: nava
+region: hidden_blocks
+weight: -16
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

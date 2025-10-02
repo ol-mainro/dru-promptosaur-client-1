@@ -1,0 +1,20 @@
+uuid: 288aa6be-67aa-48d4-86bd-df12422bd264
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mili
+_core:
+  default_config_hash: Nkqc1IcJuGwAkFApKjgQziMMQv_Qpr30DJNASUZZYwo
+id: mili_page_title
+theme: mili
+region: page_header
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

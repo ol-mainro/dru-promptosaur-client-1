@@ -1,0 +1,15 @@
+uuid: 41ad3ccf-b15f-4636-9f10-26639a3e1eb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.client_2_promptosaur_ddev_site
+  module:
+    - domain_access
+id: domain_access_add_editor_action_client_2_promptosaur_ddev_site
+label: 'Add editors to the CMS encore domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id:
+    - client_2_promptosaur_ddev_site

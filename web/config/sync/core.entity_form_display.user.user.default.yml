@@ -2,6 +2,10 @@ uuid: 3754f52c-cca1-4a13-84ac-110494aee9c0
 langcode: en
 status: true
 dependencies:
+  config:
+    - field.field.user.user.field_domain_access
+    - field.field.user.user.field_domain_admin
+    - field.field.user.user.field_domain_all_affiliates
   module:
     - user
 _core:
@@ -17,6 +21,25 @@ content:
   contact:
     weight: 5
     region: content
+  field_domain_access:
+    type: options_buttons
+    weight: 40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_domain_admin:
+    type: options_buttons
+    weight: 50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_domain_all_affiliates:
+    type: boolean_checkbox
+    weight: 41
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
   language:
     weight: 0
     region: content
@@ -24,4 +47,5 @@ content:
     weight: 6
     region: content
 hidden:
+  langcode: true
   path: true

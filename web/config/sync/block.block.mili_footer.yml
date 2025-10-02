@@ -1,0 +1,27 @@
+uuid: a37d74be-5ee0-4fb0-8ee1-d5d2b05a154b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - mili
+_core:
+  default_config_hash: SI2y9IuOnzp2mVewdcLfuyZdQO0iiiJx0E0XDImSpIU
+id: mili_footer
+theme: mili
+region: hidden_blocks
+weight: -11
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

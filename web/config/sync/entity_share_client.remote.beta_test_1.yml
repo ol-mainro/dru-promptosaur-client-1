@@ -1,0 +1,13 @@
+uuid: d9363e06-1770-42b6-a16c-9864104c6af5
+langcode: en
+status: true
+dependencies: {  }
+id: beta_test_1
+label: beta-test-1
+url: 'https://1.beta-test.promptosaur.xyz'
+auth:
+  pid: basic_auth
+  uuid: 28774d1e-b0bb-4a16-a5eb-054e0c8073c6
+  data:
+    credential_provider: entity_share
+    storage_key: 28774d1e-b0bb-4a16-a5eb-054e0c8073c6

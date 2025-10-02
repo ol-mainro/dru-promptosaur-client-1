@@ -1,0 +1,27 @@
+uuid: 7b3e2aea-22bc-4469-b8e1-70f5c2f11b87
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - ruhi
+_core:
+  default_config_hash: QQM7Pywl0P7otwsKQhi-04x7tdOTXvvSn6TrO7v2Ayw
+id: ruhi_footer
+theme: ruhi
+region: hidden
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

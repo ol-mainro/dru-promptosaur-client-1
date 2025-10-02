@@ -1,0 +1,17 @@
+uuid: 670ec95b-34d0-45ad-a6c1-9fcdb1fbc121
+langcode: en
+status: true
+dependencies:
+  module:
+    - field
+title: 'Purge deleted Field API data'
+id: field_cron
+weight: 1
+module: field
+callback: 'field#cron'
+scheduler:
+  id: simple
+launcher:
+  id: serial
+logger:
+  id: database

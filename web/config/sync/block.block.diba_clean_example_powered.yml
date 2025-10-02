@@ -1,0 +1,22 @@
+uuid: 6fa66177-8685-4e3b-951f-272b942337a3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - diba_clean_example
+_core:
+  default_config_hash: 5VBXsyvJSTQNtrh86WK8GN_FCaRtK03D1fjfZQnUvtU
+id: diba_clean_example_powered
+theme: diba_clean_example
+region: top_first
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

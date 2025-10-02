@@ -1,0 +1,17 @@
+uuid: a8633c01-01cc-4fd1-8387-743703923271
+langcode: en
+status: true
+dependencies:
+  module:
+    - easy_email
+title: 'Default cron handler'
+id: easy_email_cron
+weight: -5
+module: easy_email
+callback: 'easy_email#cron'
+scheduler:
+  id: simple
+launcher:
+  id: serial
+logger:
+  id: database

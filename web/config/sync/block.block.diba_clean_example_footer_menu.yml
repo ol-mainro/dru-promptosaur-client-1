@@ -1,0 +1,27 @@
+uuid: 1962365e-7f67-4124-90b6-c7e487627f7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - diba_clean_example
+_core:
+  default_config_hash: AxWDrwFefyIiVf0vG6YWbCQ7fTFWW63b-rbbriJEfXA
+id: diba_clean_example_footer_menu
+theme: diba_clean_example
+region: top_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

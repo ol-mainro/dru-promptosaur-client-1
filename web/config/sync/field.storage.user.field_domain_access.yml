@@ -1,0 +1,25 @@
+uuid: 18ac23f8-c858-4cda-b3c8-e30e46377709
+langcode: en
+status: true
+dependencies:
+  module:
+    - domain
+    - user
+  enforced:
+    module:
+      - domain_access
+_core:
+  default_config_hash: VQ8MqlapqrEiCu_rircuCTMq_BnHCZF6SQemk-zHXKs
+id: user.field_domain_access
+field_name: field_domain_access
+entity_type: user
+type: entity_reference
+settings:
+  target_type: domain
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

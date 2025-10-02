@@ -1,0 +1,15 @@
+uuid: 4bf4c9ef-2dd4-4ab9-8062-9c0cff534bee
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.client_2_promptosaur_ddev_site
+  module:
+    - domain_access
+id: domain_access_remove_action_client_2_promptosaur_ddev_site
+label: 'Remove selected content from the CMS encore domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id:
+    - client_2_promptosaur_ddev_site
