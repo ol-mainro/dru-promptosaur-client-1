@@ -43,6 +43,7 @@
         "drupal/civictheme": "^1.11",
         "drupal/coffee": "^2",
         "drupal/config_pages": "^2.19",
+        "drupal/config_split": "^2.0",
         "drupal/core": "^11.2",
         "drupal/core-composer-scaffold": "^11.2.4",
         "drupal/core-project-message": "^11.2.4",
