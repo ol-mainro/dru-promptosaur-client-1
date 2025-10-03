@@ -1,5 +1,5 @@
-name: 'Toursime scientifique local'
+name: 'Tourisme scientifique local'
 type: theme
-description: 'AI blog, based on nava theme'
+description: 'AI blog'
 core_version_requirement: '^9.4 || ^10 || ^11'
 base theme: diba_clean

@@ -1,5 +1,5 @@
 name: 'Pour la scolarité d’Alice'
 type: theme
-description: 'Pour la scolarité d’Alice, based on nava theme'
+description: 'Pour la scolarité d’Alice'
 core_version_requirement: '^9.4 || ^10 || ^11'
 base theme: ruhi
