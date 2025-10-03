@@ -1,0 +1,22 @@
+uuid: 000a39bf-4a5d-4241-9e2c-29d989d0983d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_ai_blog
+_core:
+  default_config_hash: wgkVxN3uX_klZRZJifP1469jTcAV9BlwdMt0zd-_r5E
+id: psaur_ai_blog_messages
+theme: psaur_ai_blog
+region: highlighted
+weight: -14
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  label_display: '0'
+  provider: system
+visibility: {  }

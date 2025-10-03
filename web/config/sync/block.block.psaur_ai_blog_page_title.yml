@@ -1,0 +1,20 @@
+uuid: 2b6c2d6e-9657-4350-8a81-f269844c7292
+langcode: en
+status: true
+dependencies:
+  theme:
+    - psaur_ai_blog
+_core:
+  default_config_hash: 211SKPSadXKk1lwHPehoeHE-Z7LesiPbP24b6hlADE4
+id: psaur_ai_blog_page_title
+theme: psaur_ai_blog
+region: sidebar_first
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de la page'
+  label_display: '0'
+  provider: core
+visibility: {  }

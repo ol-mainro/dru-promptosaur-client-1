@@ -1,0 +1,15 @@
+uuid: b9706d14-414b-4fac-8b5f-76e92d7ae924
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.alice_ecole
+  module:
+    - domain_access
+id: domain_access_remove_editor_action_alice_ecole
+label: 'Supprimer les éditeurs du domaine Alice'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id:
+    - alice_ecole

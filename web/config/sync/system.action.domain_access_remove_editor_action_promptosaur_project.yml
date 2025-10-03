@@ -1,0 +1,15 @@
+uuid: 32534829-75e4-43da-941f-f881c95baf66
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.promptosaur_project
+  module:
+    - domain_access
+id: domain_access_remove_editor_action_promptosaur_project
+label: 'Remove editors from the Le projet Promptosaur domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id:
+    - promptosaur_project

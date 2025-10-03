@@ -1,0 +1,20 @@
+uuid: e51d81cf-936b-4bba-8cc0-e67f7ed20c01
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rivet
+_core:
+  default_config_hash: H9JsxWthP01aeW0wL3bct-x4unzen_Ho9N-2FrJtr5Y
+id: rivet_page_title
+theme: rivet
+region: page_title
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

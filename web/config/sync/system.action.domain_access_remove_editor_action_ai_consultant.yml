@@ -1,0 +1,15 @@
+uuid: 36cfbd09-d8fc-4607-adf5-c0b30ad3f7c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.ai_consultant
+  module:
+    - domain_access
+id: domain_access_remove_editor_action_ai_consultant
+label: 'Remove editors from the Romain Dortier, consultant IA domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id:
+    - ai_consultant

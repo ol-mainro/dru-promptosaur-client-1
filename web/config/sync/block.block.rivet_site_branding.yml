@@ -1,0 +1,25 @@
+uuid: e4071a4b-0602-4006-893d-81c41173c35d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rivet
+_core:
+  default_config_hash: r84soyVKV8SIPgh7HiaaOHGLXRH8qo02ymKbdZX7X84
+id: rivet_site_branding
+theme: rivet
+region: branding
+weight: -8
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

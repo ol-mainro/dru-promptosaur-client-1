@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: '-6C9MFaVDJgaEBOS0juUDn7PHAOvttiZe7iFZ_oK4uU'
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 1
+favicon:
+  use_default: 1
+hide_home_breadcrumb: '2'
+sidebar_border_right: 1
+page_width: rvt-container-lg
+content_width: rvt-container-md

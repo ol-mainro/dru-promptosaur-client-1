@@ -1,0 +1,22 @@
+uuid: d295c346-0359-49eb-80bb-ae90a1d9f747
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - edux
+_core:
+  default_config_hash: rZiYBx2PPO8hsR_VgR6fcPnzFtrRISIVxvRGeNc92xI
+id: edux_messages
+theme: edux
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

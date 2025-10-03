@@ -1,0 +1,23 @@
+uuid: 07b579b8-bbc6-4b1e-89a2-cd6f83db1802
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - psaur_alice_ecole
+_core:
+  default_config_hash: VWb0lGWrFtZscO3FyYC0Za4_lgMhRIJgYcDJ69J8xWo
+id: psaur_alice_ecole_syndicate
+theme: psaur_alice_ecole
+region: sidebar_first
+weight: -17
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

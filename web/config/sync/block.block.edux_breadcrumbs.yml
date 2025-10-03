@@ -1,0 +1,22 @@
+uuid: dc8554ad-1a7a-40ec-904e-57632ba4c5ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - edux
+_core:
+  default_config_hash: I5d9lCphD3lqND0w6xdnmGHbQj0czMcS63tJFBVnQio
+id: edux_breadcrumbs
+theme: edux
+region: page_header
+weight: -9
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

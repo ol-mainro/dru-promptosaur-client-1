@@ -1,0 +1,15 @@
+uuid: 2e458b1b-5cc6-48f1-93d7-8d9ad038e2ff
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.alice_ecole
+  module:
+    - domain_access
+id: domain_access_remove_action_alice_ecole
+label: 'Supprimer le contenu sélectionné du domaine Alice'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id:
+    - alice_ecole

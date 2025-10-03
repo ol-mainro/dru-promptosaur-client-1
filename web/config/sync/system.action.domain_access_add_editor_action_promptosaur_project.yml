@@ -1,0 +1,15 @@
+uuid: 4dc4e804-a721-4769-b4d2-f081f091e126
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.promptosaur_project
+  module:
+    - domain_access
+id: domain_access_add_editor_action_promptosaur_project
+label: 'Add editors to the Le projet Promptosaur domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id:
+    - promptosaur_project

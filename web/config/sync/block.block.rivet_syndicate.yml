@@ -1,0 +1,23 @@
+uuid: 2a2dc790-5272-421a-acf3-59f943dae0ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - rivet
+_core:
+  default_config_hash: vldk4r_FuCVLD85vwcRByN2IyyVYeMcT031ej2sfp8s
+id: rivet_syndicate
+theme: rivet
+region: footer_social
+weight: -7
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

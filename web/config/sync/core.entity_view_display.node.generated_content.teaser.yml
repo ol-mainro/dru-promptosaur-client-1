@@ -1,0 +1,40 @@
+uuid: b596dc10-a3ea-4e65-8778-a7ce17a9e40b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.generated_content.body
+    - field.field.node.generated_content.field_assigned_user
+    - field.field.node.generated_content.field_domain_access
+    - field.field.node.generated_content.field_domain_all_affiliates
+    - field.field.node.generated_content.field_inline_tags
+    - field.field.node.generated_content.field_tags
+    - field.field.node.generated_content.field_variant
+    - node.type.generated_content
+  module:
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.generated_content.teaser
+targetEntityType: node
+bundle: generated_content
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_assigned_user: true
+  field_domain_access: true
+  field_domain_all_affiliates: true
+  field_inline_tags: true
+  field_tags: true
+  field_variant: true
+  langcode: true

@@ -1,0 +1,22 @@
+uuid: 769a2e46-d789-4660-a44b-bc9cdf46671e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - psaur_local_scientific_tourism
+_core:
+  default_config_hash: eqGUDDp50dv3qWHXkXyiLoHgYnXgnP6THlyBDfyX_4c
+id: psaur_local_scientific_tourism_secondary_local_tasks
+theme: psaur_local_scientific_tourism
+region: content
+weight: -11
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Onglets secondaires'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

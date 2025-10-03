@@ -1,0 +1,15 @@
+uuid: cb9c367b-45ff-4206-b532-c724f1c028d2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.ai_blog
+  module:
+    - domain_access
+id: domain_access_add_editor_action_ai_blog
+label: 'Ajouter des éditeurs au domaine Blog IA'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id:
+    - ai_blog

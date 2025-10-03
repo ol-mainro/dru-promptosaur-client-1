@@ -1,0 +1,11 @@
+uuid: e0528743-8516-48bf-9daf-fccaf22509c0
+langcode: fr
+status: true
+dependencies: {  }
+id: local_scientific_tourism
+domain_id: 15823297
+hostname: tourisme-scientifique.websites.promptosaur.xyz
+name: 'Tourisme scientifique'
+scheme: https
+weight: 8
+is_default: false

@@ -1,0 +1,5 @@
+name: 'Le projet Promptosaur'
+type: theme
+description: 'Le projet Promptosaur, based on nava theme'
+core_version_requirement: '^9.4 || ^10 || ^11'
+base theme: edux

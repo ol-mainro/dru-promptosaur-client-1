@@ -1,0 +1,22 @@
+uuid: ee6bf578-02f5-478b-9728-c477e2ef6eae
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_ai_consultant
+_core:
+  default_config_hash: EJYkls2r3VXweQ6HWA62xqSLC6wdvlEe5R3fsa-1RJc
+id: psaur_ai_consultant_breadcrumbs
+theme: psaur_ai_consultant
+region: sidebar_first
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: "Fils d'ariane"
+  label_display: '0'
+  provider: system
+visibility: {  }

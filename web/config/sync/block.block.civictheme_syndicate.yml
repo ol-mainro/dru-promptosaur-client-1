@@ -1,0 +1,23 @@
+uuid: 95a8af60-ceb1-4f45-b68d-173f1e9f95b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - civictheme
+_core:
+  default_config_hash: VWb0lGWrFtZscO3FyYC0Za4_lgMhRIJgYcDJ69J8xWo
+id: civictheme_syndicate
+theme: civictheme
+region: header_top_1
+weight: -17
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

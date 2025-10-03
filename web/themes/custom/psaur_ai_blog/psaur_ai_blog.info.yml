@@ -1,0 +1,5 @@
+name: 'AI blog'
+type: theme
+description: 'AI blog, based on nava theme'
+core_version_requirement: '^9.4 || ^10 || ^11'
+base theme: nava

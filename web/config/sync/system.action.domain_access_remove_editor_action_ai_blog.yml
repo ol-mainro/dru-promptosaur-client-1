@@ -1,0 +1,15 @@
+uuid: 1fd4fd02-6b3c-4c76-ab62-6830cc29a865
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.ai_blog
+  module:
+    - domain_access
+id: domain_access_remove_editor_action_ai_blog
+label: 'Supprimer les éditeurs du domaine Blog IA'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id:
+    - ai_blog

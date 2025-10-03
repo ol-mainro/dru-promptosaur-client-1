@@ -1,0 +1,20 @@
+uuid: 4f6b9279-a408-497d-b658-93b977034e57
+langcode: en
+status: true
+dependencies:
+  theme:
+    - psaur_ai_blog
+_core:
+  default_config_hash: wCsDJhKjXP870EIRux3yMmP2Siq6M4z8dk9_5omweaU
+id: psaur_ai_blog_primary_admin_actions
+theme: psaur_ai_blog
+region: content
+weight: -13
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: "Actions d'administration principales"
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: 13ec22c9-11ea-41fe-a875-7bf588ca05b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - psaur_local_scientific_tourism
+_core:
+  default_config_hash: noeSlnYe8MMELYAyJXW2i1OgZO50NaElLBVjqHvzC8M
+id: psaur_local_scientific_tourism_main_menu
+theme: psaur_local_scientific_tourism
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navigation principale'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 4
+  expand_all_items: true
+visibility: {  }

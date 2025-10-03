@@ -1,0 +1,27 @@
+uuid: b5fb35a3-9049-42f3-beba-ac54d60a9564
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - intercept_base
+_core:
+  default_config_hash: kvrVLnT_-exVKbp17504zj5t4_V6C9YEBs8Y0Dn83AE
+id: intercept_base_mainnavigation
+theme: intercept_base
+region: primary_menu
+weight: 1
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

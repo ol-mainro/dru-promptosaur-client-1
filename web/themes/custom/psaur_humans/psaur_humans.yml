@@ -1,0 +1,5 @@
+name: 'Humains & Vivant'
+type: theme
+description: 'Humains & Vivant, based on nava theme'
+core_version_requirement: '^9.4 || ^10 || ^11'
+base theme: rivet

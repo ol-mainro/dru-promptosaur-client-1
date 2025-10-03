@@ -1,0 +1,22 @@
+uuid: 3aaca2d4-66d0-4395-8c55-16237f30d465
+langcode: en
+status: true
+dependencies:
+  theme:
+    - civictheme
+_core:
+  default_config_hash: 3reyK-HSWIt5UPnepFKdL7LcxHA0-ikdJs7TRJQjvEo
+id: civictheme_primary_local_tasks
+theme: civictheme
+region: content
+weight: -12
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Onglets principaux'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

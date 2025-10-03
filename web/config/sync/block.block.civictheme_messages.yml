@@ -1,0 +1,22 @@
+uuid: db700dd8-eea7-41f1-9bc5-d34afd234d1a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - civictheme
+_core:
+  default_config_hash: wgkVxN3uX_klZRZJifP1469jTcAV9BlwdMt0zd-_r5E
+id: civictheme_messages
+theme: civictheme
+region: highlighted
+weight: -14
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  label_display: '0'
+  provider: system
+visibility: {  }

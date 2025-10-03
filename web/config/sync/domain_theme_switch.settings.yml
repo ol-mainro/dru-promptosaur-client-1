@@ -1,9 +1,19 @@
 _core:
   default_config_hash: kJn9ZBat-EegfO5XDrMVxL_UGlXJY-dV16y8wItQOIw
 domain_theme_switch: null
-dru_client_cms_ddev_site_site: drupal_cms_olivero
+dru_client_cms_ddev_site_site: starshot_demo
 dru_client_cms_ddev_site_admin: gin
-promptosaur_client_site_1_site: ruhi
+promptosaur_client_site_1_site: claro
 promptosaur_client_site_1_admin: gin
 client_2_promptosaur_ddev_site_site: diba_clean
 client_2_promptosaur_ddev_site_admin: gin
+ai_blog_site: nava
+ai_blog_admin: gin
+ai_consultant_site: diba_clean
+ai_consultant_admin: gin
+alice_ecole_site: nava
+alice_ecole_admin: gin
+humains_site: nava
+humains_admin: gin
+local_scientific_tourism_site: nava
+local_scientific_tourism_admin: gin

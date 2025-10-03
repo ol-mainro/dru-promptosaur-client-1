@@ -1,0 +1,22 @@
+uuid: 999a8134-04e3-4881-ab43-1956d4794022
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_alice_ecole
+_core:
+  default_config_hash: wgkVxN3uX_klZRZJifP1469jTcAV9BlwdMt0zd-_r5E
+id: psaur_alice_ecole_messages
+theme: psaur_alice_ecole
+region: highlighted
+weight: -14
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  label_display: '0'
+  provider: system
+visibility: {  }

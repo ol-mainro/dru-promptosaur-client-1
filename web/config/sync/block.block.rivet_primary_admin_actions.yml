@@ -1,0 +1,20 @@
+uuid: 4a0805b6-d7b5-4eef-be4f-87bb4328a805
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rivet
+_core:
+  default_config_hash: Qnk74dkKQdKkbFImIJTijZMHR0gaItKuS0U_il9t7P0
+id: rivet_primary_admin_actions
+theme: rivet
+region: content_above
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

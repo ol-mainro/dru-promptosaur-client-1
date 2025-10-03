@@ -1,0 +1,20 @@
+uuid: 4619672e-833f-4d96-9eb7-6277c40301e2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - psaur_alice_ecole
+_core:
+  default_config_hash: 211SKPSadXKk1lwHPehoeHE-Z7LesiPbP24b6hlADE4
+id: psaur_alice_ecole_page_title
+theme: psaur_alice_ecole
+region: sidebar_first
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de la page'
+  label_display: '0'
+  provider: core
+visibility: {  }

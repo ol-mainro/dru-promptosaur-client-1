@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bfa07d4962c87403b9b37ceebe623a9c",
+    "content-hash": "54bd0c1e2d896e2cb114c460a93f2fd6",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2558,6 +2558,54 @@
             }
         },
         {
+            "name": "drupal/alice",
+            "version": "1.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/alice.git",
+                "reference": "1.0.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/alice-1.0.0-alpha1.zip",
+                "reference": "1.0.0-alpha1",
+                "shasum": "7a959ab1fc0900cf38f5eb93a5af1b0d2cf06cc8"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-alpha1",
+                    "datestamp": "1758814630",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ulber romero",
+                    "homepage": "https://www.drupal.org/user/3693790"
+                },
+                {
+                    "name": "victor-chavez-ku",
+                    "homepage": "https://www.drupal.org/user/3302809"
+                }
+            ],
+            "description": "Modern and minimalist theme for Drupal 11.",
+            "homepage": "https://www.drupal.org/project/alice",
+            "support": {
+                "source": "https://git.drupalcode.org/project/alice"
+            }
+        },
+        {
             "name": "drupal/automatic_updates",
             "version": "4.0.0",
             "source": {
@@ -3105,6 +3153,75 @@
             }
         },
         {
+            "name": "drupal/castorcito",
+            "version": "1.1.0-alpha19",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/castorcito.git",
+                "reference": "1.1.0-alpha19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/castorcito-1.1.0-alpha19.zip",
+                "reference": "1.1.0-alpha19",
+                "shasum": "28f32d371960be1174d05b5613b175c64bf3e586"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12",
+                "drupal/json_field": "^1.4",
+                "drupal/twig_tweak": "^3.3"
+            },
+            "require-dev": {
+                "drupal/webform": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.1.0-alpha19",
+                    "datestamp": "1756325292",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "SOFTWIN PERÚ",
+                    "homepage": "https://www.drupal.org/softwin-peru"
+                },
+                {
+                    "name": "danielsan18",
+                    "homepage": "https://www.drupal.org/user/3113403"
+                },
+                {
+                    "name": "davidcr",
+                    "homepage": "https://www.drupal.org/user/3646712"
+                },
+                {
+                    "name": "jhdrop",
+                    "homepage": "https://www.drupal.org/user/2717389"
+                },
+                {
+                    "name": "rcechang",
+                    "homepage": "https://www.drupal.org/user/75229"
+                },
+                {
+                    "name": "victor-chavez-ku",
+                    "homepage": "https://www.drupal.org/user/3302809"
+                }
+            ],
+            "description": "The Castorcito module allows building components from a user interface.",
+            "homepage": "https://drupal.org/project/castorcito",
+            "support": {
+                "source": "https://git.drupalcode.org/project/castorcito"
+            }
+        },
+        {
             "name": "drupal/checklistapi",
             "version": "2.1.6",
             "source": {
@@ -3166,6 +3283,79 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/checklistapi",
                 "issues": "https://www.drupal.org/project/issues/checklistapi"
+            }
+        },
+        {
+            "name": "drupal/civictheme",
+            "version": "1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/civictheme.git",
+                "reference": "1.11.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/civictheme-1.11.0.zip",
+                "reference": "1.11.0",
+                "shasum": "92a6a17cc19283aa6c0e6fd30c6b935867e3574f"
+            },
+            "require": {
+                "drupal/components": "^3.1",
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12",
+                "drupal/field_group": "^4.0",
+                "drupal/focal_point": "^2.0",
+                "drupal/layout_builder_restrictions": "^3",
+                "drupal/linkit": "^7",
+                "drupal/menu_block": "^1.10",
+                "drupal/paragraphs": "^1.16",
+                "drupal/pathauto": "^1.12",
+                "drupal/redirect": "^1.9",
+                "drupal/simple_sitemap": "^4.2",
+                "drupal/webform": "^6.2",
+                "php": ">=8.2"
+            },
+            "suggest": {
+                "drupal/ckeditor": "CKEditor 4 - WYSIWYG HTML editor",
+                "drupal/search_api": "Provides a framework for easily creating searches on any entity known to Drupal, using any kind of search engine."
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "1.11.0",
+                    "datestamp": "1748306472",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "alan.cole",
+                    "homepage": "https://www.drupal.org/user/3238763"
+                },
+                {
+                    "name": "gargsuchi",
+                    "homepage": "https://www.drupal.org/user/70585"
+                },
+                {
+                    "name": "richardgaunt",
+                    "homepage": "https://www.drupal.org/user/3193139"
+                },
+                {
+                    "name": "salsadigital",
+                    "homepage": "https://www.drupal.org/user/3231693"
+                }
+            ],
+            "description": "CivicTheme is a Drupal 10 component-based theme.",
+            "homepage": "https://github.com/civictheme/civictheme",
+            "support": {
+                "source": "https://github.com/civictheme/monorepo-drupal",
+                "issues": "https://github.com/civictheme/monorepo-drupal/issues"
             }
         },
         {
@@ -3239,6 +3429,59 @@
                 "source": "https://git.drupalcode.org/project/coffee",
                 "issues": "https://drupal.org/project/issues/coffee",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/components",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/components.git",
+                "reference": "3.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/components-3.1.0.zip",
+                "reference": "3.1.0",
+                "shasum": "a9d9f7517f54038d0d6fa68185d80e26d2ad1d8d"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.1.0",
+                    "datestamp": "1725921122",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "JohnAlbin",
+                    "homepage": "https://www.drupal.org/user/1036766",
+                    "email": "virtually.johnalbin@gmail.com"
+                },
+                {
+                    "name": "johnalbin",
+                    "homepage": "https://www.drupal.org/user/32095"
+                },
+                {
+                    "name": "robloach",
+                    "homepage": "https://www.drupal.org/user/61114"
+                }
+            ],
+            "description": "Registers folders of components defined by your theme or module as Twig namespaces",
+            "homepage": "https://drupal.org/project/components",
+            "support": {
+                "source": "https://git.drupalcode.org/project/components"
             }
         },
         {
@@ -4075,6 +4318,154 @@
             "homepage": "https://www.drupal.org/project/date_augmenter",
             "support": {
                 "source": "https://git.drupalcode.org/project/date_augmenter"
+            }
+        },
+        {
+            "name": "drupal/default_content",
+            "version": "2.0.0-alpha3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/default_content.git",
+                "reference": "2.0.0-alpha3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/default_content-2.0.0-alpha3.zip",
+                "reference": "2.0.0-alpha3",
+                "shasum": "fdd90c70bd91896835f6ba5ec42c260c1a144a2b"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "require-dev": {
+                "drupal/hal": "^1 || ^2",
+                "drupal/paragraphs": "^1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0-alpha3",
+                    "datestamp": "1724492420",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9 || ^10 || ^11 || ^12"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "andypost",
+                    "homepage": "https://www.drupal.org/user/118908"
+                },
+                {
+                    "name": "benjy",
+                    "homepage": "https://www.drupal.org/user/1852732"
+                },
+                {
+                    "name": "berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "dawehner",
+                    "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "jibran",
+                    "homepage": "https://www.drupal.org/user/1198144"
+                },
+                {
+                    "name": "larowlan",
+                    "homepage": "https://www.drupal.org/user/395439"
+                },
+                {
+                    "name": "sam152",
+                    "homepage": "https://www.drupal.org/user/1485048"
+                }
+            ],
+            "description": "Imports default content when a module is enabled",
+            "homepage": "https://www.drupal.org/project/default_content",
+            "support": {
+                "source": "https://git.drupalcode.org/project/default_content"
+            }
+        },
+        {
+            "name": "drupal/demo_design_system",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/demo_design_system.git",
+                "reference": "1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/demo_design_system-1.0.1.zip",
+                "reference": "1.0.1",
+                "shasum": "c94fe11ab031fc95267fc10e184b010a0fb55197"
+            },
+            "require": {
+                "drupal/components": "^3@beta",
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12",
+                "php": ">=8.2"
+            },
+            "require-dev": {
+                "drupal/components": "*",
+                "drupal/default_content": "*"
+            },
+            "suggest": {
+                "drupal/ckeditor5": "CKEditor 5 - WYSIWYG HTML editor",
+                "drupal/search_api": "Provides a framework for easily creating searches on any entity known to Drupal, using any kind of search engine."
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.1",
+                    "datestamp": "1742597640",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "alan.cole",
+                    "homepage": "https://www.drupal.org/user/3238763"
+                },
+                {
+                    "name": "febdao",
+                    "homepage": "https://www.drupal.org/user/2362568"
+                },
+                {
+                    "name": "joshua1234511",
+                    "homepage": "https://www.drupal.org/user/3362218"
+                },
+                {
+                    "name": "kristen pol",
+                    "homepage": "https://www.drupal.org/user/8389"
+                },
+                {
+                    "name": "richardgaunt",
+                    "homepage": "https://www.drupal.org/user/3193139"
+                }
+            ],
+            "description": "CivicTheme is a Drupal 10 component-based theme.",
+            "homepage": "https://github.com/civictheme/civictheme",
+            "support": {
+                "source": "https://github.com/civictheme/monorepo-drupal",
+                "issues": "https://github.com/civictheme/monorepo-drupal/issues"
             }
         },
         {
@@ -4944,6 +5335,114 @@
             }
         },
         {
+            "name": "drupal/edux",
+            "version": "11.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/edux.git",
+                "reference": "11.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/edux-11.0.0.zip",
+                "reference": "11.0.0",
+                "shasum": "0502bbc2736edcf2634ff093f00d6e0cdc6ce6e1"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "11.0.0",
+                    "datestamp": "1723866541",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ravis",
+                    "homepage": "https://www.drupal.org/user/79351"
+                }
+            ],
+            "description": "Theme For Educational Institutes by <a href=\"https://drupar.com/\" target=\"_blank\">Drupar.com</a>",
+            "homepage": "https://www.drupal.org/project/edux",
+            "support": {
+                "source": "https://git.drupalcode.org/project/edux"
+            }
+        },
+        {
+            "name": "drupal/entity_reference_revisions",
+            "version": "1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/entity_reference_revisions.git",
+                "reference": "8.x-1.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/entity_reference_revisions-8.x-1.12.zip",
+                "reference": "8.x-1.12",
+                "shasum": "2a2ff8617c7ce01b56df1caaf0a563da04948e26"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "require-dev": {
+                "drupal/diff": "^1 || ^2"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.12",
+                    "datestamp": "1722804497",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9 || ^10 || ^11"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Frans",
+                    "homepage": "https://www.drupal.org/user/514222"
+                },
+                {
+                    "name": "jeroen.b",
+                    "homepage": "https://www.drupal.org/user/1853532"
+                },
+                {
+                    "name": "miro_dietiker",
+                    "homepage": "https://www.drupal.org/user/227761"
+                }
+            ],
+            "description": "Entity Reference Revisions",
+            "homepage": "https://www.drupal.org/project/entity_reference_revisions",
+            "support": {
+                "source": "https://git.drupalcode.org/project/entity_reference_revisions"
+            }
+        },
+        {
             "name": "drupal/entity_share",
             "version": "3.10.0",
             "source": {
@@ -5791,6 +6290,61 @@
             }
         },
         {
+            "name": "drupal/intercept_base",
+            "version": "2.0.17",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/intercept_base.git",
+                "reference": "2.0.17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/intercept_base-2.0.17.zip",
+                "reference": "2.0.17",
+                "shasum": "afbebedaf440987a2ad39ab3d1cb6b692042bdbd"
+            },
+            "require": {
+                "drupal/components": "^3.0",
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12",
+                "drupal/twig_field_value": "^2.0",
+                "drupal/twig_tweak": "^3.2"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.17",
+                    "datestamp": "1759345863",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "attheshow",
+                    "homepage": "https://www.drupal.org/user/249768"
+                },
+                {
+                    "name": "pixelwhip",
+                    "homepage": "https://www.drupal.org/user/275292"
+                }
+            ],
+            "description": "Drupal Intercept Base theme.",
+            "homepage": "https://www.drupal.org/project/intercept_base",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/intercept_base",
+                "issues": "https://www.drupal.org/project/issues/intercept_base"
+            }
+        },
+        {
             "name": "drupal/jquery_ui",
             "version": "1.7.0",
             "source": {
@@ -5949,6 +6503,73 @@
             "homepage": "https://www.drupal.org/project/jquery_ui_resizable",
             "support": {
                 "source": "https://git.drupalcode.org/project/jquery_ui_resizable"
+            }
+        },
+        {
+            "name": "drupal/json_field",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/json_field.git",
+                "reference": "8.x-1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/json_field-8.x-1.6.zip",
+                "reference": "8.x-1.6",
+                "shasum": "1d27de1594062ded0fb6392960aa699e94ec9df5"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12",
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "drupal/diff": "^1",
+                "drupal/feeds": "dev-3.x@dev",
+                "swaggest/json-schema": "^0"
+            },
+            "suggest": {
+                "drupal/diff": "^0",
+                "swaggest/json-schema": "^0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.6",
+                    "datestamp": "1759403637",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "See contributors",
+                    "homepage": "https://www.drupal.org/node/2653746/committers",
+                    "role": "Developer"
+                },
+                {
+                    "name": "dawehner",
+                    "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "Jaesin",
+                    "homepage": "https://www.drupal.org/user/841054"
+                }
+            ],
+            "description": "Provides a JSON field, formatter and views integration",
+            "homepage": "https://www.drupal.org/project/json_field",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/json_field",
+                "issues": "https://www.drupal.org/project/issues/json_field"
             }
         },
         {
@@ -6122,6 +6743,101 @@
             "time": "2024-12-19T08:40:21+00:00"
         },
         {
+            "name": "drupal/layout_builder_restrictions",
+            "version": "3.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/layout_builder_restrictions.git",
+                "reference": "3.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/layout_builder_restrictions-3.0.4.zip",
+                "reference": "3.0.4",
+                "shasum": "826edbab8ed665bccfb668092b155a60ec6da296"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.4",
+                    "datestamp": "1752762015",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "The University of Texas at Austin",
+                    "homepage": "https://www.drupal.org/university-of-texas-at-austin",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Eirik Morland (eiriksm)",
+                    "homepage": "https://www.drupal.org/u/eiriksm",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "eiriksm",
+                    "homepage": "https://www.drupal.org/user/1014468"
+                },
+                {
+                    "name": "gravelpot",
+                    "homepage": "https://www.drupal.org/user/748208"
+                },
+                {
+                    "name": "jeff cardwell",
+                    "homepage": "https://www.drupal.org/user/2913129"
+                },
+                {
+                    "name": "lreynaga",
+                    "homepage": "https://www.drupal.org/user/3400232"
+                },
+                {
+                    "name": "mark_fullmer",
+                    "homepage": "https://www.drupal.org/user/2612816"
+                },
+                {
+                    "name": "mmarler",
+                    "homepage": "https://www.drupal.org/user/500192"
+                },
+                {
+                    "name": "ricksta",
+                    "homepage": "https://www.drupal.org/user/311042"
+                },
+                {
+                    "name": "texas_tater",
+                    "homepage": "https://www.drupal.org/user/753614"
+                },
+                {
+                    "name": "twfahey",
+                    "homepage": "https://www.drupal.org/user/3403722"
+                },
+                {
+                    "name": "utexas",
+                    "homepage": "https://www.drupal.org/user/3716409"
+                }
+            ],
+            "description": "Manage which fields & layouts are available in Layout Builder",
+            "homepage": "https://www.drupal.org/project/layout_builder_restrictions",
+            "keywords": [
+                "Drupal",
+                "Layout Builder Restrictions"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/layout_builder_restrictions",
+                "issues": "https://www.drupal.org/project/issues/layout_builder_restrictions"
+            }
+        },
+        {
             "name": "drupal/leaflet",
             "version": "10.3.9",
             "source": {
@@ -6250,6 +6966,122 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/linkit",
                 "issues": "http://drupal.org/project/linkit"
+            }
+        },
+        {
+            "name": "drupal/localgov_base",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/localgov_base.git",
+                "reference": "2.2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/localgov_base-2.2.0.zip",
+                "reference": "2.2.0",
+                "shasum": "7ef0d55ba361fddb6ff1abc139780ceddc6dc802"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "2.2.0",
+                    "datestamp": "1757001058",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ekes",
+                    "homepage": "https://www.drupal.org/user/10083"
+                },
+                {
+                    "name": "finn lewis",
+                    "homepage": "https://www.drupal.org/user/119432"
+                },
+                {
+                    "name": "localgov",
+                    "homepage": "https://www.drupal.org/user/3841829"
+                },
+                {
+                    "name": "maria.y",
+                    "homepage": "https://www.drupal.org/user/2439852"
+                },
+                {
+                    "name": "markconroy",
+                    "homepage": "https://www.drupal.org/user/336910"
+                },
+                {
+                    "name": "stephen-cox",
+                    "homepage": "https://www.drupal.org/user/2862323"
+                },
+                {
+                    "name": "wigglykoala",
+                    "homepage": "https://www.drupal.org/user/312340"
+                }
+            ],
+            "description": "The base theme for LocalGov Drupal websites.",
+            "homepage": "https://github.com/localgovdrupal/localgov_base",
+            "support": {
+                "source": "https://git.drupalcode.org/project/localgov_base"
+            }
+        },
+        {
+            "name": "drupal/lodge",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/lodge.git",
+                "reference": "1.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/lodge-1.0.0.zip",
+                "reference": "1.0.0",
+                "shasum": "1b745e215058cc0d76ae50d7ef398ab4b822a989"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0",
+                    "datestamp": "1758762771",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "aguztinrs",
+                    "homepage": "https://www.drupal.org/user/1639806"
+                },
+                {
+                    "name": "victor-chavez-ku",
+                    "homepage": "https://www.drupal.org/user/3302809"
+                }
+            ],
+            "description": "Standard theme",
+            "homepage": "https://www.drupal.org/project/lodge",
+            "support": {
+                "source": "https://git.drupalcode.org/project/lodge"
             }
         },
         {
@@ -6486,6 +7318,70 @@
             "homepage": "https://www.drupal.org/project/markdown_easy",
             "support": {
                 "source": "https://git.drupalcode.org/project/markdown_easy"
+            }
+        },
+        {
+            "name": "drupal/menu_block",
+            "version": "1.14.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/menu_block.git",
+                "reference": "8.x-1.14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/menu_block-8.x-1.14.zip",
+                "reference": "8.x-1.14",
+                "shasum": "c71e60acaba8a7553e8cf423a56328771cbdedf4"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.14",
+                    "datestamp": "1740624449",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "dave reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "joelpittet",
+                    "homepage": "https://www.drupal.org/user/160302"
+                },
+                {
+                    "name": "johnalbin",
+                    "homepage": "https://www.drupal.org/user/32095"
+                },
+                {
+                    "name": "kim.pepper",
+                    "homepage": "https://www.drupal.org/user/370574"
+                },
+                {
+                    "name": "renatog",
+                    "homepage": "https://www.drupal.org/user/3326031"
+                },
+                {
+                    "name": "rrrob",
+                    "homepage": "https://www.drupal.org/user/273533"
+                }
+            ],
+            "description": "Provides configurable blocks of menu links.",
+            "homepage": "https://www.drupal.org/project/menu_block",
+            "support": {
+                "source": "https://git.drupalcode.org/project/menu_block"
             }
         },
         {
@@ -6790,6 +7686,87 @@
             "time": "2025-01-03T10:53:20+00:00"
         },
         {
+            "name": "drupal/paragraphs",
+            "version": "1.19.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/paragraphs.git",
+                "reference": "8.x-1.19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/paragraphs-8.x-1.19.zip",
+                "reference": "8.x-1.19",
+                "shasum": "831a81a11eac419e8410db45efef5b283c4d117c"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12",
+                "drupal/entity_reference_revisions": "~1.3"
+            },
+            "require-dev": {
+                "drupal/block_field": "1.x-dev",
+                "drupal/diff": "1.x-dev",
+                "drupal/entity_browser": "2.x-dev",
+                "drupal/entity_usage": "2.x-dev",
+                "drupal/feeds": "^3",
+                "drupal/field_group": "3.x-dev",
+                "drupal/inline_entity_form": "3.x-dev",
+                "drupal/paragraphs-paragraphs_library": "*",
+                "drupal/replicate": "1.x-dev",
+                "drupal/search_api": "^1",
+                "drupal/search_api_db": "*"
+            },
+            "suggest": {
+                "drupal/entity_browser": "Recommended for an improved user experience when using the Paragraphs library module"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.19",
+                    "datestamp": "1740907076",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "frans",
+                    "homepage": "https://www.drupal.org/user/514222"
+                },
+                {
+                    "name": "jeroen.b",
+                    "homepage": "https://www.drupal.org/user/1853532"
+                },
+                {
+                    "name": "jstoller",
+                    "homepage": "https://www.drupal.org/user/99012"
+                },
+                {
+                    "name": "miro_dietiker",
+                    "homepage": "https://www.drupal.org/user/227761"
+                },
+                {
+                    "name": "primsi",
+                    "homepage": "https://www.drupal.org/user/282629"
+                }
+            ],
+            "description": "Enables the creation of Paragraphs entities.",
+            "homepage": "https://www.drupal.org/project/paragraphs",
+            "support": {
+                "source": "https://git.drupalcode.org/project/paragraphs"
+            }
+        },
+        {
             "name": "drupal/pathauto",
             "version": "1.13.0",
             "source": {
@@ -7070,6 +8047,102 @@
             }
         },
         {
+            "name": "drupal/r4032login",
+            "version": "2.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/r4032login.git",
+                "reference": "2.2.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/r4032login-2.2.3.zip",
+                "reference": "2.2.3",
+                "shasum": "6309c01b42ff6605cb6dd8f24ddde0c493f0fa2a"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.2.3",
+                    "datestamp": "1737623532",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bdone",
+                    "homepage": "https://www.drupal.org/user/687670"
+                },
+                {
+                    "name": "Bevan",
+                    "homepage": "https://www.drupal.org/user/49989"
+                },
+                {
+                    "name": "deekayen",
+                    "homepage": "https://www.drupal.org/user/972"
+                },
+                {
+                    "name": "dieterholvoet",
+                    "homepage": "https://www.drupal.org/user/3567222"
+                },
+                {
+                    "name": "grayle",
+                    "homepage": "https://www.drupal.org/user/3145497"
+                },
+                {
+                    "name": "lotyrin",
+                    "homepage": "https://www.drupal.org/user/216580"
+                },
+                {
+                    "name": "markdorison",
+                    "homepage": "https://www.drupal.org/user/346106"
+                },
+                {
+                    "name": "ms2011",
+                    "homepage": "https://www.drupal.org/user/108440"
+                },
+                {
+                    "name": "nixou",
+                    "homepage": "https://www.drupal.org/user/2304734"
+                },
+                {
+                    "name": "pwolanin",
+                    "homepage": "https://www.drupal.org/user/49851"
+                },
+                {
+                    "name": "robloach",
+                    "homepage": "https://www.drupal.org/user/61114"
+                },
+                {
+                    "name": "shrop",
+                    "homepage": "https://www.drupal.org/user/14767"
+                },
+                {
+                    "name": "Sk8erPeter",
+                    "homepage": "https://www.drupal.org/user/1441344"
+                }
+            ],
+            "description": "Redirect anonymous users from 403 Access Denied pages to the /user/login page.",
+            "homepage": "https://www.drupal.org/project/r4032login",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/r4032login",
+                "issues": "https://www.drupal.org/project/issues/r4032login"
+            }
+        },
+        {
             "name": "drupal/recipe_installer_kit",
             "version": "1.0.0-alpha7",
             "source": {
@@ -7220,6 +8293,62 @@
             }
         },
         {
+            "name": "drupal/rivet",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/rivet.git",
+                "reference": "1.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/rivet-1.1.0.zip",
+                "reference": "1.1.0",
+                "shasum": "397357f8de01e8a727a4f71919cddc49d2586609"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12",
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "drupal/devel": "*",
+                "drupal/devel_generate": "*",
+                "drupal/diff": "*",
+                "drupal/iu_paragraphs": "^2.2",
+                "drush/drush": "*"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "1.1.0",
+                    "datestamp": "1749020815",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "branch-alias": {
+                    "dev-1.0.x": "1.0.x-dev"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "See contributors",
+                    "homepage": "https://www.drupal.org/node/3383900/committers"
+                }
+            ],
+            "description": "Provides a Drupal base theme for the Rivet Design System from Indiana University.",
+            "homepage": "https://www.drupal.org/project/rivet",
+            "support": {
+                "source": "https://git.drupalcode.org/project/rivet",
+                "issues": "https://www.drupal.org/project/issues/rivet"
+            }
+        },
+        {
             "name": "drupal/robotstxt",
             "version": "1.6.0",
             "source": {
@@ -7326,6 +8455,65 @@
             "homepage": "https://www.drupal.org/project/ruhi",
             "support": {
                 "source": "https://git.drupalcode.org/project/ruhi"
+            }
+        },
+        {
+            "name": "drupal/rules",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/rules.git",
+                "reference": "4.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/rules-4.0.0.zip",
+                "reference": "4.0.0",
+                "shasum": "685c8cbcf7950e07459957f4536df77d9bf53531"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12",
+                "drupal/typed_data": "^2.1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "4.0.0",
+                    "datestamp": "1721935272",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": ">=9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                },
+                {
+                    "name": "klausi",
+                    "homepage": "https://www.drupal.org/user/262198"
+                },
+                {
+                    "name": "tr",
+                    "homepage": "https://www.drupal.org/user/202830"
+                }
+            ],
+            "description": "React on events and conditionally evaluate actions.",
+            "homepage": "https://www.drupal.org/project/rules",
+            "support": {
+                "source": "https://git.drupalcode.org/project/rules",
+                "issues": "https://www.drupal.org/project/issues/rules"
             }
         },
         {
@@ -8617,6 +9805,179 @@
             }
         },
         {
+            "name": "drupal/twig_field_value",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/twig_field_value.git",
+                "reference": "2.0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/twig_field_value-2.0.5.zip",
+                "reference": "2.0.5",
+                "shasum": "9a13925fc1f9788db65044b179871139da8a7cfd"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.5",
+                    "datestamp": "1728385526",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "anybody",
+                    "homepage": "https://www.drupal.org/user/291091"
+                },
+                {
+                    "name": "bizar1984",
+                    "homepage": "https://www.drupal.org/user/3719064"
+                },
+                {
+                    "name": "Gerben Spil",
+                    "homepage": "https://www.drupal.org/user/728030"
+                },
+                {
+                    "name": "grevil",
+                    "homepage": "https://www.drupal.org/user/3668491"
+                },
+                {
+                    "name": "sutharsan",
+                    "homepage": "https://www.drupal.org/user/73854"
+                },
+                {
+                    "name": "thomas.frobieter",
+                    "homepage": "https://www.drupal.org/user/409335"
+                }
+            ],
+            "description": "Twig filters for value(s) and label.",
+            "homepage": "https://www.drupal.org/project/twig_field_value",
+            "support": {
+                "source": "https://git.drupalcode.org/project/twig_field_value"
+            }
+        },
+        {
+            "name": "drupal/twig_tweak",
+            "version": "3.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/twig_tweak.git",
+                "reference": "3.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/twig_tweak-3.4.1.zip",
+                "reference": "3.4.1",
+                "shasum": "ceaa5ea8f357ce8827c728f22871265f0f7cd74f"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12",
+                "ext-json": "*",
+                "php": ">=8.1",
+                "twig/twig": "^3.10.3"
+            },
+            "suggest": {
+                "symfony/var-dumper": "Better dump() function for debugging Twig variables"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.4.1",
+                    "datestamp": "1748530577",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^10 || ^11"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "chi",
+                    "homepage": "https://www.drupal.org/user/556138"
+                }
+            ],
+            "description": "A Twig extension with some useful functions and filters for Drupal development.",
+            "homepage": "https://www.drupal.org/project/twig_tweak",
+            "keywords": [
+                "Drupal",
+                "Twig"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/twig_tweak",
+                "issues": "https://www.drupal.org/project/issues/twig_tweak"
+            }
+        },
+        {
+            "name": "drupal/typed_data",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/typed_data.git",
+                "reference": "2.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/typed_data-2.1.1.zip",
+                "reference": "2.1.1",
+                "shasum": "600cb9527dd93b200355f57ad4da71172ee5f6dc"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.1",
+                    "datestamp": "1728332112",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                },
+                {
+                    "name": "tr",
+                    "homepage": "https://www.drupal.org/user/202830"
+                }
+            ],
+            "description": "Extends the core Typed Data API with new APIs and features.",
+            "homepage": "https://www.drupal.org/project/typed_data",
+            "support": {
+                "source": "https://git.drupalcode.org/project/typed_data",
+                "issues": "https://www.drupal.org/project/issues/typed_data"
+            }
+        },
+        {
             "name": "drupal/ultimate_cron",
             "version": "2.0.0-beta1",
             "source": {
@@ -8887,6 +10248,50 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/yoast_seo",
                 "issues": "http://drupal.org/project/yoast_seo"
+            }
+        },
+        {
+            "name": "drupal/zuvi",
+            "version": "11.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/zuvi.git",
+                "reference": "11.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/zuvi-11.0.1.zip",
+                "reference": "11.0.1",
+                "shasum": "fa2e3b1aa0d3cf244d02fda02fc09f8ddf97d13f"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "11.0.1",
+                    "datestamp": "1758004110",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ravis",
+                    "homepage": "https://www.drupal.org/user/79351"
+                }
+            ],
+            "description": "A light weight, flexible, fully responsive and multi-purpose Drupal 8, 9, 10, 11 theme by <a href=\"https://drupar.com\" target=\"_blank\">Drupar.com</a><br /><a href=\"https://drupar.com/theme/zuvi\" target=\"_blank\">Theme Page</a> | <a href=\"https://drupar.com/zuvi-documentation\" target=\"_blank\">Theme Documentation</a> | <a href=\"https://drupar.com/theme/zuvipro\" target=\"_blank\">Zuvi Pro</a>",
+            "homepage": "https://www.drupal.org/project/zuvi",
+            "support": {
+                "source": "https://git.drupalcode.org/project/zuvi"
             }
         },
         {
@@ -15935,6 +17340,9 @@
     "aliases": [],
     "minimum-stability": "beta",
     "stability-flags": {
+        "drupal/alice": 15,
+        "drupal/castorcito": 15,
+        "drupal/default_content": 15,
         "drupal/domain_access": 10,
         "drupal/project_browser": 10,
         "drupal/recipe_installer_kit": 15,

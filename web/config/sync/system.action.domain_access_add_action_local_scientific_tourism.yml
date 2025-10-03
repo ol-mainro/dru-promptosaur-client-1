@@ -1,0 +1,15 @@
+uuid: 3b76ae4b-819b-40e0-9b37-bff48a263f4b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.local_scientific_tourism
+  module:
+    - domain_access
+id: domain_access_add_action_local_scientific_tourism
+label: 'Ajouter le contenu sélectionné au domaine Tourisme scientifique'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id:
+    - local_scientific_tourism

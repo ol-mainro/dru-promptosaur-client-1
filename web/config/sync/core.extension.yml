@@ -15,6 +15,7 @@ module:
   captcha: 0
   ckeditor5: 0
   coffee: 0
+  components: 0
   config: 0
   config_pages: 0
   content_moderation: 0
@@ -23,6 +24,7 @@ module:
   dashboard: 0
   datetime: 0
   dblog: 0
+  default_content: 0
   domain: 0
   domain_access: 0
   domain_config_pages: 0
@@ -85,9 +87,11 @@ module:
   path: 0
   path_alias: 0
   project_browser: 0
+  r4032login: 0
   redirect: 0
   redirect_404: 0
   responsive_image: 0
+  rules: 0
   sam: 0
   scheduler: 0
   scheduler_content_moderation_integration: 0
@@ -101,6 +105,7 @@ module:
   text: 0
   token: 0
   trash: 0
+  typed_data: 0
   ultimate_cron: 0
   update: 0
   user: 0
@@ -127,4 +132,14 @@ theme:
   nava: 0
   bootstrap5: 0
   diba_clean: 0
-  diba_clean_example: 0
+  intercept_base: 0
+  rivet: 0
+  zuvi: 0
+  psaur_alice_ecole: 0
+  psaur_ai_consultant: 0
+  psaur_ai_blog: 0
+  psaur_local_promptosaur_project: 0
+  psaur_local_scientific_tourism: 0
+  edux: 0
+  civictheme: 0
+  starshot_demo: 0

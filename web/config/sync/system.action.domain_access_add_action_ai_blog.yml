@@ -1,0 +1,15 @@
+uuid: dda7d6bd-9512-44ad-8242-b606c795d81c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.ai_blog
+  module:
+    - domain_access
+id: domain_access_add_action_ai_blog
+label: 'Ajouter le contenu sélectionné au domaine Blog IA'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id:
+    - ai_blog

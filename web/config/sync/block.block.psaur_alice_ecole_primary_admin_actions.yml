@@ -1,0 +1,20 @@
+uuid: da33d459-56ed-4946-aa96-274f07e75ee8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - psaur_alice_ecole
+_core:
+  default_config_hash: wCsDJhKjXP870EIRux3yMmP2Siq6M4z8dk9_5omweaU
+id: psaur_alice_ecole_primary_admin_actions
+theme: psaur_alice_ecole
+region: content
+weight: -13
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: "Actions d'administration principales"
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,15 @@
+uuid: 3123180f-9b17-4618-b913-8b7eff949215
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.ai_consultant
+  module:
+    - domain_access
+id: domain_access_add_editor_action_ai_consultant
+label: 'Add editors to the Romain Dortier, consultant IA domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id:
+    - ai_consultant

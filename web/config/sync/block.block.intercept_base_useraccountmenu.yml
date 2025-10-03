@@ -1,0 +1,35 @@
+uuid: d9cae3b4-b9d1-421e-83ae-bdce803a8d09
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+    - user
+  theme:
+    - intercept_base
+_core:
+  default_config_hash: x3Qxp6BGccOThutzBCXYtHqk8sed42h8hOQU_QTMn1Q
+id: intercept_base_useraccountmenu
+theme: intercept_base
+region: secondary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

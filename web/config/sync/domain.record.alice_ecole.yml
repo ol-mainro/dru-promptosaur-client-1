@@ -1,0 +1,11 @@
+uuid: b2a13f87-5a4e-4a41-b2b7-a4677c956834
+langcode: fr
+status: true
+dependencies: {  }
+id: alice_ecole
+domain_id: 16110954
+hostname: alice-ecole.websites.promptosaur.xyz
+name: 'Alice École'
+scheme: https
+weight: 6
+is_default: false

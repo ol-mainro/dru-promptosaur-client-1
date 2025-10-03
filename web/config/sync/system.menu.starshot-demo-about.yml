@@ -1,0 +1,10 @@
+uuid: e4458b8c-a15a-407f-90fe-71a1d4392dfc
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MvFjB0klO6EFc9xdxxvR-SBZt6xJ8RTdFwc3V0UO1C4
+id: starshot-demo-about
+label: 'Starshot Demo About Menu'
+description: 'Starshot demo about links'
+locked: false

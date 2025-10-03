@@ -1,0 +1,22 @@
+uuid: d183c8ae-198e-4737-baae-eba6d4d963c4
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rivet
+_core:
+  default_config_hash: IvmC-Bo7b9yuIQTX87lgzdGziBUVRqrdNQSdQ8WDeW4
+id: rivet_secondary_local_tasks
+theme: rivet
+region: content_above
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

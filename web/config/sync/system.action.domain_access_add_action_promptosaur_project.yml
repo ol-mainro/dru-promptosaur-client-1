@@ -1,0 +1,15 @@
+uuid: 48da3dac-168c-4213-8158-144d71dedcb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.promptosaur_project
+  module:
+    - domain_access
+id: domain_access_add_action_promptosaur_project
+label: 'Add selected content to the Le projet Promptosaur domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id:
+    - promptosaur_project

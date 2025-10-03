@@ -1,0 +1,14 @@
+uuid: c5a47452-b1a3-42ed-9eb0-5759de054376
+langcode: en
+status: true
+dependencies: {  }
+id: au_to_domain_assignation
+label: 'Au to domain assignation'
+events:
+  -
+    event_name: 'rules_entity_presave:node--generated_content'
+description: ''
+tags: {  }
+config_version: '3'
+expression:
+  id: rules_rule

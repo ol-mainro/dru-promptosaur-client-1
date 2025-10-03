@@ -1,0 +1,25 @@
+uuid: ae02e7ea-0ee1-44f8-a049-5d64879a85c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - edux
+_core:
+  default_config_hash: lAJa2mgXgf8g-TK5qUXDpXSoVXaTUHuRAfG1ZjqYaB8
+id: edux_branding
+theme: edux
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

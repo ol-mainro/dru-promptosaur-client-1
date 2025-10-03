@@ -1,0 +1,20 @@
+uuid: cd9f7c09-cd8f-45c8-8c38-d0d402371a4a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - civictheme
+_core:
+  default_config_hash: wCsDJhKjXP870EIRux3yMmP2Siq6M4z8dk9_5omweaU
+id: civictheme_primary_admin_actions
+theme: civictheme
+region: content
+weight: -13
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: "Actions d'administration principales"
+  label_display: '0'
+  provider: core
+visibility: {  }

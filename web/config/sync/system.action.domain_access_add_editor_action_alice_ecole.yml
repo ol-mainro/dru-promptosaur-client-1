@@ -1,0 +1,15 @@
+uuid: 5121c0bf-c4c8-452b-a04c-1b3f47477723
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.alice_ecole
+  module:
+    - domain_access
+id: domain_access_add_editor_action_alice_ecole
+label: 'Ajouter des éditeurs au domaine Alice'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id:
+    - alice_ecole

@@ -1,0 +1,15 @@
+uuid: e1e6e828-25f5-44ac-818d-12cffa6d3728
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.promptosaur_project
+  module:
+    - domain_access
+id: domain_access_remove_action_promptosaur_project
+label: 'Remove selected content from the Le projet Promptosaur domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id:
+    - promptosaur_project

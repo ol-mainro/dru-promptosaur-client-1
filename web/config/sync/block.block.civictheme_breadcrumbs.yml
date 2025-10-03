@@ -1,0 +1,22 @@
+uuid: c5c9961e-8834-403c-8ba7-d2a1a4528f2f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - civictheme
+_core:
+  default_config_hash: EJYkls2r3VXweQ6HWA62xqSLC6wdvlEe5R3fsa-1RJc
+id: civictheme_breadcrumbs
+theme: civictheme
+region: header_top_1
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: "Fils d'ariane"
+  label_display: '0'
+  provider: system
+visibility: {  }

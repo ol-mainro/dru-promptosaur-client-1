@@ -1,0 +1,20 @@
+uuid: c7e2dec1-487d-492d-987b-be0182352b7a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - psaur_local_scientific_tourism
+_core:
+  default_config_hash: 211SKPSadXKk1lwHPehoeHE-Z7LesiPbP24b6hlADE4
+id: psaur_local_scientific_tourism_page_title
+theme: psaur_local_scientific_tourism
+region: sidebar_first
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de la page'
+  label_display: '0'
+  provider: core
+visibility: {  }

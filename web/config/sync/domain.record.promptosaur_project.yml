@@ -1,0 +1,11 @@
+uuid: d089104e-95c8-4b3d-abe4-31fa16b20bdb
+langcode: en
+status: true
+dependencies: {  }
+id: promptosaur_project
+domain_id: 4239451
+hostname: promptosaur-project.websites.promptosaur.xyz
+name: 'Le projet Promptosaur'
+scheme: https
+weight: 9
+is_default: false

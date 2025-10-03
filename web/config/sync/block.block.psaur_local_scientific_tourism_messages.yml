@@ -1,0 +1,22 @@
+uuid: 8b13c99d-a7f3-40dc-a019-260ae71375ab
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_local_scientific_tourism
+_core:
+  default_config_hash: wgkVxN3uX_klZRZJifP1469jTcAV9BlwdMt0zd-_r5E
+id: psaur_local_scientific_tourism_messages
+theme: psaur_local_scientific_tourism
+region: highlighted
+weight: -14
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  label_display: '0'
+  provider: system
+visibility: {  }

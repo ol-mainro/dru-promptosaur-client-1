@@ -1,0 +1,27 @@
+uuid: 0653c1ed-51dc-47ec-9fdf-373bde1c4239
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - civictheme
+_core:
+  default_config_hash: noeSlnYe8MMELYAyJXW2i1OgZO50NaElLBVjqHvzC8M
+id: civictheme_main_menu
+theme: civictheme
+region: header_top_1
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navigation principale'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 4
+  expand_all_items: true
+visibility: {  }

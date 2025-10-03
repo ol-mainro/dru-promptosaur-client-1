@@ -1,0 +1,27 @@
+uuid: f7eabcaa-edaa-4b4e-b36a-723cb87135ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - psaur_alice_ecole
+_core:
+  default_config_hash: noeSlnYe8MMELYAyJXW2i1OgZO50NaElLBVjqHvzC8M
+id: psaur_alice_ecole_main_menu
+theme: psaur_alice_ecole
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navigation principale'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 4
+  expand_all_items: true
+visibility: {  }

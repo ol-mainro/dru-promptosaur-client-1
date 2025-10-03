@@ -1,0 +1,15 @@
+uuid: 196746e2-0377-4fdc-8e7d-a049f23dc4f1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.local_scientific_tourism
+  module:
+    - domain_access
+id: domain_access_remove_action_local_scientific_tourism
+label: 'Supprimer le contenu sélectionné du domaine Tourisme scientifique'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id:
+    - local_scientific_tourism

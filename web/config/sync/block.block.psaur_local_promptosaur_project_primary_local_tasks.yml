@@ -1,0 +1,22 @@
+uuid: 64020a47-955c-4516-9f60-6d719f49348b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - psaur_local_promptosaur_project
+_core:
+  default_config_hash: 3reyK-HSWIt5UPnepFKdL7LcxHA0-ikdJs7TRJQjvEo
+id: psaur_local_promptosaur_project_primary_local_tasks
+theme: psaur_local_promptosaur_project
+region: content
+weight: -12
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Onglets principaux'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

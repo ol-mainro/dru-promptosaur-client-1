@@ -1,0 +1,15 @@
+uuid: 7a0739c4-3f80-4cec-9cbc-4268986318bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.ai_consultant
+  module:
+    - domain_access
+id: domain_access_add_action_ai_consultant
+label: 'Add selected content to the Romain Dortier, consultant IA domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id:
+    - ai_consultant

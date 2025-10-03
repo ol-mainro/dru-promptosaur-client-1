@@ -1,0 +1,20 @@
+uuid: 41876464-08f3-4795-8446-a5f8fec428e7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - psaur_local_scientific_tourism
+_core:
+  default_config_hash: wCsDJhKjXP870EIRux3yMmP2Siq6M4z8dk9_5omweaU
+id: psaur_local_scientific_tourism_primary_admin_actions
+theme: psaur_local_scientific_tourism
+region: content
+weight: -13
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: "Actions d'administration principales"
+  label_display: '0'
+  provider: core
+visibility: {  }

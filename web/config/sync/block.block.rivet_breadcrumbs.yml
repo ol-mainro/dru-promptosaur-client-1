@@ -1,0 +1,22 @@
+uuid: 8502de3e-f5f0-4e6f-87d9-d465b3882350
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rivet
+_core:
+  default_config_hash: awFDfHlnhdB17OSinx7QlK8rSzImNRxSeJDBO7eHXuk
+id: rivet_breadcrumbs
+theme: rivet
+region: breadcrumb
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 56852da4-da2b-42c1-8e25-c5737b6560c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rivet
+_core:
+  default_config_hash: tU23VhZmt-7n9VQzEx-BNIcWEZRGeWIyUiaA_XP7MMM
+id: rivet_messages
+theme: rivet
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

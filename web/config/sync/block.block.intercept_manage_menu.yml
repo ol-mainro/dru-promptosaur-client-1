@@ -1,0 +1,27 @@
+uuid: 36fa6f7a-c1ee-429b-bd19-b385a6091481
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.intercept-manage
+  module:
+    - system
+  theme:
+    - intercept_base
+_core:
+  default_config_hash: mDBtYSn4IA3sjgvLjVkBdnL1sPD1r9syrv9WP5xEqgw
+id: intercept_manage_menu
+theme: intercept_base
+region: staff_management_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:intercept-manage'
+settings:
+  id: 'system_menu_block:intercept-manage'
+  label: 'Intercept Management'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

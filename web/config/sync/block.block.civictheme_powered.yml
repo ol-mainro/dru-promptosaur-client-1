@@ -1,0 +1,22 @@
+uuid: 7c5a8928-13ed-439d-a4d4-17c47d4ec360
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - civictheme
+_core:
+  default_config_hash: yF1NcATLLhLNdhKxZGXUHr3AgkVf3mITKtTbmEGArQw
+id: civictheme_powered
+theme: civictheme
+region: header_top_1
+weight: -16
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Propulsé par Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

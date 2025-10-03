@@ -1,0 +1,22 @@
+uuid: 6c22604c-ec21-4d63-8ae0-9f8aa31dd28a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - edux
+_core:
+  default_config_hash: paP22S4eo-RIZLpvtnX9O9o8PCVsKgs_SbfBlDEz95w
+id: edux_local_tasks
+theme: edux
+region: content
+weight: -11
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

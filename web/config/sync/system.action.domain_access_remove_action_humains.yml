@@ -1,0 +1,15 @@
+uuid: e5ca8693-e7c9-491f-9709-2f7fc62f347b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.humains
+  module:
+    - domain_access
+id: domain_access_remove_action_humains
+label: 'Supprimer le contenu sélectionné du domaine Humains &amp; Vivant'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id:
+    - humains

@@ -1,0 +1,27 @@
+uuid: 0e947d2c-0771-443c-87f0-36353e1548b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - edux
+_core:
+  default_config_hash: 5ByQCpKkVpB-ZAmvQSvkQuPo2tNI4cmQ7cIWIWL6PhQ
+id: edux_main_menu
+theme: edux
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 5
+  expand_all_items: false
+visibility: {  }

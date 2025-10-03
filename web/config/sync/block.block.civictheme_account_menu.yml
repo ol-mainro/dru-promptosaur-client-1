@@ -1,0 +1,27 @@
+uuid: 1ad836a5-853b-409b-8548-25e0c7cf013d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - civictheme
+_core:
+  default_config_hash: 2TBER4QGf3aDAR08p65ZBfVPstUa-Gg__7Alm6iLhaw
+id: civictheme_account_menu
+theme: civictheme
+region: header_top_1
+weight: -15
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: "Menu du compte de l'utilisateur"
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

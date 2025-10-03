@@ -1,0 +1,25 @@
+uuid: 823697bb-16a5-4277-ad96-9d8310661fe8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_ai_blog
+_core:
+  default_config_hash: wqQ5RgTDWH35Q6PpZkxbTn_X8haCs3GYODj-ezlt8tQ
+id: psaur_ai_blog_site_branding
+theme: psaur_ai_blog
+region: sidebar_first
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Identité du site'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

@@ -1,5 +1,32 @@
 _core:
   default_config_hash: 4G3ZLDsRi9C4iY4bCwOic0mB4J30EDCdhYfFHWClXos
-cron_interval: 86400
+cron_interval: 60
 page_limit: 5
-remotes: {  }
+remotes:
+  beta_test_1:
+    enabled: true
+    channels:
+      ai_blog_channel:
+        enabled: true
+        import_config: import_generated_contet
+        operations:
+          create: true
+          update: true
+      ai_consultant_channel:
+        enabled: true
+        import_config: import_generated_contet
+        operations:
+          create: true
+          update: true
+      generated_contents:
+        enabled: false
+        import_config: import_generated_contet
+        operations:
+          create: true
+          update: true
+      prompts:
+        enabled: false
+        import_config: import_generated_contet
+        operations:
+          create: true
+          update: true

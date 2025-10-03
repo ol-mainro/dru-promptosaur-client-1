@@ -1,0 +1,10 @@
+uuid: 7feee3c1-4bf6-46dc-b6fe-1466137ca9f6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: UN1Jk_ytui8durPkiHuNmSLCS-UcM2UxElsVONcHjrE
+id: intercept-manage
+label: Management
+description: ''
+locked: false

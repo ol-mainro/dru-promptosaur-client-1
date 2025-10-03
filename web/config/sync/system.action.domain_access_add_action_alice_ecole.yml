@@ -1,0 +1,15 @@
+uuid: a865b9da-a26b-4ec5-a191-8c75f4eab6f2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.alice_ecole
+  module:
+    - domain_access
+id: domain_access_add_action_alice_ecole
+label: 'Ajouter le contenu sélectionné au domaine Alice'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id:
+    - alice_ecole

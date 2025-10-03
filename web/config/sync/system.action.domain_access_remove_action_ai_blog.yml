@@ -1,0 +1,15 @@
+uuid: 5fe38f92-44cc-43a1-ac81-719a4a363771
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.ai_blog
+  module:
+    - domain_access
+id: domain_access_remove_action_ai_blog
+label: 'Supprimer le contenu sélectionné du domaine Blog IA'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id:
+    - ai_blog

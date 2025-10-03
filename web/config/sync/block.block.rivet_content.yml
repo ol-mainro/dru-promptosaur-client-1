@@ -1,0 +1,22 @@
+uuid: 78b675d9-c69e-4e40-a4d8-9017702aece4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rivet
+_core:
+  default_config_hash: '-7YyLaOgW242C-i6pDsIDLfeG__R-IjWIP2Ir4IIyX8'
+id: rivet_content
+theme: rivet
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

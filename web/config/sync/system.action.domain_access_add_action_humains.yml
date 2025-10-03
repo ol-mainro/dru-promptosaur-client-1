@@ -1,0 +1,15 @@
+uuid: 2aff8b28-d3a9-4039-8315-62e45aa2a193
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.humains
+  module:
+    - domain_access
+id: domain_access_add_action_humains
+label: 'Ajouter le contenu sélectionné au domaine Humains &amp; Vivant'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id:
+    - humains

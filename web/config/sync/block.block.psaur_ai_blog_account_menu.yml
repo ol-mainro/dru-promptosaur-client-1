@@ -1,0 +1,27 @@
+uuid: e1c7768e-ac52-4b79-bed1-487135b35372
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - psaur_ai_blog
+_core:
+  default_config_hash: 2TBER4QGf3aDAR08p65ZBfVPstUa-Gg__7Alm6iLhaw
+id: psaur_ai_blog_account_menu
+theme: psaur_ai_blog
+region: sidebar_first
+weight: -15
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: "Menu du compte de l'utilisateur"
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

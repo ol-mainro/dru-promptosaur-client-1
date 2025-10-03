@@ -1,0 +1,10 @@
+uuid: 81793c71-a546-457b-9619-12c103e4f207
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: TSq5iJGBpxMqyx50kbPNjXrtUDWyzVzd8xyz_k5Uk4M
+id: starshot-demo-policy
+label: 'Starshot Demo Policy Menu'
+description: 'Starshot demo policy links'
+locked: false

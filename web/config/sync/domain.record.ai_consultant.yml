@@ -1,0 +1,11 @@
+uuid: 5195a68e-42a6-4bed-95e4-d1b2a216d15d
+langcode: en
+status: true
+dependencies: {  }
+id: ai_consultant
+domain_id: 3222962
+hostname: romain-dortier.websites.promptosaur.xyz
+name: 'Romain Dortier, consultant IA'
+scheme: https
+weight: 4
+is_default: false

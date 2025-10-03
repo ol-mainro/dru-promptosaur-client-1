@@ -1,0 +1,27 @@
+uuid: 2607aae6-3576-4beb-b9b7-87f3508ec74e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - rivet
+_core:
+  default_config_hash: 6nG5NokAQ3zC-gDzzuFH-5oYDXira1N-UFTTeHVrKIs
+id: rivet_account_menu
+theme: rivet
+region: header_utility
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

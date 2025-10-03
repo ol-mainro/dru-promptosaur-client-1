@@ -1,0 +1,27 @@
+uuid: c99e3577-6ff4-4ec9-be11-ca2accdb9d02
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - edux
+_core:
+  default_config_hash: ZbN2LzTY1-9cqrZt_894V56-5Ers5JcqKC8Mpuv4isw
+id: edux_account_menu
+theme: edux
+region: hidden
+weight: -16
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

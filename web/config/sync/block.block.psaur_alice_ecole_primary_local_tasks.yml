@@ -1,0 +1,22 @@
+uuid: 1cc2bab7-354f-47bf-bad8-26c19b72e227
+langcode: en
+status: true
+dependencies:
+  theme:
+    - psaur_alice_ecole
+_core:
+  default_config_hash: 3reyK-HSWIt5UPnepFKdL7LcxHA0-ikdJs7TRJQjvEo
+id: psaur_alice_ecole_primary_local_tasks
+theme: psaur_alice_ecole
+region: content
+weight: -12
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Onglets principaux'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

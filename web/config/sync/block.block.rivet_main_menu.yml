@@ -1,0 +1,27 @@
+uuid: 6556233d-192f-4b84-bd32-b0f54be2489c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - rivet
+_core:
+  default_config_hash: O7C88TiJdJK-3d4XSpvbeKjofahR6n-YemeY9H1DMw0
+id: rivet_main_menu
+theme: rivet
+region: header_global
+weight: -8
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 3
+  expand_all_items: true
+visibility: {  }

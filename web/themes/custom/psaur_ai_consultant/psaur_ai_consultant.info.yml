@@ -1,0 +1,5 @@
+name: 'AI consultant'
+type: theme
+description: 'AI consultant website, based on ruhi'
+core_version_requirement: '^9.4 || ^10 || ^11'
+base theme: vani

@@ -1,0 +1,15 @@
+uuid: 15f4964d-1724-48eb-aa41-0d913e2c408f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.local_scientific_tourism
+  module:
+    - domain_access
+id: domain_access_add_editor_action_local_scientific_tourism
+label: 'Ajouter des éditeurs au domaine Tourisme scientifique'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id:
+    - local_scientific_tourism
