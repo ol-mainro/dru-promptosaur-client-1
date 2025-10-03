@@ -1,0 +1,25 @@
+uuid: 114fa54c-bf9d-45d2-a9ef-ef8385ebfa12
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_humans
+_core:
+  default_config_hash: wqQ5RgTDWH35Q6PpZkxbTn_X8haCs3GYODj-ezlt8tQ
+id: psaur_humans_site_branding
+theme: psaur_humans
+region: sidebar_first
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

@@ -13,7 +13,7 @@ ai_consultant_site: psaur_ai_consultant
 ai_consultant_admin: gin
 alice_ecole_site: psaur_alice_ecole
 alice_ecole_admin: gin
-humains_site: mili
+humains_site: psaur_humans
 humains_admin: gin
 local_scientific_tourism_site: psaur_local_scientific_tourism
 local_scientific_tourism_admin: gin

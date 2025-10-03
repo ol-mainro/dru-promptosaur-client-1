@@ -1,0 +1,22 @@
+uuid: 3e629a3e-91dc-4c2e-8789-7b2340181e3f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - psaur_humans
+_core:
+  default_config_hash: eqGUDDp50dv3qWHXkXyiLoHgYnXgnP6THlyBDfyX_4c
+id: psaur_humans_secondary_local_tasks
+theme: psaur_humans
+region: content
+weight: -11
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

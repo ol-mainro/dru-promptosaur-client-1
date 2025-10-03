@@ -1,0 +1,22 @@
+uuid: 066557a8-688d-43fb-9a2e-0e6c24e3b4dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_humans
+_core:
+  default_config_hash: yF1NcATLLhLNdhKxZGXUHr3AgkVf3mITKtTbmEGArQw
+id: psaur_humans_powered
+theme: psaur_humans
+region: sidebar_first
+weight: -16
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

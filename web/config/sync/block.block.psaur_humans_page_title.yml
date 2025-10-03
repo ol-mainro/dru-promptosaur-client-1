@@ -1,0 +1,20 @@
+uuid: 4a2a0dfe-1cb1-4ccd-932c-9114edc6c2c7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - psaur_humans
+_core:
+  default_config_hash: 211SKPSadXKk1lwHPehoeHE-Z7LesiPbP24b6hlADE4
+id: psaur_humans_page_title
+theme: psaur_humans
+region: sidebar_first
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
