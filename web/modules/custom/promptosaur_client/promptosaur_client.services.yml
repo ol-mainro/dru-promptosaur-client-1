@@ -1,0 +1,17 @@
+parameters:
+  promptosaur_client.tag_to_domain_mapping: {}
+
+services:
+  promptosaur_client.domain_affiliation_processor:
+    class: Drupal\promptosaur_client\Plugin\EntityShareClient\Processor\DomainAffiliationProcessor
+    arguments:
+      - '@entity_type.manager'
+      - '@logger.channel.promptosaur_client'
+      - '%promptosaur_client.tag_to_domain_mapping%'
+    tags:
+      - { name: entity_share_client.import_processor }
+
+  logger.channel.promptosaur_client:
+    parent: 'logger.channel_base'
+    arguments: ['promptosaur_client']
+

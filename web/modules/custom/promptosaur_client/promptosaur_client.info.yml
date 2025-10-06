@@ -1,0 +1,9 @@
+name: Promptosaur Client
+type: module
+description: Assigns domain affiliation to imported nodes based on inline tag mapping.
+package: Custom
+core_version_requirement: ^11
+dependencies:
+  - drupal:entity_share_client
+  - drupal:domain_access
+
