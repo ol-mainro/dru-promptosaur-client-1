@@ -1,5 +1,0 @@
-name: 'Local Promptosaur'
-type: theme
-description: 'Local Promptosaur'
-core_version_requirement: '^9.4 || ^10 || ^11'
-base theme: edux
