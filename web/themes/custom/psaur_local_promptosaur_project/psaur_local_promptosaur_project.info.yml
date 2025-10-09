@@ -1,5 +1,5 @@
-name: 'Le projet Promptosaur'
+name: 'Local Promptosaur'
 type: theme
-description: 'Le projet Promptosaur'
+description: 'Local Promptosaur'
 core_version_requirement: '^9.4 || ^10 || ^11'
 base theme: edux
