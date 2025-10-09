@@ -1,0 +1,22 @@
+uuid: f0a93de0-e43e-495d-b5c3-3b9a2093a04a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - psaur_clap_studio
+_core:
+  default_config_hash: 3reyK-HSWIt5UPnepFKdL7LcxHA0-ikdJs7TRJQjvEo
+id: psaur_clap_studio_primary_local_tasks
+theme: psaur_clap_studio
+region: content
+weight: -12
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

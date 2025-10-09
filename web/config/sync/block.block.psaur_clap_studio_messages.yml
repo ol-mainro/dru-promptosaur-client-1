@@ -1,0 +1,22 @@
+uuid: 559b70fd-45c1-4301-ac70-8f84f9062f9c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_clap_studio
+_core:
+  default_config_hash: wgkVxN3uX_klZRZJifP1469jTcAV9BlwdMt0zd-_r5E
+id: psaur_clap_studio_messages
+theme: psaur_clap_studio
+region: highlighted
+weight: -14
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

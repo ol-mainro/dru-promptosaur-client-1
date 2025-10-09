@@ -1,0 +1,22 @@
+uuid: 5203eef3-83af-4371-8b96-16885efa1301
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_promptosaur_project
+_core:
+  default_config_hash: rtREBa7go5QUg8q0ya-bDK3bWWCovgvuopsIZEKQeBo
+id: psaur_promptosaur_project_content
+theme: psaur_promptosaur_project
+region: content
+weight: -9
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

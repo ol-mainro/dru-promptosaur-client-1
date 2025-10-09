@@ -1,0 +1,27 @@
+uuid: e93e3693-94ed-4184-a8d1-48fef7ace732
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - psaur_clap_studio
+_core:
+  default_config_hash: 2TBER4QGf3aDAR08p65ZBfVPstUa-Gg__7Alm6iLhaw
+id: psaur_clap_studio_account_menu
+theme: psaur_clap_studio
+region: sidebar_first
+weight: -15
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 81cacf4d-da15-4234-887b-ee7653653a26
+langcode: en
+status: true
+dependencies:
+  theme:
+    - psaur_clap_studio
+_core:
+  default_config_hash: eqGUDDp50dv3qWHXkXyiLoHgYnXgnP6THlyBDfyX_4c
+id: psaur_clap_studio_secondary_local_tasks
+theme: psaur_clap_studio
+region: content
+weight: -11
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

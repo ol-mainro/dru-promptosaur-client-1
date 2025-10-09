@@ -1,0 +1,23 @@
+uuid: 246a004f-043e-4993-8743-f0dd12c28019
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - psaur_clap_studio
+_core:
+  default_config_hash: VWb0lGWrFtZscO3FyYC0Za4_lgMhRIJgYcDJ69J8xWo
+id: psaur_clap_studio_syndicate
+theme: psaur_clap_studio
+region: sidebar_first
+weight: -17
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

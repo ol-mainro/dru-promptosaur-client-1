@@ -1,0 +1,27 @@
+uuid: 14186287-40b5-4750-a63b-43f53652c7b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - psaur_promptosaur_project
+_core:
+  default_config_hash: noeSlnYe8MMELYAyJXW2i1OgZO50NaElLBVjqHvzC8M
+id: psaur_promptosaur_project_main_menu
+theme: psaur_promptosaur_project
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 4
+  expand_all_items: true
+visibility: {  }

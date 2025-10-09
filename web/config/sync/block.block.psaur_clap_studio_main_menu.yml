@@ -1,0 +1,27 @@
+uuid: ecc100d9-05e0-4e81-b828-f74db353cb63
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - psaur_clap_studio
+_core:
+  default_config_hash: noeSlnYe8MMELYAyJXW2i1OgZO50NaElLBVjqHvzC8M
+id: psaur_clap_studio_main_menu
+theme: psaur_clap_studio
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 4
+  expand_all_items: true
+visibility: {  }
