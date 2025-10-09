@@ -1,0 +1,11 @@
+uuid: 21b9b4c3-f489-4704-bdbd-298db3308120
+langcode: en
+status: true
+dependencies: {  }
+id: clap_studio
+domain_id: 850134
+hostname: clap-studio.websites.promptosaur.xyz
+name: 'Clap Studio'
+scheme: https
+weight: -4
+is_default: false

@@ -7,5 +7,5 @@ domain_id: 5562436
 hostname: ai-blog.websites.promptosaur.xyz
 name: 'Blog IA'
 scheme: https
-weight: 5
+weight: -7
 is_default: false

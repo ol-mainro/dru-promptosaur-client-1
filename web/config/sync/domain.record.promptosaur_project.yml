@@ -7,5 +7,5 @@ domain_id: 4239451
 hostname: promptosaur-project.websites.promptosaur.xyz
 name: 'Le projet Promptosaur'
 scheme: https
-weight: 9
+weight: -2
 is_default: false

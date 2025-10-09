@@ -1,0 +1,15 @@
+uuid: 6706cb86-e967-4720-87e6-146ae7170a8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.default
+  module:
+    - domain_access
+id: domain_access_add_editor_action_default
+label: 'Add editors to the Promptosaur contents domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id:
+    - default

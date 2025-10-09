@@ -1,0 +1,11 @@
+uuid: 3c0accbf-27f3-4c98-a085-fbe88ab8ee97
+langcode: en
+status: true
+dependencies: {  }
+id: default
+domain_id: 6624357
+hostname: websites.promptosaur.xyz
+name: 'Promptosaur contents'
+scheme: https
+weight: -9
+is_default: true

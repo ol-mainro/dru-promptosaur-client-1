@@ -1,0 +1,15 @@
+uuid: 378b45d3-3e3d-4697-a596-4deaba9d3f1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.clap_studio
+  module:
+    - domain_access
+id: domain_access_add_action_clap_studio
+label: 'Add selected content to the Clap Studio domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id:
+    - clap_studio

@@ -7,5 +7,5 @@ domain_id: 15823297
 hostname: tourisme-scientifique.websites.promptosaur.xyz
 name: 'Tourisme scientifique'
 scheme: https
-weight: 8
+weight: -3
 is_default: false

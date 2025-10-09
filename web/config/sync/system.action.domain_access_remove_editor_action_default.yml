@@ -1,0 +1,15 @@
+uuid: b18bb97f-1fec-406f-8ae2-6adb3aaa8207
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.default
+  module:
+    - domain_access
+id: domain_access_remove_editor_action_default
+label: 'Remove editors from the Promptosaur contents domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id:
+    - default

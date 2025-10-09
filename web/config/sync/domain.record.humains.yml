@@ -7,5 +7,5 @@ domain_id: 8939495
 hostname: humains.websites.promptosaur.xyz
 name: 'Humains & Vivant'
 scheme: https
-weight: 7
+weight: -5
 is_default: false

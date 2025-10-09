@@ -7,5 +7,5 @@ domain_id: 16110954
 hostname: alice-ecole.websites.promptosaur.xyz
 name: 'Alice École'
 scheme: https
-weight: 6
+weight: -6
 is_default: false

@@ -1,0 +1,15 @@
+uuid: fdfaef49-6c64-4803-8bfb-b9969fbb68d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.default
+  module:
+    - domain_access
+id: domain_access_add_action_default
+label: 'Add selected content to the Promptosaur contents domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id:
+    - default

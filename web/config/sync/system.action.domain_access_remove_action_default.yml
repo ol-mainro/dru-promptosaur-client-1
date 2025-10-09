@@ -1,0 +1,15 @@
+uuid: 0f9c3b77-084f-48ca-956b-10924b079316
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.default
+  module:
+    - domain_access
+id: domain_access_remove_action_default
+label: 'Remove selected content from the Promptosaur contents domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id:
+    - default

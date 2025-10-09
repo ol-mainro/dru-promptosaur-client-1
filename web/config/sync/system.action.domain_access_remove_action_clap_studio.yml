@@ -1,0 +1,15 @@
+uuid: a68a4875-0f70-4517-b940-c15e0904ac60
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.clap_studio
+  module:
+    - domain_access
+id: domain_access_remove_action_clap_studio
+label: 'Remove selected content from the Clap Studio domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id:
+    - clap_studio
