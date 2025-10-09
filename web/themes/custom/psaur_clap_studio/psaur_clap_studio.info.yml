@@ -1,5 +1,5 @@
-name: 'Tourisme scientifique local'
+name: 'Clap studio'
 type: theme
-description: 'Tourisme scientifique local'
+description: 'Clap studio'
 core_version_requirement: '^9.4 || ^10 || ^11'
 base theme: diba_clean

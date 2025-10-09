@@ -76,24 +76,39 @@ class DomainAffiliationProcessor extends ImportProcessorPluginBase {
    * {@inheritdoc}
    */
   public function postEntitySave(RuntimeImportContext $runtime_import_context, ContentEntityInterface $processed_entity) {
+
     if ($processed_entity->getEntityTypeId() !== 'node') {
       return;
     }
-    if (!$processed_entity->hasField('field_inline_tags')) {
-      return;
-    }
+
+
     if (!$processed_entity->hasField(DomainAccessManagerInterface::DOMAIN_ACCESS_FIELD)) {
       return;
     }
 
-    $tag_items = $processed_entity->get('field_inline_tags');
+    /*
+    if (!$processed_entity->hasField('field_inline_tags')) {
+      return;
+    }
     if ($tag_items->isEmpty()) {
       return;
     }
+    */
+
+
+    $tag_items = $processed_entity->get('field_inline_tags');
+    if (str_contains(",", $tag_items[0]->value) $tag_items = explode(",",$tag_items[0]->value);
+    \Drupal::messenger()->addMessage(json_decode($tago_item[0]));
+    \Drupal::messenger()->addMessage($tag_items[0]->value);
+    \Drupal::messenger()->addMessage("taaaag");
+    \Drupal::messenger()->addMessage(count($tag_items));
 
     $domain_storage = $this->entityTypeManager->getStorage('domain');
     $target_domain_ids = [];
     foreach ($tag_items as $item) {
+      \Drupal::messenger()->addMessage($item->value);
+      // \Drupal::messenger()->addMessage($item->target_id->entity->name);
+      // dump($item);
     //  $term_id = (string) ($item->target_id ?? '');
       $term_id = (string) ($item->value ?? '');
       if ($term_id === '') {

@@ -16,3 +16,6 @@ tourisme-scientifique.websites.promptosaur.xyz
 10 * * * * /var/www/psaur_test_instances/1/vendor/bin/drush --quiet cron
 
 certbot certonly --webroot -w /var/www/websites.promptosaur.xyz/web/ -d clap-studio.websites.promptosaur.xyz -d audio-content-creator.websites.promptosaur.xyz
+
+
+nano /var/www/websites.promptosaur.xyz/web/sites/default/services.yml
