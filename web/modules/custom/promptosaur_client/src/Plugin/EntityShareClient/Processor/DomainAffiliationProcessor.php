@@ -94,49 +94,90 @@ class DomainAffiliationProcessor extends ImportProcessorPluginBase {
       return;
     }
     */
+    // $this->tagToDomainMapping[]="";
+    // $this->tagToDomainMapping[$term_id];
+    
+    $this->tagToDomainMapping=[];
+    $this->tagToDomainMapping["consultant_ia"]="ai_consultant";
+    $this->tagToDomainMapping["blog_ia"]="ai_blog";
+    $this->tagToDomainMapping["promptosaur"]="promptosaur_project";
+    $this->tagToDomainMapping["Hommes et plantes"]="humains";
+    $this->tagToDomainMapping["clap studio"]="clap_studio";
+    $this->tagToDomainMapping["botanique"]="local_scientific_tourism";
+    $this->tagToDomainMapping["geologie"]="local_scientific_tourism";
+    $this->tagToDomainMapping["alice"]="alice_ecole";
+    
 
+    $field_inline_tags = $processed_entity->get('field_inline_tags');
 
-    $tag_items = $processed_entity->get('field_inline_tags');
-    if (str_contains(",", $tag_items[0]->value) $tag_items = explode(",",$tag_items[0]->value);
-    \Drupal::messenger()->addMessage(json_decode($tago_item[0]));
-    \Drupal::messenger()->addMessage($tag_items[0]->value);
-    \Drupal::messenger()->addMessage("taaaag");
-    \Drupal::messenger()->addMessage(count($tag_items));
+    // \Drupal::messenger()->addMessage(json_encode($this->container->getParameter('promptosaur_client.tag_to_domain_mapping')));
 
-    $domain_storage = $this->entityTypeManager->getStorage('domain');
-    $target_domain_ids = [];
-    foreach ($tag_items as $item) {
-      \Drupal::messenger()->addMessage($item->value);
-      // \Drupal::messenger()->addMessage($item->target_id->entity->name);
-      // dump($item);
-    //  $term_id = (string) ($item->target_id ?? '');
-      $term_id = (string) ($item->value ?? '');
-      if ($term_id === '') {
-        continue;
+    // \Drupal::messenger()->addMessage($field_inline_tags[0]->value);
+
+    \Drupal::messenger()->addMessage(json_encode($this->tagToDomainMapping));
+
+    if($processed_entity->hasField('field_inline_tags') && !$processed_entity->get('field_inline_tags')->isEmpty()){
+      $tag_items=[];
+      if (str_contains($field_inline_tags[0]->value, ", ")){
+        $tag_items = explode(", ", $field_inline_tags[0]->value);
+      }else{
+        $tag_items[] = $field_inline_tags[0]->value;
       }
-      if (isset($this->tagToDomainMapping[$term_id])) {
-        $target_domain_ids[$this->tagToDomainMapping[$term_id]] = TRUE;
+
+      // \Drupal::messenger()->addMessage(json_encode($tag_items));
+
+      /*
+      foreach ($tag_items as $item) {
+        \Drupal::messenger()->addMessage($item->value);
+        $term_id = (string) ($item->value ?? '');
+        if ($term_id === '') {
+          continue;
+        }
+        if (isset($this->tagToDomainMapping[$term_id])) {
+          $target_domain_ids[$this->tagToDomainMapping[$term_id]] = TRUE;
+        }
       }
-    }
+      */
+      //\Drupal::messenger()->addMessage(count($tag_items));
 
-    if ($target_domain_ids === []) {
-      return;
-    }
+      $domain_storage = $this->entityTypeManager->getStorage('domain');
+      $target_domain_ids = [];
+      foreach ($tag_items as $item_value) {
+        // \Drupal::messenger()->addMessage($item->target_id->entity->name);
+        // dump($item);
+        //  $term_id = (string) ($item->target_id ?? '');
+        // $term_id = (string) ($item_value ?? '');
+        if ($item_value === '') {
+          // continue;
+        }
+        if (isset($this->tagToDomainMapping[$item_value])) {
+          \Drupal::messenger()->addMessage($this->tagToDomainMapping[$item_value]);
+          $target_domain_ids[$this->tagToDomainMapping[$item_value]] = TRUE;
+        }
+      }
 
-    // Load domains by machine id and set references by target_id.
-    $domains = $domain_storage->loadMultiple(array_keys($target_domain_ids));
-    if ($domains === []) {
-      return;
-    }
+      // \Drupal::messenger()->addMessage(json_encode($target_domain_ids));
 
-    $values = [];
-    foreach ($domains as $domain) {
-      $values[] = ['target_id' => $domain->id()];
-    }
+      if ($target_domain_ids === []) {
+        return;
+      }
 
-    $processed_entity->set(DomainAccessManagerInterface::DOMAIN_ACCESS_FIELD, $values);
-    // Save again to persist domain affiliations.
-    $processed_entity->save();
+      // Load domains by machine id and set references by target_id.
+      $domains = $domain_storage->loadMultiple(array_keys($target_domain_ids));
+      if ($domains === []) {
+        return;
+      }
+
+      $values = [];
+      foreach ($domains as $domain) {
+        $values[] = ['target_id' => $domain->id()];
+        // \Drupal::messenger()->addMessage(json_encode($values));
+      }
+
+      $processed_entity->set(DomainAccessManagerInterface::DOMAIN_ACCESS_FIELD, $values);
+      // Save again to persist domain affiliations.
+      $processed_entity->save();
+    }
   }
 
 }
