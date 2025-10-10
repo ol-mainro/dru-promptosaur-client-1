@@ -7,7 +7,7 @@ services:
     arguments:
       - '@entity_type.manager'
       - '@logger.channel.promptosaur_client'
-      - '%boule%'
+      - '%promptosaur_client.tag_to_domain_mapping%'
     tags:
       - { name: entity_share_client.import_processor }
 
