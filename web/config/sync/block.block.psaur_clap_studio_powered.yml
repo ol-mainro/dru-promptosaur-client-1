@@ -11,7 +11,7 @@ _core:
 id: psaur_clap_studio_powered
 theme: psaur_clap_studio
 region: sidebar_first
-weight: -16
+weight: -6
 provider: null
 plugin: system_powered_by_block
 settings:

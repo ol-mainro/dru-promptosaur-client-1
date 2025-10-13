@@ -1,0 +1,9 @@
+uuid: 10009a82-ead0-4b4f-a73b-5f1166d8032a
+langcode: en
+status: true
+dependencies: {  }
+id: humains_promptosaur
+domain_id: humains
+pattern: humains.promptosaur.ddev.site
+redirect: 0
+environment: default

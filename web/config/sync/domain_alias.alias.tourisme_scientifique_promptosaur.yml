@@ -1,0 +1,9 @@
+uuid: f72bd29d-5748-409c-b631-fbe06fa476d3
+langcode: en
+status: true
+dependencies: {  }
+id: tourisme_scientifique_promptosaur
+domain_id: local_scientific_tourism
+pattern: tourisme-scientifique.promptosaur.ddev.site
+redirect: 0
+environment: default

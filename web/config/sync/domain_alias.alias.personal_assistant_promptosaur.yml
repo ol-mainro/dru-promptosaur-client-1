@@ -1,0 +1,9 @@
+uuid: 273823f8-97b4-497a-86a3-744d2738d545
+langcode: en
+status: true
+dependencies: {  }
+id: personal_assistant_promptosaur
+domain_id: personal_assistant
+pattern: personal-assistant.promptosaur.ddev.site
+redirect: 0
+environment: default

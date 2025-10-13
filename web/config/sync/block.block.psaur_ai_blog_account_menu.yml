@@ -13,7 +13,7 @@ _core:
 id: psaur_ai_blog_account_menu
 theme: psaur_ai_blog
 region: sidebar_first
-weight: -15
+weight: -5
 provider: null
 plugin: 'system_menu_block:account'
 settings:

@@ -13,7 +13,7 @@ _core:
 id: psaur_clap_studio_main_menu
 theme: psaur_clap_studio
 region: primary_menu
-weight: 0
+weight: -5
 provider: null
 plugin: 'system_menu_block:main'
 settings:

@@ -1,0 +1,9 @@
+uuid: 58bf6960-87ca-4623-b3c2-95461439a0b3
+langcode: en
+status: true
+dependencies: {  }
+id: alice_ecole_promptosaur
+domain_id: alice_ecole
+pattern: alice-ecole.promptosaur.ddev.site
+redirect: 0
+environment: default

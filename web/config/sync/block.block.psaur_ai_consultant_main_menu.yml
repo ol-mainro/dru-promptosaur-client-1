@@ -13,7 +13,7 @@ _core:
 id: psaur_ai_consultant_main_menu
 theme: psaur_ai_consultant
 region: primary_menu
-weight: 0
+weight: -5
 provider: null
 plugin: 'system_menu_block:main'
 settings:

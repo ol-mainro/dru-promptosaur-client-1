@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 id: alice_ecole
 domain_id: 16110954
-hostname: alice-ecole.websites.promptosaur.xyz
+hostname: alice-ecole.promptosaur.xyz
 name: 'Alice École'
 scheme: https
 weight: -6

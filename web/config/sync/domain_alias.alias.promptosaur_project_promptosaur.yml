@@ -1,0 +1,9 @@
+uuid: 1f9f156f-0b70-4be8-8482-a9cd6435437e
+langcode: en
+status: true
+dependencies: {  }
+id: promptosaur_project_promptosaur
+domain_id: promptosaur_project
+pattern: promptosaur-project.promptosaur.ddev.site
+redirect: 0
+environment: default

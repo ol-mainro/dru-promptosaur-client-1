@@ -34,7 +34,9 @@ function promptosaur_client_node_access(EntityInterface $entity, $operation, Acc
       // dump($variables);
 
       $myConfigPage = \Drupal\config_pages\Entity\ConfigPages::config('domain_access_check_rules');
-      $node_view_access_check_domain_ctrl = $myConfigPage->get('field_node_view_access_check_ove')->value;
+      if(!empty($myConfigPage)){
+        $node_view_access_check_domain_ctrl = $myConfigPage->get('field_node_view_access_ctrl')->value;
+      }
       // dump($variables);
 
       // if($operation == "view" && $node_view_access_check_domain_ctrl == TRUE){

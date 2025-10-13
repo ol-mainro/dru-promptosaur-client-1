@@ -5,12 +5,17 @@ php_version: "8.3"
 webserver_type: nginx-fpm
 xdebug_enabled: false
 additional_hostnames:
-  - "client-1.promptosaur"
-  - "client-2.promptosaur"
-  - "client-3.promptosaur"
-  - "tourisme-scientifique.promptosaur"
-  - "famille.promptosaur"
-  - "aliced.promptosaur"
+  - tourisme-scientifique.promptosaur
+  - romain-dortier.promptosaur
+  - ai-blog.promptosaur
+  - alice-ecole.promptosaur
+  - personal-assistant.promptosaur
+  - humains.promptosaur
+  - family-assistant.promptosaur
+  - clap-studio.promptosaur
+  - promptosaur-project.promptosaur
+  - test-promptosaur
+  - test.promptosaur
 additional_fqdns: []
 database:
     type: mariadb

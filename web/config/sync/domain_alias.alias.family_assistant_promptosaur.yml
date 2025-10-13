@@ -1,0 +1,9 @@
+uuid: b37bcacd-eb55-432e-a4c8-39e2eb951543
+langcode: en
+status: true
+dependencies: {  }
+id: family_assistant_promptosaur
+domain_id: family_assistant
+pattern: family-assistant.promptosaur.ddev.site
+redirect: 0
+environment: default

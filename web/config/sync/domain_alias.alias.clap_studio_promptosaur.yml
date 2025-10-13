@@ -1,0 +1,9 @@
+uuid: b9a81294-81ec-44ed-a29c-92935ef89093
+langcode: en
+status: true
+dependencies: {  }
+id: clap_studio_promptosaur
+domain_id: clap_studio
+pattern: clap-studio.promptosaur.ddev.site
+redirect: 0
+environment: default

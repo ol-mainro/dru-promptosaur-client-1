@@ -9,7 +9,7 @@ _core:
 id: psaur_alice_ecole_secondary_local_tasks
 theme: psaur_alice_ecole
 region: content
-weight: -11
+weight: -5
 provider: null
 plugin: local_tasks_block
 settings:

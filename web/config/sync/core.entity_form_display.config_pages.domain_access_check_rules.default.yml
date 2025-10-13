@@ -4,20 +4,12 @@ status: true
 dependencies:
   config:
     - config_pages.type.domain_access_check_rules
-    - field.field.config_pages.domain_access_check_rules.field_node_view_access_check_ove
     - field.field.config_pages.domain_access_check_rules.field_node_view_access_ctrl
 id: config_pages.domain_access_check_rules.default
 targetEntityType: config_pages
 bundle: domain_access_check_rules
 mode: default
 content:
-  field_node_view_access_check_ove:
-    type: boolean_checkbox
-    weight: 0
-    region: content
-    settings:
-      display_label: true
-    third_party_settings: {  }
   field_node_view_access_ctrl:
     type: boolean_checkbox
     weight: 1

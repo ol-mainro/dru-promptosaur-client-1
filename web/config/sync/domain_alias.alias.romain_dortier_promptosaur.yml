@@ -1,0 +1,9 @@
+uuid: 87b0f6d6-15a1-4d5b-9203-fc8d80e64bed
+langcode: en
+status: true
+dependencies: {  }
+id: romain_dortier_promptosaur
+domain_id: ai_consultant
+pattern: romain-dortier.promptosaur.ddev.site
+redirect: 0
+environment: default
