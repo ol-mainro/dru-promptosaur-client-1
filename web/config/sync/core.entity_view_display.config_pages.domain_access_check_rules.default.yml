@@ -1,0 +1,23 @@
+uuid: 0e3871a8-0194-44df-87f2-26c47014b37e
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.domain_access_check_rules
+    - field.field.config_pages.domain_access_check_rules.field_node_view_access_check_ove
+id: config_pages.domain_access_check_rules.default
+targetEntityType: config_pages
+bundle: domain_access_check_rules
+mode: default
+content:
+  field_node_view_access_check_ove:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

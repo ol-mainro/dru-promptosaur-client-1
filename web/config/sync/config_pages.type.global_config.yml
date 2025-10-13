@@ -1,0 +1,19 @@
+uuid: 857fb241-bc91-4a44-9d1f-9b369bbc630d
+langcode: en
+status: true
+dependencies: {  }
+id: global_config
+label: global_config
+token: false
+context:
+  show_warning: true
+  group:
+    language: false
+    domain: false
+  fallback:
+    language: ''
+    domain: ''
+menu:
+  path: ''
+  weight: 0
+  description: ''

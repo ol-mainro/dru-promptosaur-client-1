@@ -28,7 +28,9 @@ module:
   default_content: 0
   domain: 0
   domain_access: 0
+  domain_config: 0
   domain_config_pages: 0
+  domain_config_ui: 0
   domain_menu_access: 0
   domain_theme_switch: 0
   drupal_cms_helper: 0

@@ -1,0 +1,22 @@
+uuid: 10b9c476-e4ad-47ff-a093-b34ce5b5c622
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.global_config
+    - field.field.config_pages.global_config.field_test
+id: config_pages.global_config.default
+targetEntityType: config_pages
+bundle: global_config
+mode: default
+content:
+  field_test:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  label: true

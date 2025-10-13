@@ -1,0 +1,21 @@
+uuid: d080c03b-c1f6-4fe7-a56e-0bab92ffea6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.global_config
+    - field.field.config_pages.global_config.field_test
+id: config_pages.global_config.default
+targetEntityType: config_pages
+bundle: global_config
+mode: default
+content:
+  field_test:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

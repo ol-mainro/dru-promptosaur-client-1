@@ -1,0 +1,72 @@
+<?php
+
+use Drupal\Core\Entity\ContentEntityInterface;
+use Drupal\Core\Entity\EntityTypeManagerInterface;
+use Drupal\Core\Logger\LoggerChannelInterface;
+use Drupal\domain_access\DomainAccessManager;
+use Drupal\domain_access\DomainAccessManagerInterface;
+use Drupal\user\Entity\User;
+
+
+use Drupal\Core\Access\AccessResult;
+use Drupal\Core\Entity\EntityInterface;
+use Drupal\Core\Session\AccountInterface;
+// use Drupal\domain_source\DomainSourceElementManagerInterface;
+
+function promptosaur_client_implements_alter(&$implementations, $hook) {
+
+  if ($hook == 'node_access') {
+    dump($implementations);
+    unset($implementations); // Not any more
+  }
+}
+/**
+ * Implements hook_ENTITY_TYPE_access().
+ */
+function promptosaur_client_node_access(EntityInterface $entity, $operation, AccountInterface $account) {
+  // \Drupal::messenger()->addMessage($operation);
+      $negotiator = \Drupal::service('domain.negotiator');
+      $domain = $negotiator->getActiveDomain();
+      $domain_id = $domain->id();
+      // \Drupal::messenger()->addMessage($domain);
+      $view_access_check_control_domains = ['default', 'ai_blog'];
+
+      $config_pages = \Drupal::service('config_pages.loader');
+      $conf = $config_pages->load('global_config');
+
+      $storage = \Drupal::entityTypeManager()->getStorage('config_pages');
+      $conf = $storage->load('global_config');
+ 
+      $myConfigPage = \Drupal\config_pages\Entity\ConfigPages::config('global_config');
+      $variables = $myConfigPage->get('field_test')->value;
+      // dump($variables);
+
+      $myConfigPage = \Drupal\config_pages\Entity\ConfigPages::config('domain_access_check_rules');
+      $variables = $myConfigPage->get('field_node_view_access_check_ove')->value;
+      // dump($variables);
+
+
+      if($operation == "view" && in_array($domain_id, $view_access_check_control_domains)){
+        \Drupal::messenger()->addMessage($domain);
+        $node_domains_all = DomainAccessManager::getAllValue($entity);
+
+        $current_uid = \Drupal::currentUser()->id();
+        $user = User::load($current_uid);
+        $user_domains = DomainAccessManager::getAccessValues($user);
+        // dump($user_domains);
+        $node_domains = DomainAccessManager::getAccessValues($entity);
+        // dump($node_domains);
+            if(!empty($user_domains) && !empty($node_domains) && count(array_intersect_key($user_domains, $node_domains))){
+                return AccessResult::allowed();
+            }
+        // No opinion.
+        return AccessResult::forbidden();
+  }
+}
+
+function promptosaur_client_node_view(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display, $view_mode) : void {
+}
+
+function promptosaur_client_entity_view(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display, $view_mode) : void {
+  // \Drupal::messenger()->addMessage("aaaaaa");
+}

@@ -1,0 +1,19 @@
+uuid: a67d2b39-009c-453b-8edc-24bfa6bf1d7d
+langcode: en
+status: true
+dependencies: {  }
+id: domain_access_check_rules
+label: 'Domain access check rules'
+token: false
+context:
+  show_warning: true
+  group:
+    domain: true
+    language: false
+  fallback:
+    language: ''
+    domain: ''
+menu:
+  path: ''
+  weight: 0
+  description: ''
