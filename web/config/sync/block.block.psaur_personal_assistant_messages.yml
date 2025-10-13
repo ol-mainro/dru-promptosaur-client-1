@@ -1,22 +1,22 @@
-uuid: 122b7ce9-6a20-4fbd-a6a1-c17dcab69f99
+uuid: 17c11be8-5556-4546-a9f2-773dd5b7dc41
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - psaur_local_promptosaur_project
+    - psaur_personal_assistant
 _core:
   default_config_hash: wgkVxN3uX_klZRZJifP1469jTcAV9BlwdMt0zd-_r5E
-id: psaur_local_promptosaur_project_messages
-theme: psaur_local_promptosaur_project
+id: psaur_personal_assistant_messages
+theme: psaur_personal_assistant
 region: highlighted
 weight: -14
 provider: null
 plugin: system_messages_block
 settings:
   id: system_messages_block
-  label: 'Messages de statut'
+  label: 'Status messages'
   label_display: '0'
   provider: system
 visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 7845492c-011d-422b-a25a-cdfacbef3f20
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.domain_access_check_rules
+    - field.storage.config_pages.field_node_view_access_ctrl
+id: config_pages.domain_access_check_rules.field_node_view_access_ctrl
+field_name: field_node_view_access_ctrl
+entity_type: config_pages
+bundle: domain_access_check_rules
+label: 'Node view access check control'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

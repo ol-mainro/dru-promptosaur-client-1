@@ -1,22 +1,22 @@
-uuid: 406b6923-5b00-4b20-b1c1-fdd7d118d09d
+uuid: 052e9cfc-effa-4ed4-a1b0-23e687d80a3c
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - psaur_local_promptosaur_project
+    - psaur_family_assistant
 _core:
   default_config_hash: EJYkls2r3VXweQ6HWA62xqSLC6wdvlEe5R3fsa-1RJc
-id: psaur_local_promptosaur_project_breadcrumbs
-theme: psaur_local_promptosaur_project
+id: psaur_family_assistant_breadcrumbs
+theme: psaur_family_assistant
 region: sidebar_first
 weight: -7
 provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
-  label: "Fils d'ariane"
+  label: Breadcrumbs
   label_display: '0'
   provider: system
 visibility: {  }

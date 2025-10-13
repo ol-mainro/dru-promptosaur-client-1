@@ -1,0 +1,15 @@
+uuid: 83f0cacf-cf49-439d-82e6-613d75067de1
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.personal_assistant
+  module:
+    - domain_access
+id: domain_access_add_editor_action_personal_assistant
+label: 'Add editors to the My Drupal CMS site domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id:
+    - personal_assistant

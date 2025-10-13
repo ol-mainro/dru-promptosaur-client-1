@@ -5,6 +5,7 @@ dependencies:
   config:
     - config_pages.type.domain_access_check_rules
     - field.field.config_pages.domain_access_check_rules.field_node_view_access_check_ove
+    - field.field.config_pages.domain_access_check_rules.field_node_view_access_ctrl
 id: config_pages.domain_access_check_rules.default
 targetEntityType: config_pages
 bundle: domain_access_check_rules
@@ -19,5 +20,15 @@ content:
       format_custom_true: ''
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_node_view_access_ctrl:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 1
     region: content
 hidden: {  }

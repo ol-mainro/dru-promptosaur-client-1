@@ -1,0 +1,11 @@
+uuid: c7ab9838-15ee-4845-88ad-366cd7800363
+langcode: en
+status: true
+dependencies: {  }
+id: family_assistant
+domain_id: 4324006
+hostname: family-assistant.websites.promptosaur.xyz
+name: 'Family Assistant'
+scheme: https
+weight: 10
+is_default: false

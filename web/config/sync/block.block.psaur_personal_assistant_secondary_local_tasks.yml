@@ -1,0 +1,22 @@
+uuid: aa80b6f8-d9be-4b33-8fb9-43cf55d80c55
+langcode: en
+status: true
+dependencies:
+  theme:
+    - psaur_personal_assistant
+_core:
+  default_config_hash: eqGUDDp50dv3qWHXkXyiLoHgYnXgnP6THlyBDfyX_4c
+id: psaur_personal_assistant_secondary_local_tasks
+theme: psaur_personal_assistant
+region: content
+weight: -11
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

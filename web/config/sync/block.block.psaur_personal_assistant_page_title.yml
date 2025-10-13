@@ -1,0 +1,20 @@
+uuid: ab356027-fffa-4f48-9022-ba7562c62644
+langcode: en
+status: true
+dependencies:
+  theme:
+    - psaur_personal_assistant
+_core:
+  default_config_hash: 211SKPSadXKk1lwHPehoeHE-Z7LesiPbP24b6hlADE4
+id: psaur_personal_assistant_page_title
+theme: psaur_personal_assistant
+region: sidebar_first
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

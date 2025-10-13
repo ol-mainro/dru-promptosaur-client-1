@@ -1,22 +1,22 @@
-uuid: 76732c86-e241-486e-a97e-ce2d99e21cbc
+uuid: 259f62ab-3da9-475b-9fd9-626bc8d5f7a0
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - psaur_local_promptosaur_project
+    - psaur_family_assistant
 _core:
   default_config_hash: rtREBa7go5QUg8q0ya-bDK3bWWCovgvuopsIZEKQeBo
-id: psaur_local_promptosaur_project_content
-theme: psaur_local_promptosaur_project
+id: psaur_family_assistant_content
+theme: psaur_family_assistant
 region: content
 weight: -9
 provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: 'Contenu de la page principale'
+  label: 'Main page content'
   label_display: '0'
   provider: system
 visibility: {  }

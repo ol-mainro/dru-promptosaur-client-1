@@ -1,0 +1,15 @@
+uuid: 2f98e115-f19c-488b-ac2f-e347488ba75c
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.personal_assistant
+  module:
+    - domain_access
+id: domain_access_remove_editor_action_personal_assistant
+label: 'Remove editors from the My Drupal CMS site domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id:
+    - personal_assistant

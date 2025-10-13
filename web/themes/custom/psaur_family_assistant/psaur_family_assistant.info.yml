@@ -1,0 +1,5 @@
+name: 'Family assistant'
+type: theme
+description: 'Family assistant'
+core_version_requirement: '^9.4 || ^10 || ^11'
+base theme: diba_clean

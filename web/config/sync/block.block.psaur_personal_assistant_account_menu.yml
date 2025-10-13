@@ -1,0 +1,27 @@
+uuid: 57331ffd-a74a-4550-bea2-bbea36e0bc79
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - psaur_personal_assistant
+_core:
+  default_config_hash: 2TBER4QGf3aDAR08p65ZBfVPstUa-Gg__7Alm6iLhaw
+id: psaur_personal_assistant_account_menu
+theme: psaur_personal_assistant
+region: sidebar_first
+weight: -15
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

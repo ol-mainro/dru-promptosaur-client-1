@@ -1,0 +1,15 @@
+uuid: 9ee1122f-640c-4f57-8db5-583d576a0394
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.family_assistant
+  module:
+    - domain_access
+id: domain_access_remove_action_family_assistant
+label: 'Remove selected content from the Family Assistant domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id:
+    - family_assistant

@@ -1,20 +1,20 @@
-uuid: e3e81802-40e8-4d0e-9081-02a5acd7c59e
+uuid: 7f2f5213-7617-48a8-9122-e2b3a12950fe
 langcode: en
 status: true
 dependencies:
   theme:
-    - psaur_local_promptosaur_project
+    - psaur_promptosaur_project
 _core:
   default_config_hash: wCsDJhKjXP870EIRux3yMmP2Siq6M4z8dk9_5omweaU
-id: psaur_local_promptosaur_project_primary_admin_actions
-theme: psaur_local_promptosaur_project
+id: psaur_promptosaur_project_primary_admin_actions
+theme: psaur_promptosaur_project
 region: content
 weight: -13
 provider: null
 plugin: local_actions_block
 settings:
   id: local_actions_block
-  label: "Actions d'administration principales"
+  label: 'Primary admin actions'
   label_display: '0'
   provider: core
 visibility: {  }

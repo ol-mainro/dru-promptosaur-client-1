@@ -1,20 +1,20 @@
-uuid: 64020a47-955c-4516-9f60-6d719f49348b
+uuid: b5dfee2b-73aa-44b0-b1c6-0c7f1355e90a
 langcode: en
 status: true
 dependencies:
   theme:
-    - psaur_local_promptosaur_project
+    - psaur_family_assistant
 _core:
   default_config_hash: 3reyK-HSWIt5UPnepFKdL7LcxHA0-ikdJs7TRJQjvEo
-id: psaur_local_promptosaur_project_primary_local_tasks
-theme: psaur_local_promptosaur_project
+id: psaur_family_assistant_primary_local_tasks
+theme: psaur_family_assistant
 region: content
 weight: -12
 provider: null
 plugin: local_tasks_block
 settings:
   id: local_tasks_block
-  label: 'Onglets principaux'
+  label: 'Primary tabs'
   label_display: '0'
   provider: core
   primary: true

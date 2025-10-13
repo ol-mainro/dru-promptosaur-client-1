@@ -1,0 +1,22 @@
+uuid: ae590808-673e-48d8-88f2-864e03b17d3f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - psaur_family_assistant
+_core:
+  default_config_hash: eqGUDDp50dv3qWHXkXyiLoHgYnXgnP6THlyBDfyX_4c
+id: psaur_family_assistant_secondary_local_tasks
+theme: psaur_family_assistant
+region: content
+weight: -11
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

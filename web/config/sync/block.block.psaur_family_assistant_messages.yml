@@ -1,0 +1,22 @@
+uuid: 05228d5a-ee0a-4b9e-8e22-b9ef4a600c7a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_family_assistant
+_core:
+  default_config_hash: wgkVxN3uX_klZRZJifP1469jTcAV9BlwdMt0zd-_r5E
+id: psaur_family_assistant_messages
+theme: psaur_family_assistant
+region: highlighted
+weight: -14
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: a7829860-55f6-48e2-81ce-6063d751fc39
+langcode: en
+status: true
+dependencies: {  }
+id: personal_assistant
+domain_id: 4843303
+hostname: personal-assistant.websites.promptosaur.xyz
+name: 'Personal assistant'
+scheme: https
+weight: 9
+is_default: false

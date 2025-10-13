@@ -1,0 +1,15 @@
+uuid: dd6e983a-fc4b-4d0c-85eb-7b23fff393fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.personal_assistant
+  module:
+    - domain_access
+id: domain_access_add_action_personal_assistant
+label: 'Add selected content to the My Drupal CMS site domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id:
+    - personal_assistant

@@ -1,4 +1,4 @@
-uuid: b7df0396-6a0d-44f0-a9c9-8cd87bfdf579
+uuid: 5ac2fbf8-5c4a-4e3c-a2fd-6e9761509b59
 langcode: en
 status: true
 dependencies:
@@ -7,18 +7,18 @@ dependencies:
   module:
     - system
   theme:
-    - psaur_local_promptosaur_project
+    - psaur_family_assistant
 _core:
   default_config_hash: 2TBER4QGf3aDAR08p65ZBfVPstUa-Gg__7Alm6iLhaw
-id: psaur_local_promptosaur_project_account_menu
-theme: psaur_local_promptosaur_project
+id: psaur_family_assistant_account_menu
+theme: psaur_family_assistant
 region: sidebar_first
 weight: -15
 provider: null
 plugin: 'system_menu_block:account'
 settings:
   id: 'system_menu_block:account'
-  label: "Menu du compte de l'utilisateur"
+  label: 'User account menu'
   label_display: '0'
   provider: system
   level: 1

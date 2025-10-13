@@ -1,0 +1,22 @@
+uuid: 2baac8dd-d908-4b75-9bf3-2bc800eb17c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_personal_assistant
+_core:
+  default_config_hash: rtREBa7go5QUg8q0ya-bDK3bWWCovgvuopsIZEKQeBo
+id: psaur_personal_assistant_content
+theme: psaur_personal_assistant
+region: content
+weight: -9
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

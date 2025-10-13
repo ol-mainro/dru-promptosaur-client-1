@@ -1,0 +1,22 @@
+uuid: cd8e9aff-1c44-4303-a0f2-65b954dd4443
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_promptosaur_project
+_core:
+  default_config_hash: wgkVxN3uX_klZRZJifP1469jTcAV9BlwdMt0zd-_r5E
+id: psaur_promptosaur_project_messages
+theme: psaur_promptosaur_project
+region: highlighted
+weight: -14
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

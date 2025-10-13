@@ -21,5 +21,9 @@ promptosaur_project_site: psaur_promptosaur_project
 promptosaur_project_admin: gin
 clap_studio_site: psaur_clap_studio
 clap_studio_admin: gin
-default_site: nava
+default_site: rivet
 default_admin: gin
+family_assistant_site: psaur_family_assistant
+family_assistant_admin: gin
+personal_assistant_site: psaur_personal_assistant
+personal_assistant_admin: gin

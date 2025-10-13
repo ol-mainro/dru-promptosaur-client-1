@@ -1,0 +1,15 @@
+uuid: cc259563-9951-424e-9688-cd19c1fb19a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.family_assistant
+  module:
+    - domain_access
+id: domain_access_add_action_family_assistant
+label: 'Add selected content to the Family Assistant domain'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id:
+    - family_assistant

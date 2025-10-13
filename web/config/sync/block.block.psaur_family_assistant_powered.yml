@@ -1,0 +1,22 @@
+uuid: edcdae4a-888e-43ae-8da5-cb361f771cae
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_family_assistant
+_core:
+  default_config_hash: yF1NcATLLhLNdhKxZGXUHr3AgkVf3mITKtTbmEGArQw
+id: psaur_family_assistant_powered
+theme: psaur_family_assistant
+region: sidebar_first
+weight: -16
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

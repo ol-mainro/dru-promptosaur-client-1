@@ -1,0 +1,23 @@
+uuid: 66074d52-35a8-4bad-a469-7c595d006475
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - psaur_family_assistant
+_core:
+  default_config_hash: VWb0lGWrFtZscO3FyYC0Za4_lgMhRIJgYcDJ69J8xWo
+id: psaur_family_assistant_syndicate
+theme: psaur_family_assistant
+region: sidebar_first
+weight: -17
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

@@ -1,0 +1,15 @@
+uuid: 292cd01a-be4a-47ca-aabc-5a32b5a04dcd
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.personal_assistant
+  module:
+    - domain_access
+id: domain_access_remove_action_personal_assistant
+label: 'Remove selected content from the My Drupal CMS site domain'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id:
+    - personal_assistant

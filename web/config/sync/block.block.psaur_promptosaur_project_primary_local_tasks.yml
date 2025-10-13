@@ -1,0 +1,22 @@
+uuid: b97ad880-c056-45db-a51f-5da4b595d02c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - psaur_promptosaur_project
+_core:
+  default_config_hash: 3reyK-HSWIt5UPnepFKdL7LcxHA0-ikdJs7TRJQjvEo
+id: psaur_promptosaur_project_primary_local_tasks
+theme: psaur_promptosaur_project
+region: content
+weight: -12
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

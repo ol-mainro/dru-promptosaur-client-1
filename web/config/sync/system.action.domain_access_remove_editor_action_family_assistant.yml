@@ -1,0 +1,15 @@
+uuid: c729be96-1b82-4576-8446-459ce252ac6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.family_assistant
+  module:
+    - domain_access
+id: domain_access_remove_editor_action_family_assistant
+label: 'Remove editors from the Family Assistant domain'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id:
+    - family_assistant

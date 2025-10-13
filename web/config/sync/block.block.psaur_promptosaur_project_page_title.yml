@@ -1,20 +1,20 @@
-uuid: 996a7e34-6b22-4bb5-9df5-631b83c5492b
+uuid: 1ec982b9-87ed-47d0-980c-ed1d24e7979e
 langcode: en
 status: true
 dependencies:
   theme:
-    - psaur_local_promptosaur_project
+    - psaur_promptosaur_project
 _core:
   default_config_hash: 211SKPSadXKk1lwHPehoeHE-Z7LesiPbP24b6hlADE4
-id: psaur_local_promptosaur_project_page_title
-theme: psaur_local_promptosaur_project
+id: psaur_promptosaur_project_page_title
+theme: psaur_promptosaur_project
 region: sidebar_first
 weight: -8
 provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Titre de la page'
+  label: 'Page title'
   label_display: '0'
   provider: core
 visibility: {  }

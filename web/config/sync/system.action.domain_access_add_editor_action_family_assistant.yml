@@ -1,0 +1,15 @@
+uuid: e19c4dbf-ae3b-476e-987f-24e94a4d32c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - domain.record.family_assistant
+  module:
+    - domain_access
+id: domain_access_add_editor_action_family_assistant
+label: 'Add editors to the Family Assistant domain'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id:
+    - family_assistant

@@ -1,22 +1,22 @@
-uuid: 65f6a4d4-6af0-4dc0-a711-bf763c788e0f
+uuid: 7d9e2883-11bd-419d-b883-fe56e6a15d4e
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - psaur_local_promptosaur_project
+    - psaur_personal_assistant
 _core:
   default_config_hash: wqQ5RgTDWH35Q6PpZkxbTn_X8haCs3GYODj-ezlt8tQ
-id: psaur_local_promptosaur_project_site_branding
-theme: psaur_local_promptosaur_project
+id: psaur_personal_assistant_site_branding
+theme: psaur_personal_assistant
 region: sidebar_first
 weight: -7
 provider: null
 plugin: system_branding_block
 settings:
   id: system_branding_block
-  label: 'Identité du site'
+  label: 'Site branding'
   label_display: '0'
   provider: system
   use_site_logo: true
