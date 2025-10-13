@@ -29,17 +29,17 @@ function promptosaur_client_node_access(EntityInterface $entity, $operation, Acc
       $storage = \Drupal::entityTypeManager()->getStorage('config_pages');
       $conf = $storage->load('global_config');
  
-      $myConfigPage = \Drupal\config_pages\Entity\ConfigPages::config('global_config');
-      $variables = $myConfigPage->get('field_test')->value;
+      // $myConfigPage = \Drupal\config_pages\Entity\ConfigPages::config('global_config');
+      // $variables = $myConfigPage->get('field_test')->value;
       // dump($variables);
 
       $myConfigPage = \Drupal\config_pages\Entity\ConfigPages::config('domain_access_check_rules');
-      $variables = $myConfigPage->get('field_node_view_access_check_ove')->value;
+      $node_view_access_check_domain_ctrl = $myConfigPage->get('field_node_view_access_check_ove')->value;
       // dump($variables);
 
-
+      // if($operation == "view" && $node_view_access_check_domain_ctrl == TRUE){
       if($operation == "view" && in_array($domain_id, $view_access_check_control_domains)){
-        \Drupal::messenger()->addMessage($domain);
+        // \Drupal::messenger()->addMessage($domain);
         $node_domains_all = DomainAccessManager::getAllValue($entity);
 
         $current_uid = \Drupal::currentUser()->id();
