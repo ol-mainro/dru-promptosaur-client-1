@@ -11,15 +11,7 @@ use Drupal\user\Entity\User;
 use Drupal\Core\Access\AccessResult;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Session\AccountInterface;
-// use Drupal\domain_source\DomainSourceElementManagerInterface;
 
-function promptosaur_client_implements_alter(&$implementations, $hook) {
-
-  if ($hook == 'node_access') {
-    dump($implementations);
-    unset($implementations); // Not any more
-  }
-}
 /**
  * Implements hook_ENTITY_TYPE_access().
  */
