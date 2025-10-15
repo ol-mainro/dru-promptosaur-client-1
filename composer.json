@@ -104,6 +104,7 @@
         "drupal/robotstxt": "^1.6",
         "drupal/ruhi": "^11.0",
         "drupal/rules": "^4.0",
+        "drupal/s3fs": "^3.9",
         "drupal/sam": "^1.2",
         "drupal/scheduler": "^2.2",
         "drupal/scheduler_content_moderation_integration": "^3.0.4",
