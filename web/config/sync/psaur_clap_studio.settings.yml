@@ -2,20 +2,20 @@ features:
   node_user_picture: true
   comment_user_picture: true
   comment_user_verification: true
-  favicon: 1
+  favicon: 0
 logo:
   use_default: 0
   path: 'public://dinosaur.png'
 favicon:
   use_default: 0
   path: ''
-dc_logo1_path: ''
+dc_logo1_path: /sites/default/files/2025-10/dinosaur.png
 dc_logo1_link: ''
-dc_logo1_label: ''
+dc_logo1_label: Promptosaur
 dc_logo2_path: ''
 dc_logo2_link: ''
 dc_logo2_label: ''
-dc_color_schema: theme-color2
+dc_color_schema: theme-color1
 dc_secondary_menu_type: full
 dc_precontent_container: container
 dc_content_container: container

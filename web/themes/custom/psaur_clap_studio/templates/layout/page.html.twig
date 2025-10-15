@@ -1,0 +1,201 @@
+{#
+/**
+ * @file
+ * Theme override to display a single page.
+ *
+ * @see template_preprocess_page()
+ * @see html.html.twig
+ */
+#}
+{% import '@diba_clean/macros/macros.twig' as macros %}
+
+<div class="container">
+    <header class="py-4" id="region-main-header">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+            <div class="col d-none d-lg-block pt-1">
+                {{ macros.render_logo(dc_path, dc_logo1_label, dc_logo1_path, dc_logo1_link, "sitelogo-wrapper") }}
+            </div>
+            {% if page.top_first or page.top_second or page.top_third %}
+                <div class="col-auto justify-content-end mt-auto text-end" id="region-top">
+                    <div class="row">
+                        {% if page.top_first %}
+                            <div class="col{% if page.top_second%} border-end{% endif %}">
+                                {{ page.top_first }}
+                            </div>
+                        {% endif %}
+                        {% if page.top_second %}
+                            <div class="col-auto text-end{% if page.top_third %} border-end{% endif %}">
+                                {{ page.top_second }}
+                            </div>
+                        {% endif %}
+                        {% if page.top_third %}
+                            <div class="col-auto text-end">
+                                {{ page.top_third }}
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </header>
+    {% if page.nav_main %}
+        <nav class="navbar navbar-expand-lg menu-primary justify-content-between" aria-label="{{ "Main menú"|t }}">
+            <div class="container-fluid p-0">
+                {{ macros.render_logo(dc_path, dc_logo1_label, dc_logo1_path, dc_logo1_link, "navbar-brand py-0 d-lg-none sitelogo-wrapper") }}
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-primary-content">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu-primary-content">
+                    {{ page.nav_main }}
+                </div>
+            </div>
+        </nav>
+    {% endif %}
+    {% if page.header %}
+        <div class="diba-baner">
+            {{ page.header }}
+        </div>
+    {% endif %}
+</div>
+
+<main>
+    {% if page.nav_secondary%}
+        <div class="container">
+            <nav class="navbar navbar-expand-lg menu-secondary justify-content-between" aria-label="{{ "Secondary menú"|t }}">
+                <div class="container-fluid p-0">
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#menu-secondary-content">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse {{ dc_secondary_menu_type ? dc_secondary_menu_type : 'condensed' }} text-center text-md-start" id="menu-secondary-content">
+                        {{ page.nav_secondary }}
+                    </div>
+                </div>
+            </nav>
+        </div>
+    {% endif %}
+
+    {% if page.breadcrumb %}
+        <div class="container" id="region-breadcrumb">
+            {{ page.breadcrumb }}
+        </div>
+    {% endif %}
+
+    {% if page.pre_content %}
+        <div class="{{ dc_precontent_container ? dc_precontent_container : 'container' }}" id="region-precontent">
+            {{ page.pre_content }}
+        </div>
+    {% endif %}
+
+    {% if page.content or page.sidebar_left or page.sidebar_right %}
+        {% set sidebar_left_classes = (page.sidebar_left and page.sidebar_right) ? 'col-12 col-sm-6 col-lg-3' : 'col-12 col-lg-3' %}
+        {% set sidebar_right_classes = (page.sidebar_left and page.sidebar_right) ? 'col-12 col-sm-6 col-lg-3' : 'col-12 col-lg-3' %}
+        {% set content_classes = (page.sidebar_left and page.sidebar_right) ? 'col-12 col-lg-6' : ((page.sidebar_left or page.sidebar_right) ? 'col-12 col-lg-9' : 'col-12' ) %}
+
+        <div id="content">
+            <div class="{{ dc_content_container ? dc_content_container : 'container' }}">
+                <div class="row p-4">
+                    {% if page.sidebar_left %}
+                        <div class="{{ dc_sidebar_left_class }} {{ sidebar_left_classes }}" id="region-sidebar-left">
+                            {{ page.sidebar_left }}
+                        </div>
+                    {% endif %}
+                    <div class="{{ dc_content_class }} {{ content_classes }}">
+                        {{ page.content }}
+                    </div>
+                    {% if page.sidebar_right %}
+                        <div class="{{ dc_sidebar_right_class }} {{ sidebar_right_classes }}" id="region-sidebar-right">
+                            {{ page.sidebar_right }}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+
+    {% if page.post_content %}
+        <div class="{{ dc_postcontent_container ? dc_postcontent_container : 'container' }}" id="region-postcontent">
+            {{ page.post_content }}
+        </div>
+    {% endif %}
+</main>
+
+<div class="container mt-2">
+    {% if page.contact %}
+        {{ page.contact }}
+    {% endif %}
+
+    <footer class="p-4" id="region-main-footer">
+        {% if page.footer_menu1 or page.footer_menu2 or page.footer_menu3 %}
+            <div class="row" id="region-footer-menu">
+                <div class="order-2 order-md-1 col-md-4 pb-4 text-center text-md-start">
+                    {{ macros.render_logo(dc_path, dc_logo1_label, dc_logo1_path, dc_logo1_link, "sitelogo-wrapper") }}
+
+                    {% if dc_logo2_label or dc_logo2_path %}
+                        {% if dc_logo1_label or dc_logo1_path %}
+                            <div class="clearfix mt-4"></div>
+                        {% endif %}
+
+                        {{ macros.render_logo(dc_path, dc_logo2_label, dc_logo2_path, dc_logo2_link, "sitelogo2-wrapper") }}
+                    {% endif %}
+                </div>
+                <div class="order-1 order-md-2 col-12 col-md-8">
+                    <div class="row">
+                        {% if page.footer_menu1 and page.footer_menu2 and page.footer_menu3 %}
+                            {% set footer_menu_classes = 'col-12 col-md-4 mb-4' %}
+                        {% elseif (page.footer_menu1 and page.footer_menu2) or (page.footer_menu1 and page.footer_menu3) or (page.footer_menu2 and page.footer_menu3) %}
+                            {% set footer_menu_classes = 'col-12 col-md-6 mb-4' %}
+                        {% else %}
+                            {% set footer_menu_classes = 'col-12 mb-4' %}
+                        {% endif %}
+
+                        {% if page.footer_menu1 %}
+                            <div class="{{ footer_menu_classes }}">
+                                {{ page.footer_menu1 }}
+                            </div>
+                        {% endif %}
+                        {% if page.footer_menu2 %}
+                            <div class="{{ footer_menu_classes }}">
+                                {{ page.footer_menu2 }}
+                            </div>
+                        {% endif %}
+                        {% if page.footer_menu3 %}
+                            <div class="{{ footer_menu_classes }}">
+                                {{ page.footer_menu3 }}
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+        {% if page.footer_xs or dc_link_enable %}
+            <div class="row" id="region-footer-xs">
+                <div class="col-12 text-center text-md-start">
+                    {{ macros.render_social(dc_path, dc_link_facebook, "Facebook", "facebook.svg") }}
+                    {{ macros.render_social(dc_path, dc_link_x, "X", "x.svg") }}
+                    {{ macros.render_social(dc_path, dc_link_instagram, "Instagram", "instagram.svg") }}
+                    {{ macros.render_social(dc_path, dc_link_linkedin, "LinkedIn", "linkedin.svg") }}
+                    {{ macros.render_social(dc_path, dc_link_telegram, "Telegram", "telegram.svg") }}
+                    {{ macros.render_social(dc_path, dc_link_threads, "Threads", "threads.svg") }}
+                    {{ macros.render_social(dc_path, dc_link_youtube, "Youtube", "youtube.svg") }}
+
+                    {{ page.footer_xs }}
+                </div>
+            </div>
+        {% endif %}
+        {% if page.footer_left or page.footer_right %}
+            <div class="row my-3" id="region-footer">
+                {% if page.footer_left %}
+                    <div class="col-12 col-md-6 col-lg-4">
+                        {{ page.footer_left }}
+                    </div>
+                {% endif %}
+                {% if page.footer_right %}
+                    <div class="{{ page.footer_left ? 'col-12 col-md-6 col-lg-8' : 'col-12' }}">
+                        {{ page.footer_right }}
+                    </div>
+                {% endif %}
+            </div>
+        {% endif %}
+    </footer>
+</div>
