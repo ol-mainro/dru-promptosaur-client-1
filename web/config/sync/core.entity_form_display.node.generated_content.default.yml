@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.generated_content.field_domain_access
     - field.field.node.generated_content.field_domain_all_affiliates
     - field.field.node.generated_content.field_inline_tags
+    - field.field.node.generated_content.field_llm_sources
     - field.field.node.generated_content.field_tags
     - field.field.node.generated_content.field_variant
     - node.type.generated_content
@@ -66,6 +67,14 @@ content:
   field_inline_tags:
     type: string_textfield
     weight: 42
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_llm_sources:
+    type: string_textfield
+    weight: 43
     region: content
     settings:
       size: 60

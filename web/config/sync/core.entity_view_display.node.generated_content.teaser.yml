@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.generated_content.field_domain_access
     - field.field.node.generated_content.field_domain_all_affiliates
     - field.field.node.generated_content.field_inline_tags
+    - field.field.node.generated_content.field_llm_sources
     - field.field.node.generated_content.field_tags
     - field.field.node.generated_content.field_variant
     - node.type.generated_content
@@ -43,6 +44,7 @@ hidden:
   field_domain_access: true
   field_domain_all_affiliates: true
   field_inline_tags: true
+  field_llm_sources: true
   field_tags: true
   field_variant: true
   langcode: true

@@ -7,14 +7,15 @@ logo:
   use_default: 0
   path: 'public://dinosaur.png'
 favicon:
-  use_default: 1
+  use_default: 0
+  path: ''
 dc_logo1_path: ''
 dc_logo1_link: ''
 dc_logo1_label: ''
 dc_logo2_path: ''
 dc_logo2_link: ''
 dc_logo2_label: ''
-dc_color_schema: theme-diba
+dc_color_schema: theme-color2
 dc_secondary_menu_type: full
 dc_precontent_container: container
 dc_content_container: container
