@@ -20,7 +20,7 @@ dc_secondary_menu_type: full
 dc_precontent_container: container
 dc_content_container: container
 dc_postcontent_container: container
-dc_content_class: 'order-1 order-lg-2 text-justify'
+dc_content_class: 'order-1 order-lg-2'
 dc_sidebar_left_class: 'order-2 order-lg-1'
 dc_sidebar_right_class: order-3
 dc_link_enable: 0
