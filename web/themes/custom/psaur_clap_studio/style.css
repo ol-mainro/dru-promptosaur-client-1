@@ -12,3 +12,7 @@
 #content h1, #content .h1, #content h2, #content .h2, #content h3, #content .h3, #content h4, #content .h4, #content h5, #content .h5, #content h6, #content .h6 {
     color: #e72362;
 }
+
+.field--name-field-content-component .paragraph{
+    margin-bottom: 50px;
+}
