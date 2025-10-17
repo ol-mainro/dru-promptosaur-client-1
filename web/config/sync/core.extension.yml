@@ -50,6 +50,7 @@ module:
   eca_ui: 0
   eca_user: 0
   editor: 0
+  entity_reference_revisions: 0
   entity_share: 0
   entity_share_async: 0
   entity_share_client: 0
@@ -67,6 +68,7 @@ module:
   jquery_ui: 0
   jquery_ui_resizable: 0
   jsonapi: 0
+  key: 0
   klaro: 0
   language: 0
   layout_builder: 0
@@ -120,6 +122,7 @@ module:
   eca_form: 1
   pathauto: 1
   views: 10
+  paragraphs: 11
 theme:
   claro: 0
   gin: 0

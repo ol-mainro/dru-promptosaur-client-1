@@ -1,0 +1,41 @@
+uuid: d0385b99-23f4-4f66-8b47-9d904938c032
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.base_content.field_domain_access
+    - field.field.node.base_content.field_domain_all_affiliates
+    - field.field.node.base_content.field_image
+    - node.type.base_content
+  module:
+    - svg_image
+    - user
+id: node.base_content.default
+targetEntityType: node
+bundle: base_content
+mode: default
+content:
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_domain_access: true
+  field_domain_all_affiliates: true
+  langcode: true
