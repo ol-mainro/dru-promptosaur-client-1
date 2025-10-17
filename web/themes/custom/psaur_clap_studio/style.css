@@ -16,3 +16,8 @@
 .field--name-field-content-component .paragraph{
     margin-bottom: 20px;
 }
+
+#region-main-footer {
+    border-bottom: 4px solid #e72362;
+    font-size: 0.85rem;
+}
