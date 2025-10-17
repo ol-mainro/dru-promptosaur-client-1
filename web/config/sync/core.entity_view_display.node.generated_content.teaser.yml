@@ -15,7 +15,6 @@ dependencies:
     - node.type.generated_content
   module:
     - layout_builder
-    - text
     - user
 third_party_settings:
   layout_builder:
@@ -25,21 +24,9 @@ id: node.generated_content.teaser
 targetEntityType: node
 bundle: generated_content
 mode: teaser
-content:
-  body:
-    type: text_summary_or_trimmed
-    label: hidden
-    settings:
-      trim_length: 200
-    third_party_settings: {  }
-    weight: 0
-    region: content
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 1
-    region: content
+content: {  }
 hidden:
+  body: true
   field_assigned_user: true
   field_domain_access: true
   field_domain_all_affiliates: true
@@ -48,3 +35,4 @@ hidden:
   field_tags: true
   field_variant: true
   langcode: true
+  links: true

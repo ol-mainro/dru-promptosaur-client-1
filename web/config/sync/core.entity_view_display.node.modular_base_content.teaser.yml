@@ -11,7 +11,6 @@ dependencies:
     - node.type.modular_base_content
   module:
     - layout_builder
-    - text
     - user
 third_party_settings:
   layout_builder:
@@ -21,18 +20,11 @@ id: node.modular_base_content.teaser
 targetEntityType: node
 bundle: modular_base_content
 mode: teaser
-content:
-  field_main_long_text:
-    type: text_summary_or_trimmed
-    label: hidden
-    settings:
-      trim_length: 200
-    third_party_settings: {  }
-    weight: 0
-    region: content
+content: {  }
 hidden:
   field_content_component: true
   field_domain_access: true
   field_domain_all_affiliates: true
+  field_main_long_text: true
   langcode: true
   links: true

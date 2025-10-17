@@ -10,22 +10,14 @@ dependencies:
     - field.field.node.base_content.field_image
     - node.type.base_content
   module:
-    - text
     - user
 id: node.base_content.teaser
 targetEntityType: node
 bundle: base_content
 mode: teaser
-content:
-  body:
-    type: text_summary_or_trimmed
-    label: hidden
-    settings:
-      trim_length: 200
-    third_party_settings: {  }
-    weight: 0
-    region: content
+content: {  }
 hidden:
+  body: true
   field_domain_access: true
   field_domain_all_affiliates: true
   field_image: true
