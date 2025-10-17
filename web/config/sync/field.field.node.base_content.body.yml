@@ -1,0 +1,32 @@
+uuid: 182dbdf9-eb18-49e2-b412-68e11d62988a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - filter.format.content_format
+    - filter.format.markdown
+    - filter.format.plain_text
+    - filter.format.restricted_html
+    - node.type.base_content
+  module:
+    - text
+id: node.base_content.body
+field_name: body
+entity_type: node
+bundle: base_content
+label: Corps
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats:
+    - markdown
+    - content_format
+    - restricted_html
+    - plain_text
+field_type: text_with_summary
