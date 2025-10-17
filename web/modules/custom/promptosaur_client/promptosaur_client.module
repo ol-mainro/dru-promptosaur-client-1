@@ -48,17 +48,17 @@ function promptosaur_client_node_access(EntityInterface $entity, $operation, Acc
         if($operation == "view"){
 
           if($content_access_mode == "public"){
-            \Drupal::messenger()->addMessage("public");
+            // \Drupal::messenger()->addMessage("public");
             return AccessResult::allowed();
           }
 
           if($content_access_mode == "neutral"){
-            \Drupal::messenger()->addMessage("neutral");
+            // \Drupal::messenger()->addMessage("neutral");
             return AccessResult::neutral();
           }
 
           if($content_access_mode == "only_domain_affiliated_users"){
-            \Drupal::messenger()->addMessage("only_domain_affiliated_users");
+            // \Drupal::messenger()->addMessage("only_domain_affiliated_users");
 
               // \Drupal::messenger()->addMessage($domain);
               $node_domains_all = DomainAccessManager::getAllValue($entity);
