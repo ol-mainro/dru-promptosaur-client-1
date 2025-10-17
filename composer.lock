@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9fe991d9ee96874f95a8979f6709300e",
+    "content-hash": "d652defa21bcf8b6df7adf9d8a9c34dc",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -8419,6 +8419,51 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/r4032login",
                 "issues": "https://www.drupal.org/project/issues/r4032login"
+            }
+        },
+        {
+            "name": "drupal/readonly_field_widget",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/readonly_field_widget.git",
+                "reference": "2.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/readonly_field_widget-2.1.0.zip",
+                "reference": "2.1.0",
+                "shasum": "7aa60522e3d89aba5ddce1c7a8b59435c5d616c3"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.1.0",
+                    "datestamp": "1754564080",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "thtas",
+                    "homepage": "https://www.drupal.org/user/287467"
+                }
+            ],
+            "description": "Provides a field widget which can display the field formatter version of a field on the edit form.",
+            "homepage": "https://www.drupal.org/project/readonly_field_widget",
+            "support": {
+                "source": "https://git.drupalcode.org/project/readonly_field_widget",
+                "issues": "https://www.drupal.org/project/issues/readonly_field_widget"
             }
         },
         {
