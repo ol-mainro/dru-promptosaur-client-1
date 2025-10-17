@@ -1,0 +1,28 @@
+uuid: 18ee8dc6-da56-48d3-8830-ee9de88b7288
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_rich_text
+    - filter.format.content_format
+    - filter.format.markdown
+    - filter.format.restricted_html
+    - paragraphs.paragraphs_type.content_component_rich_text
+  module:
+    - text
+id: paragraph.content_component_rich_text.field_rich_text
+field_name: field_rich_text
+entity_type: paragraph
+bundle: content_component_rich_text
+label: Texte
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - markdown
+    - content_format
+    - restricted_html
+field_type: text_long

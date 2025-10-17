@@ -1,15 +1,10 @@
-uuid: 818f37e7-d6cd-4e82-8b51-bf6d3d88f187
+uuid: 57a6feeb-e29a-40a1-9f5b-a023a0588218
 langcode: en
 status: true
 dependencies:
   module:
-    - menu_ui
     - scheduler
 third_party_settings:
-  menu_ui:
-    available_menus:
-      - main
-    parent: 'main:'
   scheduler:
     expand_fieldset: when_required
     fields_display_mode: vertical_tab
@@ -23,10 +18,12 @@ third_party_settings:
     unpublish_enable: false
     unpublish_required: false
     unpublish_revision: false
-name: 'Base content'
-type: base_content
-description: null
-help: null
-new_revision: true
-preview_mode: 1
-display_submitted: false
+id: audio
+label: Audio
+description: ''
+source: audio_file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_audio_file
+field_map: {  }

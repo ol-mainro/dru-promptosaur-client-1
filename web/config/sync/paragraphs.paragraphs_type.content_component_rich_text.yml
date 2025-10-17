@@ -1,0 +1,10 @@
+uuid: 174c58b0-f3b0-486a-ac28-fa54b5c74457
+langcode: en
+status: true
+dependencies: {  }
+id: content_component_rich_text
+label: 'Content component rich text'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

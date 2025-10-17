@@ -1,0 +1,41 @@
+uuid: 08a48ae3-a026-4628-8ded-7f98bab5a5d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_component
+    - node.type.modular_base_content
+    - paragraphs.paragraphs_type.content_component_long_text
+    - paragraphs.paragraphs_type.content_component_media
+    - paragraphs.paragraphs_type.content_component_rich_text
+  module:
+    - entity_reference_revisions
+id: node.modular_base_content.field_content_component
+field_name: field_content_component
+entity_type: node
+bundle: modular_base_content
+label: 'Content component'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      content_component_media: content_component_media
+      content_component_long_text: content_component_long_text
+      content_component_rich_text: content_component_rich_text
+    negate: 0
+    target_bundles_drag_drop:
+      content_component_long_text:
+        weight: 5
+        enabled: true
+      content_component_media:
+        weight: 4
+        enabled: true
+      content_component_rich_text:
+        weight: 6
+        enabled: true
+field_type: entity_reference_revisions

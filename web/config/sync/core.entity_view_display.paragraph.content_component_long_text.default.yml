@@ -1,0 +1,20 @@
+uuid: 8e3f8bbe-3e28-4112-bffe-ce2d9a51dc5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.content_component_long_text.field_text
+    - paragraphs.paragraphs_type.content_component_long_text
+id: paragraph.content_component_long_text.default
+targetEntityType: paragraph
+bundle: content_component_long_text
+mode: default
+content:
+  field_text:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

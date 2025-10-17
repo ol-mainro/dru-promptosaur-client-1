@@ -1,0 +1,10 @@
+uuid: 2969a908-9a3f-4bae-a8c6-0da5bfa78e2a
+langcode: en
+status: true
+dependencies: {  }
+id: content_component_long_text
+label: 'Content component long text'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

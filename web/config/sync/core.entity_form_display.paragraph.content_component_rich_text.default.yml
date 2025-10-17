@@ -1,0 +1,25 @@
+uuid: a2eabda4-fd6a-471b-9ffa-77a59e9b40c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.content_component_rich_text.field_rich_text
+    - paragraphs.paragraphs_type.content_component_rich_text
+  module:
+    - text
+id: paragraph.content_component_rich_text.default
+targetEntityType: paragraph
+bundle: content_component_rich_text
+mode: default
+content:
+  field_rich_text:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
