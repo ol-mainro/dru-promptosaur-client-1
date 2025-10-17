@@ -17,7 +17,7 @@ ignore_cache: false
 read_only: false
 disable_cert_verify: false
 redirect_styles_ttl: 0
-root_folder: ''
+root_folder: promptosaur-websites-public-uploads
 public_folder: s3fs-public
 private_folder: s3fs-private
 presigned_urls: ''

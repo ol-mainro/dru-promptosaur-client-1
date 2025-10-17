@@ -24,19 +24,19 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 0
+    weight: 1
     region: content
   field_main_long_text:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 0
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
 hidden:
   field_domain_access: true
