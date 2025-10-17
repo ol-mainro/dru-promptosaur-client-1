@@ -37,7 +37,46 @@ function promptosaur_client_node_access(EntityInterface $entity, $operation, Acc
       if(!empty($myConfigPage)){
         $node_view_access_check_domain_ctrl = $myConfigPage->get('field_node_view_access_ctrl')->value;
       }
+
+      $domain_access_check_rules = \Drupal\config_pages\Entity\ConfigPages::config('domain_content_access_rule');
       // dump($variables);
+      if(!empty($domain_access_check_rules)){
+        $content_access_mode = $domain_access_check_rules->get('field_content_access_mode')->value;
+      }
+      // dump($variables);
+      // if($operation == "view" && $node_view_access_check_domain_ctrl == TRUE){
+        if($operation == "view"){
+
+          if($content_access_mode == "public"){
+            \Drupal::messenger()->addMessage("public");
+            return AccessResult::allowed();
+          }
+
+          if($content_access_mode == "neutral"){
+            \Drupal::messenger()->addMessage("neutral");
+            return AccessResult::neutral();
+          }
+
+          if($content_access_mode == "only_domain_affiliated_users"){
+            \Drupal::messenger()->addMessage("only_domain_affiliated_users");
+
+              // \Drupal::messenger()->addMessage($domain);
+              $node_domains_all = DomainAccessManager::getAllValue($entity);
+      
+              $current_uid = \Drupal::currentUser()->id();
+              $user = User::load($current_uid);
+              $user_domains = DomainAccessManager::getAccessValues($user);
+              // dump($user_domains);
+              $node_domains = DomainAccessManager::getAccessValues($entity);
+              // dump($node_domains);
+              
+              if(!empty($user_domains) && !empty($node_domains) && count(array_intersect_key($user_domains, $node_domains))){
+                  return AccessResult::allowed();
+              }
+          // No opinion.
+          return AccessResult::forbidden();
+          }
+      }
 
       // if($operation == "view" && $node_view_access_check_domain_ctrl == TRUE){
       if($operation == "view" && in_array($domain_id, $view_access_check_control_domains)){
@@ -55,7 +94,7 @@ function promptosaur_client_node_access(EntityInterface $entity, $operation, Acc
             }
         // No opinion.
         return AccessResult::forbidden();
-  }
+      }
 }
 
 function promptosaur_client_node_view(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display, $view_mode) : void {

@@ -1,0 +1,20 @@
+uuid: 0dbf5ba8-8500-4320-9389-77da02ae9a52
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.domain_content_access_rule
+    - field.field.config_pages.domain_content_access_rule.field_content_access_mode
+id: config_pages.domain_content_access_rule.default
+targetEntityType: config_pages
+bundle: domain_content_access_rule
+mode: default
+content:
+  field_content_access_mode:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  label: true

@@ -1,0 +1,30 @@
+uuid: f18e03ef-56e1-4ec3-9176-946b24632324
+langcode: en
+status: true
+dependencies:
+  module:
+    - config_pages
+    - options
+id: config_pages.field_content_access_mode
+field_name: field_content_access_mode
+entity_type: config_pages
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: public
+      label: public
+    -
+      value: only_domain_affiliated_users
+      label: 'only domain affiliated users'
+    -
+      value: neutral
+      label: neutral
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

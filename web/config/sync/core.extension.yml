@@ -97,6 +97,7 @@ module:
   redirect_404: 0
   responsive_image: 0
   rules: 0
+  s3fs: 0
   sam: 0
   scheduler: 0
   scheduler_content_moderation_integration: 0

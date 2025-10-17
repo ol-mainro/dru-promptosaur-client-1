@@ -1,0 +1,19 @@
+uuid: cde17bdb-9f2a-4353-8f74-291d29fb59bb
+langcode: en
+status: true
+dependencies: {  }
+id: domain_content_access_rule
+label: 'Domain content access rule'
+token: false
+context:
+  show_warning: true
+  group:
+    domain: true
+    language: false
+  fallback:
+    language: ''
+    domain: default
+menu:
+  path: ''
+  weight: 0
+  description: ''

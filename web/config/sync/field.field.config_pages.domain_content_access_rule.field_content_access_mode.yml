@@ -1,0 +1,21 @@
+uuid: 98d7b39f-599e-493f-93d0-12898106deba
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.domain_content_access_rule
+    - field.storage.config_pages.field_content_access_mode
+  module:
+    - options
+id: config_pages.domain_content_access_rule.field_content_access_mode
+field_name: field_content_access_mode
+entity_type: config_pages
+bundle: domain_content_access_rule
+label: content_access_mode
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
