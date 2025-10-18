@@ -1,6 +1,6 @@
 {% macro render_logo(dc_path, dc_logo_label, dc_logo_path, dc_logo_link, dc_logo_class) %}
     {% if dc_logo_label or dc_logo_path %}
-        <a href="{{ dc_logo_link ? dc_logo_link : '/' }}" target="_blank" class="{{ dc_logo_class }}">
+        <a href="{{ dc_logo_link ? dc_logo_link : '/' }}" class="{{ dc_logo_class }}">
             {% if dc_logo_path %}
                 <img src="{{ dc_logo_path }}" alt="{{ dc_logo_label }}" class="logo-md height-md">
             {% else %}
