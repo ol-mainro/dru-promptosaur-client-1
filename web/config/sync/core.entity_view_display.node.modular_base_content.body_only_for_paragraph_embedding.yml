@@ -1,8 +1,9 @@
-uuid: 48d5a5f5-d02d-4100-ac2b-51952b1c3c0c
+uuid: 65a955ad-bc11-408d-a637-9af17fc5ae8b
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.body_only_for_paragraph_embedding
     - field.field.node.modular_base_content.field_content_component
     - field.field.node.modular_base_content.field_domain_access
     - field.field.node.modular_base_content.field_domain_all_affiliates
@@ -10,12 +11,17 @@ dependencies:
     - node.type.modular_base_content
   module:
     - entity_reference_revisions
+    - layout_builder
     - text
     - user
-id: node.modular_base_content.default
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.modular_base_content.body_only_for_paragraph_embedding
 targetEntityType: node
 bundle: modular_base_content
-mode: default
+mode: body_only_for_paragraph_embedding
 content:
   field_content_component:
     type: entity_reference_revisions_entity_view
@@ -28,7 +34,7 @@ content:
     region: content
   field_main_long_text:
     type: text_default
-    label: hidden
+    label: above
     settings: {  }
     third_party_settings: {  }
     weight: 0

@@ -1,0 +1,10 @@
+uuid: 9ade90c7-00f2-45e0-84fe-50b028a97568
+langcode: en
+status: true
+dependencies: {  }
+id: content_component_ext_node_body
+label: 'Content component node body'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

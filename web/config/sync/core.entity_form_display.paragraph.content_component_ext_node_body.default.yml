@@ -1,0 +1,30 @@
+uuid: 9f3802b9-9c17-4cc1-bb24-7ba54d8327f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.content_component_ext_node_body.field_ext_node_ref
+    - paragraphs.paragraphs_type.content_component_ext_node_body
+  module:
+    - tagify
+id: paragraph.content_component_ext_node_body.default
+targetEntityType: paragraph
+bundle: content_component_ext_node_body
+mode: default
+content:
+  field_ext_node_ref:
+    type: tagify_entity_reference_autocomplete_widget
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      placeholder: ''
+      suggestions_dropdown: 1
+      show_entity_id: 0
+      show_info_label: 0
+      info_label: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

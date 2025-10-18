@@ -1,0 +1,11 @@
+uuid: 1331fb0c-ff44-47fa-a4c0-238c00834fef
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.body_only_for_paragraph_embedding
+label: 'Body only for paragraph embedding'
+description: null
+targetEntityType: node
+cache: true

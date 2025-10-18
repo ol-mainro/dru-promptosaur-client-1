@@ -1,0 +1,17 @@
+uuid: b6383ab3-a3d1-46fd-8ce0-df3d96ddd9bf
+langcode: en
+status: true
+dependencies: {  }
+id: media_bulk_import_mode_1
+label: 'Media bulk import mode 1'
+media_types:
+  audio: audio
+  document: document
+  image: image
+  video: video
+  remote_video: 0
+  svg_image: 0
+form_mode: default
+upload_location: ''
+show_alt: null
+show_title: null

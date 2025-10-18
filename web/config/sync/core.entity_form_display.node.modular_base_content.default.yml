@@ -27,7 +27,7 @@ content:
     third_party_settings: {  }
   field_content_component:
     type: paragraphs
-    weight: 1
+    weight: 2
     region: content
     settings:
       title: Paragraph
@@ -54,7 +54,7 @@ content:
     third_party_settings: {  }
   field_main_long_text:
     type: text_textarea_with_summary
-    weight: 2
+    weight: 1
     region: content
     settings:
       rows: 9

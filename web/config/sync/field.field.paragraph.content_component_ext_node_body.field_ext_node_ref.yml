@@ -1,0 +1,31 @@
+uuid: eb42254a-6071-4f1b-abfb-ea5430a001ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_ext_node_ref
+    - node.type.base_content
+    - node.type.generated_content
+    - paragraphs.paragraphs_type.content_component_ext_node_body
+id: paragraph.content_component_ext_node_body.field_ext_node_ref
+field_name: field_ext_node_ref
+entity_type: paragraph
+bundle: content_component_ext_node_body
+label: 'Node référence'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      base_content: base_content
+      generated_content: generated_content
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: base_content
+field_type: entity_reference

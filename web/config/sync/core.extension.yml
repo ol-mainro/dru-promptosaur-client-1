@@ -34,6 +34,7 @@ module:
   domain_config_ui: 0
   domain_menu_access: 0
   domain_theme_switch: 0
+  dropzonejs: 0
   drupal_cms_helper: 0
   dynamic_page_cache: 0
   easy_breadcrumb: 0
@@ -80,6 +81,8 @@ module:
   mailsystem: 0
   markdown_easy: 0
   media: 0
+  media_bulk_upload: 0
+  media_bulk_upload_dropzonejs: 0
   media_library: 0
   menu_link_attributes: 0
   menu_link_content: 0
@@ -105,6 +108,7 @@ module:
   scheduler: 0
   scheduler_content_moderation_integration: 0
   serialization: 0
+  simple_media_bulk_upload: 0
   svg_image: 0
   symfony_mailer_lite: 0
   system: 0
