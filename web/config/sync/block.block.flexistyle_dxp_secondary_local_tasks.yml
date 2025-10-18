@@ -1,0 +1,22 @@
+uuid: c09b4686-f841-4af4-b387-05de12a47b98
+langcode: en
+status: true
+dependencies:
+  theme:
+    - flexistyle_dxp
+_core:
+  default_config_hash: '-vvbqawLSLBMGsmUEzvEr05IOib9VNbUfqtnnciUjJ4'
+id: flexistyle_dxp_secondary_local_tasks
+theme: flexistyle_dxp
+region: highlighted
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

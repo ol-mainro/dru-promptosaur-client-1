@@ -1,0 +1,27 @@
+uuid: 4aada904-ad8d-4c85-95fb-282a95bae3cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - flexistyle_bootstrap
+_core:
+  default_config_hash: YR_r9RkA-KdA1Y9M3dGoqQA1Y8oVQJYLIhKMcQUtIq4
+id: flexistyle_bootstrap_main_menu
+theme: flexistyle_bootstrap
+region: primary_menu
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 4
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: a4cdbc1a-787e-45e1-a579-66d7f2e3d3aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flexistyle_bootstrap
+_core:
+  default_config_hash: cTNEI2h-WyKxPITj4IDP3gJCXvQ1ztTB5kSxEjj_Zuo
+id: flexistyle_bootstrap_content
+theme: flexistyle_bootstrap
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

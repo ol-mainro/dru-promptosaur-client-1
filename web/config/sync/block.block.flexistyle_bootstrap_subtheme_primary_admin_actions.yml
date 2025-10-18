@@ -1,0 +1,20 @@
+uuid: 0125e722-dbe7-4fa5-91a6-c34aa4abdc2f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - flexistyle_bootstrap_subtheme
+_core:
+  default_config_hash: H0bUxXGXpkJhPSbR3XJRS3T6sYXCcGhNkl2dfBcSz4k
+id: flexistyle_bootstrap_subtheme_primary_admin_actions
+theme: flexistyle_bootstrap_subtheme
+region: highlighted
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

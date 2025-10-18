@@ -1,0 +1,25 @@
+uuid: e9c74b1b-0c9b-47f5-8adf-77023295ad76
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flexistyle_dxp
+_core:
+  default_config_hash: 8HmaBya81a9LRT9VKH-Ad7_s9MwQx-6I1SsYH05OlD4
+id: flexistyle_dxp_site_branding
+theme: flexistyle_dxp
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

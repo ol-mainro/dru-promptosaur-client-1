@@ -1,0 +1,20 @@
+uuid: 97ab9528-c225-4c06-843e-c4c9ac67ec0a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - flexistyle_dxp
+_core:
+  default_config_hash: iuztfIUCxW_pthp8PecXeN1UoImnANrVNWwhuuf0ABg
+id: flexistyle_dxp_page_title
+theme: flexistyle_dxp
+region: breadcrumb
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

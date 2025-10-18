@@ -1,0 +1,22 @@
+uuid: f21db38b-7c36-48c9-8fac-03aa8d0efaba
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flexistyle_bootstrap
+_core:
+  default_config_hash: m7H_9_rY8lFZqmY6I3kAw9j-JFGJ0iMFt3Qtqtrn_v0
+id: flexistyle_bootstrap_poweredbydrupal
+theme: flexistyle_bootstrap
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

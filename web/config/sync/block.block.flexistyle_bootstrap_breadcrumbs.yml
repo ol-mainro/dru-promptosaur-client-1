@@ -1,0 +1,22 @@
+uuid: 602838e6-22a5-43aa-954c-f6eaeba8d440
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flexistyle_bootstrap
+_core:
+  default_config_hash: ck47n4uO40CRhkKQqG31FjLjAksUPYJShca00BXY7rg
+id: flexistyle_bootstrap_breadcrumbs
+theme: flexistyle_bootstrap
+region: breadcrumb
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

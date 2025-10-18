@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d652defa21bcf8b6df7adf9d8a9c34dc",
+    "content-hash": "3ea13431793f6259b5c116f1143a6c38",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5997,6 +5997,96 @@
             }
         },
         {
+            "name": "drupal/flexistyle_bootstrap",
+            "version": "1.3.7",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/flexistyle_bootstrap.git",
+                "reference": "1.3.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/flexistyle_bootstrap-1.3.7.zip",
+                "reference": "1.3.7",
+                "shasum": "9c2f5b2fcbbb8e928b51caf2cafff1c36ec0f8ee"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12",
+                "twbs/bootstrap": "^5.2.2"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "1.3.7",
+                    "datestamp": "1740548810",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Anoop Singh",
+                    "homepage": "https://www.drupal.org/user/3497931"
+                }
+            ],
+            "description": "FlexiStyle Bootstrap theme is a base theme for Drupal. This theme is fully compatible with Drupal 10.",
+            "homepage": "https://www.drupal.org/project/flexistyle_bootstrap",
+            "support": {
+                "source": "https://git.drupalcode.org/project/flexistyle_bootstrap"
+            }
+        },
+        {
+            "name": "drupal/flexistyle_dxp",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/flexistyle_dxp.git",
+                "reference": "1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/flexistyle_dxp-1.0.3.zip",
+                "reference": "1.0.3",
+                "shasum": "d8bad32499ba1438dc5c7d2c9d432719d852a440"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12",
+                "drupal/flexistyle_bootstrap": ">=1.3"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.3",
+                    "datestamp": "1735285646",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Anoop Singh",
+                    "homepage": "https://www.drupal.org/user/3497931"
+                }
+            ],
+            "description": "FlexiStyle DXP theme is a child theme of FlexiStyle Bootstrap.",
+            "homepage": "https://www.drupal.org/project/flexistyle_dxp",
+            "support": {
+                "source": "https://git.drupalcode.org/project/flexistyle_dxp"
+            }
+        },
+        {
             "name": "drupal/focal_point",
             "version": "2.1.2",
             "source": {
@@ -9813,6 +9903,52 @@
                 "source": "https://git.drupalcode.org/project/smart_date",
                 "issues": "https://www.drupal.org/project/issues/smart_date",
                 "documentation": "https://www.drupal.org/docs/contributed-modules/smart-date"
+            }
+        },
+        {
+            "name": "drupal/solo",
+            "version": "1.0.26",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/solo.git",
+                "reference": "1.0.26"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/solo-1.0.26.zip",
+                "reference": "1.0.26",
+                "shasum": "53d0805a03a76955ba7fd62c85eee738fa72b3a0"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.26",
+                    "datestamp": "1760142823",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Alaa Haddad (alaahaddad.com)",
+                    "homepage": "https://www.drupal.org/u/flashwebcenter",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Speed, Elegance & Ease of Development and Use.",
+            "homepage": "https://drupal.org/project/solo",
+            "support": {
+                "source": "https://git.drupalcode.org/project/solo",
+                "issues": "https://drupal.org/project/issues/solo"
             }
         },
         {
@@ -17550,6 +17686,56 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/v2.3.0"
             },
             "time": "2024-12-21T16:25:41+00:00"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v5.3.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "25aa8cc0b32f0d1a54be575347e6d84b70b1acd7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/25aa8cc0b32f0d1a54be575347e6d84b70b1acd7",
+                "reference": "25aa8cc0b32f0d1a54be575347e6d84b70b1acd7",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                },
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/twbs/bootstrap/issues",
+                "source": "https://github.com/twbs/bootstrap/tree/v5.3.8"
+            },
+            "time": "2025-08-26T02:01:02+00:00"
         },
         {
             "name": "twig/twig",

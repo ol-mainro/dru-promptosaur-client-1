@@ -1,0 +1,27 @@
+uuid: ee4c491a-ef30-4b9e-8fa5-068051596564
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - flexistyle_bootstrap_subtheme
+_core:
+  default_config_hash: 2i62tNC9yD0x3NzVICdbg5qS3l-6kLef2owKl2TlQyA
+id: flexistyle_bootstrap_subtheme_footer
+theme: flexistyle_bootstrap_subtheme
+region: footer_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer links'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

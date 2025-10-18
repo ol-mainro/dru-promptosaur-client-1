@@ -1,0 +1,30 @@
+.header-style-1.navbar-expand-lg .navbar-nav .nav-item .nav-link:hover, .header-style-1.navbar-expand-lg .navbar-nav .nav-item .nav-link.is-active, .header-style-1.navbar-expand-lg .navbar-nav .nav-item .nav-link.active {
+  color: var(--bs-navbar-hover-color);
+}
+.flex-header .navbar-nav li .nav-link {
+  padding: 5px 24px 8px;
+}
+.flex-header .navbar-nav li .nav-link.active, .flex-header .navbar-nav li .nav-link.is-active {
+  background: var(--bs-primary-hover);
+}
+.flex-header .navbar-brand img {
+  width: 80px;
+}
+.flex-header .search-block-form {
+  position: relative;
+}
+.flex-header .search-block-form #searchBox {
+  position: absolute;
+  right: 0;
+  z-index: 11;
+}
+.flex-header .header-style-1 .search-block-form #searchBox,
+.flex-header .header-style-3 .search-block-form #searchBox {
+  top: 65px;
+}
+.flex-header .header-style-2 .search-block-form #searchBox {
+  top: 103px;
+}
+.flex-header .offcanvas-body .region:not(:last-child) {
+  margin-bottom: 15px;
+}

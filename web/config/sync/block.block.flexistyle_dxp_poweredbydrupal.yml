@@ -1,0 +1,22 @@
+uuid: f2511ef4-d608-4fbc-a16b-b24b26c000cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flexistyle_dxp
+_core:
+  default_config_hash: fQmRq-E4NhERdkQ66BKVPtn24UdbR8JNYtFz0Bb9LGk
+id: flexistyle_dxp_poweredbydrupal
+theme: flexistyle_dxp
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: 36f0c768-f7c3-4b61-8bc1-42e8d16c1b2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - flexistyle_dxp
+_core:
+  default_config_hash: 45N_8U50zA4Gw5gZQGcELPOCM1B4TqWpHvWf2-V6Od8
+id: flexistyle_dxp_account_menu
+theme: flexistyle_dxp
+region: secondary_menu
+weight: -11
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

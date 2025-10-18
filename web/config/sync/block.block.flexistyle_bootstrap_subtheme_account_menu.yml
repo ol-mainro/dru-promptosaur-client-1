@@ -1,0 +1,27 @@
+uuid: 6c7faff0-7f4d-4d9b-9029-79277c3049b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - flexistyle_bootstrap_subtheme
+_core:
+  default_config_hash: 6m7fnrhZl3zEwjNF-RxRPSdBJjk2oO0Je4-psyp72ow
+id: flexistyle_bootstrap_subtheme_account_menu
+theme: flexistyle_bootstrap_subtheme
+region: secondary_menu
+weight: -11
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

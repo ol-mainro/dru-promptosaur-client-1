@@ -1,0 +1,20 @@
+uuid: 7cca4983-37b2-47ca-b740-8667b3cc507a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - flexistyle_bootstrap
+_core:
+  default_config_hash: snJqm73DPcY1pzWvRQvjHWqDKBM0Y-azhNc1c6_sSNc
+id: flexistyle_bootstrap_page_title
+theme: flexistyle_bootstrap
+region: breadcrumb
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

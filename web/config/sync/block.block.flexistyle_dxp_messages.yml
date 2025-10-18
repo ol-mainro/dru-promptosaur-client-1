@@ -1,0 +1,22 @@
+uuid: 5edce410-e466-471e-b005-930ce9a028af
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flexistyle_dxp
+_core:
+  default_config_hash: qyeOUbj3ylRiw6JC2Oibqr36unqlAOlHAkjrA66T9dg
+id: flexistyle_dxp_messages
+theme: flexistyle_dxp
+region: highlighted
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

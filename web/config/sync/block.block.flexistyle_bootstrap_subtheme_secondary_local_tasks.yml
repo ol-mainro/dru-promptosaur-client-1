@@ -1,0 +1,22 @@
+uuid: e5b457a8-9fd8-4af1-9604-24583c0584fe
+langcode: en
+status: true
+dependencies:
+  theme:
+    - flexistyle_bootstrap_subtheme
+_core:
+  default_config_hash: zZteZxO5pHN8_i0JIP_ZjFUxtPcV796FQOWPe10lJSQ
+id: flexistyle_bootstrap_subtheme_secondary_local_tasks
+theme: flexistyle_bootstrap_subtheme
+region: highlighted
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

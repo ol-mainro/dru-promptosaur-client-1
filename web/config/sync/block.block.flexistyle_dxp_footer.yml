@@ -1,0 +1,27 @@
+uuid: 2e2a300d-fcd7-4126-b42a-77a3d4f5d597
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - flexistyle_dxp
+_core:
+  default_config_hash: fFZ9dswJVr6WSB79ob0Is4wYq9wd5NzBQApQRFTahhA
+id: flexistyle_dxp_footer
+theme: flexistyle_dxp
+region: footer_second
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer links'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

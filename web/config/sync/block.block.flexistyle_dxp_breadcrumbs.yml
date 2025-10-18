@@ -1,0 +1,22 @@
+uuid: c15e118e-04ce-455a-8f9f-7a28a77908d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flexistyle_dxp
+_core:
+  default_config_hash: 61Eu3swxW1YnyMfYN3Nyjpe9A2vgjfGe92XHhrpkoJc
+id: flexistyle_dxp_breadcrumbs
+theme: flexistyle_dxp
+region: breadcrumb
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

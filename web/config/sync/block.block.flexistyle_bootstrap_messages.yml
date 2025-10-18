@@ -1,0 +1,22 @@
+uuid: bec9e1a4-d28c-42b6-8849-c9245463f81e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flexistyle_bootstrap
+_core:
+  default_config_hash: cjwQJcbZWCKdqbN_8iUzPGeU3Eg2YTh3DtQF1xPhv_E
+id: flexistyle_bootstrap_messages
+theme: flexistyle_bootstrap
+region: highlighted
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

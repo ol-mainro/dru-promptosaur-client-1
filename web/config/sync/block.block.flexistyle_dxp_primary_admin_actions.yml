@@ -1,0 +1,20 @@
+uuid: ad683564-1716-4ae8-aae4-1ce667bd797a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - flexistyle_dxp
+_core:
+  default_config_hash: ze5N94lPlp15hdpV8MiKgi3YEoY2kec38vHBHU7_qrI
+id: flexistyle_dxp_primary_admin_actions
+theme: flexistyle_dxp
+region: highlighted
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 893e094f-31a1-44f1-b6d3-b2e0009d51d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flexistyle_dxp
+_core:
+  default_config_hash: pNBV2NNi7TqlYGFyRh1i87e4P9ZvaAjc4U1DJO03B08
+id: flexistyle_dxp_content
+theme: flexistyle_dxp
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

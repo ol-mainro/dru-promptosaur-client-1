@@ -1,0 +1,25 @@
+uuid: d46f1403-7b67-4dc3-a8d5-79642f66562f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - flexistyle_bootstrap
+_core:
+  default_config_hash: _OPL6krWGXNmwYbH85-_3lkbrKQ1w0x9UVXeNc5g2V8
+id: flexistyle_bootstrap_site_branding
+theme: flexistyle_bootstrap
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }
