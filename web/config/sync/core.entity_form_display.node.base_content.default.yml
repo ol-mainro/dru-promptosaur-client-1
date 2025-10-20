@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.base_content.field_domain_access
     - field.field.node.base_content.field_domain_all_affiliates
     - field.field.node.base_content.field_image
+    - field.field.node.base_content.field_inline_tags
     - image.style.thumbnail
     - node.type.base_content
   module:
@@ -56,6 +57,14 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_inline_tags:
+    type: string_textfield
+    weight: 16
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   langcode:
     type: language_select
