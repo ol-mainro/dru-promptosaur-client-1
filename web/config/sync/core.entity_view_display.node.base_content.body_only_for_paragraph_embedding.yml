@@ -11,25 +11,14 @@ dependencies:
     - field.field.node.base_content.field_inline_tags
     - node.type.base_content
   module:
-    - ds
     - layout_builder
+    - layout_discovery
     - text
     - user
 third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
-  ds:
-    layout:
-      id: layout_onecol
-      library: layout_discovery/onecol
-      disable_css: false
-      entity_classes: all_classes
-      settings:
-        label: ''
-    regions:
-      content:
-        - body
 id: node.base_content.body_only_for_paragraph_embedding
 targetEntityType: node
 bundle: base_content
