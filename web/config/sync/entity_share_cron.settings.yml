@@ -18,14 +18,38 @@ remotes:
         operations:
           create: true
           update: true
-      generated_contents:
-        enabled: false
+      alice_ecole_channel:
+        enabled: true
         import_config: import_generated_contet
         operations:
           create: true
           update: true
-      prompts:
-        enabled: false
+      base_contents:
+        enabled: true
+        import_config: import_generated_contet
+        operations:
+          create: true
+          update: true
+      clap_studio_channel:
+        enabled: true
+        import_config: import_generated_contet
+        operations:
+          create: true
+          update: true
+      humans_channel:
+        enabled: true
+        import_config: import_generated_contet
+        operations:
+          create: true
+          update: true
+      local_scientific_tourism_channel:
+        enabled: true
+        import_config: import_generated_contet
+        operations:
+          create: true
+          update: true
+      promptosaur_project_channel:
+        enabled: true
         import_config: import_generated_contet
         operations:
           create: true
