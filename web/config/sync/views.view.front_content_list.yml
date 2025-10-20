@@ -473,3 +473,27 @@ display:
         - 'user.node_grants:view'
         - user.permissions
       tags: {  }
+  page_3:
+    id: page_3
+    display_title: tests
+    display_plugin: page
+    position: 3
+    display_options:
+      access:
+        type: none
+        options: {  }
+      defaults:
+        access: false
+      display_description: ''
+      display_extenders: {  }
+      path: test_list_content_page
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - url.site
+        - 'user.node_grants:view'
+      tags: {  }

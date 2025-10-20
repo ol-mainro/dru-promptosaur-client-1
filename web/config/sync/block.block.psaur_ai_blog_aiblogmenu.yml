@@ -1,0 +1,25 @@
+uuid: 96b39684-1eab-4703-bc93-d72dec9ebfae
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.ai-blog-menu
+  module:
+    - system
+  theme:
+    - psaur_ai_blog
+id: psaur_ai_blog_aiblogmenu
+theme: psaur_ai_blog
+region: header
+weight: -4
+provider: null
+plugin: 'system_menu_block:ai-blog-menu'
+settings:
+  id: 'system_menu_block:ai-blog-menu'
+  label: 'AI blog menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,8 @@
+uuid: 8809cfa0-1686-4440-bbd4-35c44f27a035
+langcode: fr
+status: true
+dependencies: {  }
+id: ai-blog-menu
+label: 'AI blog menu'
+description: ''
+locked: false
