@@ -3,15 +3,24 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.media.audio.field_description
     - field.field.media.audio.field_media_audio_file
     - media.type.audio
   module:
     - file
+    - text
 id: media.audio.default
 targetEntityType: media
 bundle: audio
 mode: default
 content:
+  field_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
   field_media_audio_file:
     type: file_audio
     label: visually_hidden
@@ -21,7 +30,7 @@ content:
       loop: false
       multiple_file_display_type: tags
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
   name:
     type: string
