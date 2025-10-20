@@ -10,14 +10,25 @@ dependencies:
     - field.field.node.base_content.field_image
     - node.type.base_content
   module:
+    - ds
     - layout_builder
-    - svg_image
     - text
     - user
 third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
+  ds:
+    layout:
+      id: layout_onecol
+      library: layout_discovery/onecol
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      content:
+        - body
 id: node.base_content.body_only_for_paragraph_embedding
 targetEntityType: node
 bundle: base_content
@@ -30,27 +41,9 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_image:
-    type: image
-    label: hidden
-    settings:
-      image_link: ''
-      image_style: ''
-      image_loading:
-        attribute: lazy
-      svg_attributes:
-        width: null
-        height: null
-      svg_render_as_image: true
-    third_party_settings: {  }
-    weight: 1
-    region: content
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
-    region: content
 hidden:
   field_domain_access: true
   field_domain_all_affiliates: true
+  field_image: true
   langcode: true
+  links: true

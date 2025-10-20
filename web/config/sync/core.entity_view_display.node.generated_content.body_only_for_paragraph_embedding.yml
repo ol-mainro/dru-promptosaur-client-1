@@ -14,6 +14,7 @@ dependencies:
     - field.field.node.generated_content.field_variant
     - node.type.generated_content
   module:
+    - ds
     - layout_builder
     - text
     - user
@@ -21,6 +22,17 @@ third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
+  ds:
+    layout:
+      id: layout_onecol
+      library: layout_discovery/onecol
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        label: ''
+    regions:
+      content:
+        - body
 id: node.generated_content.body_only_for_paragraph_embedding
 targetEntityType: node
 bundle: generated_content
@@ -33,19 +45,12 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_llm_sources:
-    type: string
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 1
-    region: content
 hidden:
   field_assigned_user: true
   field_domain_access: true
   field_domain_all_affiliates: true
   field_inline_tags: true
+  field_llm_sources: true
   field_tags: true
   field_variant: true
   langcode: true

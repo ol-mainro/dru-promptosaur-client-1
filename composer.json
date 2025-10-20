@@ -62,6 +62,7 @@
         "drupal/domain_theme_switch": "^2.1",
         "drupal/drupal_cms_helper": "^1.2",
         "drupal/drupal_cms_olivero": "^1.2",
+        "drupal/ds": "^3.30",
         "drupal/easy_breadcrumb": "^2.0.9",
         "drupal/easy_email": "^3.0.2",
         "drupal/easy_email_theme": "^1",
