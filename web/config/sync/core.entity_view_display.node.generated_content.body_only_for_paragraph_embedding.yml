@@ -14,7 +14,6 @@ dependencies:
     - field.field.node.generated_content.field_variant
     - node.type.generated_content
   module:
-    - ds
     - layout_builder
     - text
     - user
@@ -22,17 +21,6 @@ third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
-  ds:
-    layout:
-      id: layout_onecol
-      library: layout_discovery/onecol
-      disable_css: false
-      entity_classes: all_classes
-      settings:
-        label: ''
-    regions:
-      content:
-        - body
 id: node.generated_content.body_only_for_paragraph_embedding
 targetEntityType: node
 bundle: generated_content

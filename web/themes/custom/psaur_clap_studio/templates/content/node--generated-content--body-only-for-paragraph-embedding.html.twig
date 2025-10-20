@@ -72,8 +72,14 @@
   ]
 %}
 {{ attach_library('bootstrap5/node') }}
-ooooooooo<article{{ attributes.addClass(classes) }}>
+<article{{ attributes.addClass(classes) }}>
 
+  {{ title_prefix }}
+  {% if label and not page %}
+    <h3>
+      {{ label }}
+    </h3>
+  {% endif %}
   {% if display_submitted %}
     <footer class="node__meta">
       {{ author_picture }}
