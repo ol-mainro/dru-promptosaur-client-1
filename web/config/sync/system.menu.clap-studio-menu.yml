@@ -1,0 +1,8 @@
+uuid: 8226d2df-be95-446d-9c45-59825e9cb511
+langcode: und
+status: true
+dependencies: {  }
+id: clap-studio-menu
+label: 'Clap Studio menu'
+description: ''
+locked: false

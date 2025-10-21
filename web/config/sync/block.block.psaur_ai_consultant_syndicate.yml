@@ -1,6 +1,6 @@
 uuid: 088a8ac4-5bda-459f-8e00-5dfcd53d7023
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - node
@@ -10,8 +10,8 @@ _core:
   default_config_hash: VWb0lGWrFtZscO3FyYC0Za4_lgMhRIJgYcDJ69J8xWo
 id: psaur_ai_consultant_syndicate
 theme: psaur_ai_consultant
-region: sidebar_first
-weight: -17
+region: footer
+weight: -4
 provider: null
 plugin: node_syndicate_block
 settings:

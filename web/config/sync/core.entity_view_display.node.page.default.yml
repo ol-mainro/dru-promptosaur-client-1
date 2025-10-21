@@ -24,6 +24,32 @@ third_party_settings:
       -
         layout_id: layout_onecol
         layout_settings:
+          label: image
+          context_mapping: {  }
+        components:
+          390bf286-bdc5-4813-b512-d3ac8ad17dec:
+            uuid: 390bf286-bdc5-4813-b512-d3ac8ad17dec
+            region: content
+            configuration:
+              id: 'field_block:node:page:field_featured_image'
+              label: 'Featured image'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
           label: ''
         components:
           541922dc-a8c8-4b74-9cdd-88a1f5d053dd:

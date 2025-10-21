@@ -19,12 +19,12 @@ site_global_breakpoints: sb-992
 site_regions_collapse_order: 0
 site_menu_breakpoints: mn-992
 site_global_regions_gap: '16'
-site_global_font_size: '16'
+site_global_font_size: '18'
 site_node_date_format: solo_date_l
 site_import_google_font: ''
 site_reading_mode_content_type: {  }
 disable_block_title_visibility: ''
-site_css_injector: ''
+site_css_injector: "@media (max-width: 74.9988rem) {\r\n    h1.page-title-text span{\r\n        font-size:70%;\r\n    }"
 site_css_dynamic: ''
 site_js_dynamic: ''
 site_login_page_on: 0
@@ -36,11 +36,11 @@ site_toggle_speed: normal
 site_load_w3css_on: 0
 site_font_google_local_on: 0
 site_font_awesome_on: '1'
-site_font_google_global_on: solo-oxygen
-site_font_google_heading_on: ''
+site_font_google_global_on: solo-source-sans-3
+site_font_google_heading_on: solo-fjalla-one
 site_font_google_special_on: ''
 theme_category: elegant_whites_and_neutrals
-predefined_current_theme: elegant_whites_and_neutrals|solo-luminous-alabaster
+predefined_current_theme: elegant_whites_and_neutrals|solo-porcelain-brilliance
 placeholder_info: ''
 classes_page_wrapper: ''
 opacity_page_wrapper: 0
@@ -208,8 +208,8 @@ header_sitename_center_small: 0
 header_change_icons: 0
 header_logo_image_alt: ''
 site_name_font_size_s: '18'
-site_name_font_size_l: ''
-site_name_google_font: ''
+site_name_font_size_l: '36'
+site_name_google_font: solo-poiret-one
 site_name_animate_on: ''
 skip_header_content: 0
 settings_header___r_bg: ''

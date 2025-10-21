@@ -1,0 +1,8 @@
+uuid: 40a22308-e0a2-4b39-9445-d43dc2e4caa3
+langcode: und
+status: true
+dependencies: {  }
+id: personal-assistant-menu
+label: 'Personal assistant menu'
+description: ''
+locked: false

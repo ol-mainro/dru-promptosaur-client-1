@@ -10,13 +10,13 @@ _core:
   default_config_hash: EJYkls2r3VXweQ6HWA62xqSLC6wdvlEe5R3fsa-1RJc
 id: nava_breadcrumbs
 theme: nava
-region: page_header
-weight: -7
+region: hero
+weight: -5
 provider: null
 plugin: system_breadcrumb_block
 settings:
   id: system_breadcrumb_block
-  label: Breadcrumbs
+  label: "Fils d'ariane"
   label_display: '0'
   provider: system
 visibility: {  }

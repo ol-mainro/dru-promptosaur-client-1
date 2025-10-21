@@ -1,6 +1,6 @@
 uuid: cf97bd6a-3d1f-455f-b782-f6494fa3e672
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: yF1NcATLLhLNdhKxZGXUHr3AgkVf3mITKtTbmEGArQw
 id: psaur_ai_consultant_powered
 theme: psaur_ai_consultant
-region: sidebar_first
-weight: -6
+region: footer
+weight: -5
 provider: null
 plugin: system_powered_by_block
 settings:

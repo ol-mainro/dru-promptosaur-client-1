@@ -1,0 +1,8 @@
+uuid: d01cfbf7-f73f-4111-8801-edf7c451c4ce
+langcode: und
+status: true
+dependencies: {  }
+id: alice-ecole-menu
+label: 'Alice école menu'
+description: ''
+locked: false

@@ -1,0 +1,8 @@
+uuid: 0791255a-c6c2-4a14-a64b-301875904e12
+langcode: und
+status: true
+dependencies: {  }
+id: humains-menu
+label: 'Humains menu'
+description: ''
+locked: false

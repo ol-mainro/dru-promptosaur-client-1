@@ -1,0 +1,25 @@
+uuid: f82edfd0-e1eb-40e4-8568-3c6ccb94e08a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.ai-consultant-menu
+  module:
+    - system
+  theme:
+    - psaur_ai_consultant
+id: psaur_ai_consultant_aiconsultantmenu
+theme: psaur_ai_consultant
+region: header
+weight: -5
+provider: null
+plugin: 'system_menu_block:ai-consultant-menu'
+settings:
+  id: 'system_menu_block:ai-consultant-menu'
+  label: 'AI consultant menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

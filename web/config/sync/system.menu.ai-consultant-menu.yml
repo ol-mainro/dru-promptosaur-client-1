@@ -1,0 +1,8 @@
+uuid: ce213746-e24f-4763-87e2-c78e9c605aab
+langcode: und
+status: true
+dependencies: {  }
+id: ai-consultant-menu
+label: 'AI consultant menu'
+description: ''
+locked: false

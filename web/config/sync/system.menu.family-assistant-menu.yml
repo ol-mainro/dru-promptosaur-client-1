@@ -1,0 +1,8 @@
+uuid: 572336c4-0251-47f9-8f2c-d4390b31ca7b
+langcode: und
+status: true
+dependencies: {  }
+id: family-assistant-menu
+label: 'Family assistant'
+description: ''
+locked: false

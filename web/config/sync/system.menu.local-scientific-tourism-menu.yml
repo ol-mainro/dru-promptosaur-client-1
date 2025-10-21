@@ -1,0 +1,8 @@
+uuid: 07857504-d829-4b60-86c3-fb14083d052e
+langcode: und
+status: true
+dependencies: {  }
+id: local-scientific-tourism-menu
+label: 'Local scientific tourism'
+description: ''
+locked: false

@@ -12,8 +12,8 @@ _core:
   default_config_hash: 2TBER4QGf3aDAR08p65ZBfVPstUa-Gg__7Alm6iLhaw
 id: psaur_ai_consultant_account_menu
 theme: psaur_ai_consultant
-region: sidebar_first
-weight: -5
+region: header
+weight: -6
 provider: null
 plugin: 'system_menu_block:account'
 settings:

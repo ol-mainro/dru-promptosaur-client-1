@@ -1,0 +1,25 @@
+uuid: 28898194-51b0-4e6b-918b-7591b5f1cdd7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.clap-studio-menu
+  module:
+    - system
+  theme:
+    - psaur_clap_studio
+id: psaur_clap_studio_clapstudiomenu
+theme: psaur_clap_studio
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:clap-studio-menu'
+settings:
+  id: 'system_menu_block:clap-studio-menu'
+  label: 'Clap Studio menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

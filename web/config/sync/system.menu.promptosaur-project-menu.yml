@@ -1,0 +1,8 @@
+uuid: 98639220-102d-4f0c-9df0-25cde02f2ea2
+langcode: und
+status: true
+dependencies: {  }
+id: promptosaur-project-menu
+label: 'Promptosaur project'
+description: ''
+locked: false
