@@ -1,0 +1,25 @@
+uuid: dac8b9f7-9ce0-4cc1-8adc-8dc5b35c97f7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.navigation-user-links
+  module:
+    - system
+  theme:
+    - psaur_clap_studio
+id: psaur_clap_studio_navigationuserlinks
+theme: psaur_clap_studio
+region: primary_menu
+weight: -6
+provider: null
+plugin: 'system_menu_block:navigation-user-links'
+settings:
+  id: 'system_menu_block:navigation-user-links'
+  label: 'Navigation user links'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

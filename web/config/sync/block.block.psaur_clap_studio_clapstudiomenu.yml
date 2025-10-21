@@ -10,8 +10,8 @@ dependencies:
     - psaur_clap_studio
 id: psaur_clap_studio_clapstudiomenu
 theme: psaur_clap_studio
-region: primary_menu
-weight: 0
+region: secondary_menu
+weight: -6
 provider: null
 plugin: 'system_menu_block:clap-studio-menu'
 settings:

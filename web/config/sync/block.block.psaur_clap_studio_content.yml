@@ -11,7 +11,7 @@ _core:
 id: psaur_clap_studio_content
 theme: psaur_clap_studio
 region: content
-weight: -1
+weight: -3
 provider: null
 plugin: system_main_block
 settings:
