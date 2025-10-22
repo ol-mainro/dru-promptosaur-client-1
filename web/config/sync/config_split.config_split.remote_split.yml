@@ -1,0 +1,18 @@
+uuid: 3387a492-08a0-4925-885f-88de80466229
+langcode: fr
+status: true
+dependencies: {  }
+id: remote_split
+label: 'remote split'
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: remote
+module: {  }
+theme: {  }
+complete_list:
+  - 'backup_migrate.backup_migrate_schedule.*'
+  - 'backup_migrate.backup_migrate_settings.*'
+partial_list: {  }
