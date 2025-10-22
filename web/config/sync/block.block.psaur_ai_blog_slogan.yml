@@ -1,0 +1,30 @@
+uuid: 60fc7063-9eb7-4da2-ae7b-d0627a7f7534
+langcode: fr
+status: false
+dependencies:
+  content:
+    - 'block_content:basic_text_block:c8ef564b-8c2a-46b3-a2a0-5d2e856357f2'
+  module:
+    - block_content
+    - system
+  theme:
+    - psaur_ai_blog
+id: psaur_ai_blog_slogan
+theme: psaur_ai_blog
+region: primary_menu
+weight: -5
+provider: null
+plugin: 'block_content:c8ef564b-8c2a-46b3-a2a0-5d2e856357f2'
+settings:
+  id: 'block_content:c8ef564b-8c2a-46b3-a2a0-5d2e856357f2'
+  label: Slogan
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

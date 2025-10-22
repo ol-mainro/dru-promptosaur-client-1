@@ -1,0 +1,20 @@
+uuid: 89f8bbd0-06b4-4ce2-a795-7b54133fb9f3
+langcode: fr
+status: true
+dependencies: {  }
+id: local_dev_split
+label: 'local dev split'
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: local-dev
+module: {  }
+theme: {  }
+complete_list:
+  - backup_migrate.backup_migrate_schedule.daily_schedule
+  - backup_migrate.backup_migrate_schedule.weekly
+  - backup_migrate.backup_migrate_settings.aws_s3
+  - backup_migrate.backup_migrate_settings.promptosaur_websites_backup
+partial_list: {  }

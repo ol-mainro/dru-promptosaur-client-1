@@ -1,0 +1,8 @@
+uuid: 0448c57d-2eb8-4000-80d0-74a73e0d50ca
+langcode: fr
+status: true
+dependencies: {  }
+id: basic_text_block
+label: 'Basic text block'
+revision: false
+description: null
