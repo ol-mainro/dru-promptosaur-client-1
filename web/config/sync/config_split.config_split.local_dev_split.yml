@@ -17,4 +17,6 @@ complete_list:
   - backup_migrate.backup_migrate_schedule.weekly
   - backup_migrate.backup_migrate_settings.aws_s3
   - backup_migrate.backup_migrate_settings.promptosaur_websites_backup
+  - 'backup_migrate.backup_migrate_schedule.*'
+  - 'backup_migrate.backup_migrate_settings.*'
 partial_list: {  }
