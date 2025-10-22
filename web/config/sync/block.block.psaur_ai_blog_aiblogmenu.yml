@@ -1,6 +1,6 @@
 uuid: 96b39684-1eab-4703-bc93-d72dec9ebfae
 langcode: fr
-status: true
+status: false
 dependencies:
   config:
     - system.menu.ai-blog-menu
