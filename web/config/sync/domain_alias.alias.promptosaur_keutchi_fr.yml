@@ -1,0 +1,9 @@
+uuid: 090fbdd5-04be-4c62-8e8f-d1cf8c563d97
+langcode: en
+status: true
+dependencies: {  }
+id: promptosaur_keutchi_fr
+domain_id: promptosaur_project
+pattern: promptosaur.keutchi.fr
+redirect: 0
+environment: default

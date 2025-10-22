@@ -1,0 +1,9 @@
+uuid: 56e036be-762f-4c64-b172-3fac0dba30d5
+langcode: en
+status: true
+dependencies: {  }
+id: consultant_ia_gen_keutchi_fr
+domain_id: ai_consultant
+pattern: consultant-ia-gen.keutchi.fr
+redirect: 0
+environment: default

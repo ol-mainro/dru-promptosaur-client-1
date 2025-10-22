@@ -1,0 +1,9 @@
+uuid: 906bcc93-194d-4dc8-808f-a9ead2a01234
+langcode: en
+status: true
+dependencies: {  }
+id: clap_studio_keutchi_fr
+domain_id: clap_studio
+pattern: clap-studio.keutchi.fr
+redirect: 0
+environment: default

@@ -1,0 +1,9 @@
+uuid: 1af23c47-e049-4745-9b86-887deea39679
+langcode: en
+status: true
+dependencies: {  }
+id: romain_dortier_keutchi_fr
+domain_id: ai_consultant
+pattern: romain-dortier.keutchi.fr
+redirect: 0
+environment: default

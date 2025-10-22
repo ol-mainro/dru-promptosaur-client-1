@@ -39,6 +39,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  display_updated:
+    type: boolean_checkbox
+    weight: 10
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
   field_assigned_user:
     type: tagify_entity_reference_autocomplete_widget
     weight: 13

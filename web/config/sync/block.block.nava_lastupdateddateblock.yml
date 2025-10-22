@@ -1,0 +1,26 @@
+uuid: 65bc84a0-7a9f-49f5-b20e-a18f3064474f
+langcode: en
+status: true
+dependencies:
+  module:
+    - updated
+  theme:
+    - nava
+id: nava_lastupdateddateblock
+theme: nava
+region: content
+weight: 0
+provider: null
+plugin: updated_date_block
+settings:
+  id: updated_date_block
+  label: 'Last Updated date block'
+  label_display: '0'
+  provider: updated
+  context_mapping:
+    node: '@node.node_route_context:node'
+  date_prefix: 'Last updated on'
+  date_format: custom
+  custom_date_format: 'F j, Y g:ia'
+  timezone: ''
+visibility: {  }

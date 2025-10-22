@@ -1,0 +1,9 @@
+uuid: b08ceda7-368f-47e3-8125-89b4513aa722
+langcode: en
+status: true
+dependencies: {  }
+id: ia_gen_keutchi_fr
+domain_id: ai_blog
+pattern: ia-gen.keutchi.fr
+redirect: 0
+environment: default

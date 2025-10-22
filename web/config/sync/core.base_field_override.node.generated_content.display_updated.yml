@@ -1,0 +1,22 @@
+uuid: 80b721aa-0456-42cb-aceb-f60eb9ec874f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.generated_content
+id: node.generated_content.display_updated
+field_name: display_updated
+entity_type: node
+bundle: generated_content
+label: 'Display updated date'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
