@@ -9,7 +9,7 @@ _core:
 id: nava_primary_admin_actions
 theme: nava
 region: content
-weight: -13
+weight: -5
 provider: null
 plugin: local_actions_block
 settings:

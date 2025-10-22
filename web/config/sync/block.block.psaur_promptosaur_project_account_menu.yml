@@ -1,6 +1,6 @@
 uuid: 27dadc2c-e579-4aaa-a7f5-3caab3220e74
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -13,7 +13,7 @@ _core:
 id: psaur_promptosaur_project_account_menu
 theme: psaur_promptosaur_project
 region: sidebar_first
-weight: -5
+weight: -4
 provider: null
 plugin: 'system_menu_block:account'
 settings:

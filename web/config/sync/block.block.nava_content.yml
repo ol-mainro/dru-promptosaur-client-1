@@ -11,7 +11,7 @@ _core:
 id: nava_content
 theme: nava
 region: content
-weight: -9
+weight: -2
 provider: null
 plugin: system_main_block
 settings:

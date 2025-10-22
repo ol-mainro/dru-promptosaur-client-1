@@ -9,7 +9,7 @@ _core:
 id: psaur_promptosaur_project_secondary_local_tasks
 theme: psaur_promptosaur_project
 region: content
-weight: -5
+weight: -3
 provider: null
 plugin: local_tasks_block
 settings:

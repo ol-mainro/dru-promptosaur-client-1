@@ -9,7 +9,7 @@ _core:
 id: nava_secondary_local_tasks
 theme: nava
 region: content
-weight: -11
+weight: -3
 provider: null
 plugin: local_tasks_block
 settings:

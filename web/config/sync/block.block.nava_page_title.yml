@@ -8,8 +8,8 @@ _core:
   default_config_hash: 211SKPSadXKk1lwHPehoeHE-Z7LesiPbP24b6hlADE4
 id: nava_page_title
 theme: nava
-region: page_header
-weight: -8
+region: content
+weight: -6
 provider: null
 plugin: page_title_block
 settings:

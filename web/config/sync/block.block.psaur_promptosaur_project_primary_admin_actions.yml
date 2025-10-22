@@ -9,7 +9,7 @@ _core:
 id: psaur_promptosaur_project_primary_admin_actions
 theme: psaur_promptosaur_project
 region: content
-weight: -13
+weight: -5
 provider: null
 plugin: local_actions_block
 settings:

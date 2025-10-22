@@ -8,8 +8,8 @@ _core:
   default_config_hash: 211SKPSadXKk1lwHPehoeHE-Z7LesiPbP24b6hlADE4
 id: psaur_promptosaur_project_page_title
 theme: psaur_promptosaur_project
-region: primary_menu
-weight: -4
+region: content
+weight: -6
 provider: null
 plugin: page_title_block
 settings:
