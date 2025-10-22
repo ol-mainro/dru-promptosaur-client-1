@@ -24,7 +24,7 @@ site_node_date_format: solo_date_l
 site_import_google_font: ''
 site_reading_mode_content_type: {  }
 disable_block_title_visibility: ''
-site_css_injector: "@media (max-width: 74.9988rem) {\r\n    h1.page-title-text span{\r\n        font-size:70%;\r\n    }"
+site_css_injector: ''
 site_css_dynamic: ''
 site_js_dynamic: ''
 site_login_page_on: 0

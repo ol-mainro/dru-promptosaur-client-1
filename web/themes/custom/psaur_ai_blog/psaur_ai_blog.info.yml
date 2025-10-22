@@ -3,3 +3,6 @@ type: theme
 description: 'AI blog'
 core_version_requirement: '^9.4 || ^10 || ^11'
 base theme: solo
+
+libraries:
+  - psaur-ai-blog/global-styling

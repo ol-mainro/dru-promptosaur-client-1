@@ -1,0 +1,22 @@
+
+h1.page-title-text span {
+    font-size: 12px;
+}
+
+@media (max-width: 47.9988rem) {
+    h1.page-title-text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 61.9988rem) {
+    h1.page-title-text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 74.9988rem) {
+    h1.page-title-text {
+        font-size: 12px;
+    }
+}
