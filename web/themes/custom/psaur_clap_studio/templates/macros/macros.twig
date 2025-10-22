@@ -16,7 +16,7 @@
 n,n;,n;,
 {% macro render_social(dc_path, dc_social_link, dc_social_title, dc_social_img) %}
     {% if dc_social_link %}
-        <a href="{{ dc_social_link }}" title="{{ dc_social_title }}" target="_blank">
+        <a href="{{ dc_social_link }}" title="{{ dc_social_title }}">
             <img src="{{ dc_path }}/assets/img/xarxes/{{ dc_social_img }}" alt="{{ dc_social_title }}" class="mr-1 logo-sm height-sm">
         </a>
     {% endif %}
