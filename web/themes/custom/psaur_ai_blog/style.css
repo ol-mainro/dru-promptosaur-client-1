@@ -24,3 +24,7 @@
         line-height: var(--solo-px36);
     }
 }
+
+p{
+    margin-block-start: 0px;
+}
