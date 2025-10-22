@@ -10,8 +10,8 @@ dependencies:
     - psaur_ai_consultant
 id: psaur_ai_consultant_aiconsultantmenu
 theme: psaur_ai_consultant
-region: header
-weight: -5
+region: primary_menu
+weight: -7
 provider: null
 plugin: 'system_menu_block:ai-consultant-menu'
 settings:

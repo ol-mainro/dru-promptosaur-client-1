@@ -1,6 +1,6 @@
 uuid: 944f9694-bff9-47a1-94c7-353bb9ba5c8e
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.main
@@ -12,8 +12,8 @@ _core:
   default_config_hash: noeSlnYe8MMELYAyJXW2i1OgZO50NaElLBVjqHvzC8M
 id: psaur_ai_consultant_main_menu
 theme: psaur_ai_consultant
-region: primary_menu
-weight: -5
+region: footer
+weight: -6
 provider: null
 plugin: 'system_menu_block:main'
 settings:

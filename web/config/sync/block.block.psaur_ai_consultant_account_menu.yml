@@ -1,6 +1,6 @@
 uuid: 3d984bc8-23c2-4527-9423-ceb4e1f3f9bd
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -12,8 +12,8 @@ _core:
   default_config_hash: 2TBER4QGf3aDAR08p65ZBfVPstUa-Gg__7Alm6iLhaw
 id: psaur_ai_consultant_account_menu
 theme: psaur_ai_consultant
-region: header
-weight: -6
+region: footer
+weight: -5
 provider: null
 plugin: 'system_menu_block:account'
 settings:
