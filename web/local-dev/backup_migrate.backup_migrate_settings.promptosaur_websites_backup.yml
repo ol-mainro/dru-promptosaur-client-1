@@ -6,7 +6,7 @@ id: promptosaur_websites_backup
 label: promptosaur-websites-backup
 config:
   namer:
-    filename: promptosaur-websites-backup
+    filename: promptosaur-websites-backup-local
     timestamp: true
     timestamp_format: Y-m-d\TH-i-s
   compressor:
