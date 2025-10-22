@@ -1,0 +1,16 @@
+uuid: 3dd67e90-5212-46a8-902d-e9ee6a8571d5
+langcode: fr
+status: true
+dependencies:
+  module:
+    - backup_migrate_aws_s3
+id: aws_s3
+label: 'AWS S3'
+type: awss3
+config:
+  s3_endpoint: 'https://s3.eu-west-3.amazonaws.com'
+  s3_access_key_name: aws_s3_access_key
+  s3_secret_key_name: aws_s3_secret_key
+  s3_bucket: app1.assets
+  s3_folder_prefix: promptosaur-websites-dbbckups
+  s3_region: eu-west-3

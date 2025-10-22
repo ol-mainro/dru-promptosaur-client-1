@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b76e5949b3ecfea68af1565b8ea90fc",
+    "content-hash": "8a2b2f607b5c91542d6db5342cb15ab2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2996,6 +2996,58 @@
                 "source": "https://git.drupalcode.org/project/backup_migrate",
                 "issues": "https://www.drupal.org/project/issues/backup_migrate",
                 "slack": "https://drupal.slack.com/messages/C7C4M4QJV/details/"
+            }
+        },
+        {
+            "name": "drupal/backup_migrate_aws_s3",
+            "version": "6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/backup_migrate_aws_s3.git",
+                "reference": "6.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/backup_migrate_aws_s3-6.0.0.zip",
+                "reference": "6.0.0",
+                "shasum": "a8994116058823015dc594648132f693bfe3312a"
+            },
+            "require": {
+                "aws/aws-sdk-php": "^3.2",
+                "drupal/backup_migrate": "^5.0",
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12",
+                "drupal/key": "^1.15"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "6.0.0",
+                    "datestamp": "1745494147",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "George Anderson (geoanders)",
+                    "homepage": "https://www.drupal.org/u/geoanders",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Snehal Gaikwad",
+                    "homepage": "https://www.drupal.org/u/snehalgaikwad"
+                }
+            ],
+            "description": "Provides AWS S3 destination for Backup & Migrate module.",
+            "homepage": "https://drupal.org/project/backup_migrate_aws_s3",
+            "support": {
+                "source": "https://git.drupalcode.org/project/backup_migrate_aws_s3"
             }
         },
         {

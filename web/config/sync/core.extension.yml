@@ -7,9 +7,11 @@ module:
   automatic_updates_extensions: 0
   autosave_form: 0
   backup_migrate: 0
+  backup_migrate_aws_s3: 0
   basic_auth: 0
   big_pipe: 0
   block: 0
+  block_content: 0
   bpmn_io: 0
   breakpoint: 0
   captcha: 0

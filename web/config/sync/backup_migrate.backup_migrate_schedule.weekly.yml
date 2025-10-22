@@ -1,0 +1,13 @@
+uuid: 8a543382-8a16-4966-ad49-53a529ec91c2
+langcode: fr
+status: true
+dependencies: {  }
+id: weekly
+label: Weekly
+enabled: true
+keep: 10
+period: 604800
+cron: null
+source_id: default_db
+destination_id: aws_s3
+settings_profile_id: promptosaur_websites_backup

@@ -35,6 +35,7 @@
         "drupal/automatic_updates": "^4",
         "drupal/autosave_form": "^1.10",
         "drupal/backup_migrate": "^5.1",
+        "drupal/backup_migrate_aws_s3": "^6.0",
         "drupal/basecore": "^1.0",
         "drupal/better_exposed_filters": "^7",
         "drupal/bpmn_io": "^2.0.6",
