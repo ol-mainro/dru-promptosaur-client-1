@@ -1,5 +1,5 @@
 uuid: 2b1bfd53-684d-4516-9c9b-3ddba7c3e5fd
-langcode: en
+langcode: fr
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: 7j93b7xTUtF_uT4TbFN9poAQ51pf380UhVCK9tVHTzs
 id: domain_access_edit_all_action
-label: 'Assign editors to all affiliates'
+label: 'Affecter des éditeurs à tous les affiliés'
 type: user
 plugin: domain_access_edit_all_action
 configuration: {  }

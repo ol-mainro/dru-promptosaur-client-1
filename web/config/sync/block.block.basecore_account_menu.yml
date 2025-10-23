@@ -1,5 +1,5 @@
 uuid: 93c52e3e-4fda-467d-92e4-2b6fe3affcf3
-langcode: en
+langcode: fr
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:account'
 settings:
   id: 'system_menu_block:account'
-  label: 'User account menu'
+  label: "Menu du compte de l'utilisateur"
   label_display: '0'
   provider: system
   level: 1
@@ -27,6 +27,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/landing-page-10\r\n/home-pages"
     negate: true
     context_mapping: {  }
+    pages: "/landing-page-10\r\n/home-pages"

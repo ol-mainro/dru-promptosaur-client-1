@@ -1,11 +1,11 @@
 uuid: e389c0d4-6c5a-4c8e-af20-ba13650da1c9
-langcode: en
+langcode: fr
 status: true
 dependencies: {  }
 _core:
   default_config_hash: HBeBrdoMQ8HHvIcge46zv21fgnD6c8V6FjQ_h1eiQkY
 id: cms
-label: 'Drupal CMS'
+label: Fonctionnel
 description: 'Store data (e.g. cookie for user session) in your browser (required to use this website).'
 default: true
 purposes:

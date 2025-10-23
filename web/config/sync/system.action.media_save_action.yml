@@ -1,5 +1,5 @@
 uuid: 04b9fdbd-6ed6-42d0-8ddd-e9dca9c48894
-langcode: en
+langcode: fr
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: VVyUA6PIaVeGtcIbgEWqJ6SYDiJdReBeojFswURFpKs
 id: media_save_action
-label: 'Save media'
+label: 'Enregistrement de média'
 type: media
 plugin: 'entity:save_action:media'
 configuration: {  }

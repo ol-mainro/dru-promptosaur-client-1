@@ -1,0 +1,101 @@
+label: entity_share_client_entity_import_status
+description: 'List entity import statuses '
+display:
+  default:
+    display_title: Default
+    display_options:
+      title: 'Entity import statuses'
+      fields:
+        id:
+          label: ID
+          separator: ', '
+        entity_uuid:
+          label: 'Entity UUID'
+          separator: ', '
+        entity_id:
+          label: 'Entity ID'
+          separator: ', '
+        langcode:
+          label: Language
+          separator: ', '
+        entity_label:
+          label: 'Link to entity'
+        entity_type_id:
+          label: 'Entity type'
+          separator: ', '
+        entity_bundle:
+          label: Bundle
+        remote_website:
+          label: Remote
+          separator: ', '
+        channel_id:
+          label: Channel
+          separator: ', '
+        last_import:
+          label: 'Last import'
+          separator: ', '
+        policy:
+          label: Policy
+          separator: ', '
+        operations:
+          label: Operations
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+          expose:
+            items_per_page_label: 'Items per page'
+            items_per_page_options_all_label: '- All -'
+            offset_label: Offset
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      empty:
+        area:
+          content:
+            value: 'No import status found for the current filter values.'
+      sorts:
+        last_import:
+          expose:
+            label: 'Last import'
+        channel_id:
+          expose:
+            label: Channel
+        entity_type_id:
+          expose:
+            label: 'Entity type'
+        langcode:
+          expose:
+            label: Language
+      filters:
+        remote_website:
+          expose:
+            label: Remote
+        channel_id:
+          expose:
+            label: Channel
+        entity_type_id:
+          expose:
+            label: 'Entity type'
+        entity_bundle:
+          expose:
+            label: 'Entity bundle'
+        langcode:
+          expose:
+            label: 'Original language'
+        entity_id:
+          expose:
+            label: 'Entity ID'
+        last_import:
+          expose:
+            label: 'Imported since'
+        policy:
+          expose:
+            label: Policy
+  page_1:
+    display_title: Page

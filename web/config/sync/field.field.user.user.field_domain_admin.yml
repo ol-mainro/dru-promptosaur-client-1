@@ -1,5 +1,5 @@
 uuid: cd7e261b-3ec4-42d0-b9be-f11169e40e2d
-langcode: en
+langcode: fr
 status: true
 dependencies:
   config:
@@ -13,7 +13,7 @@ field_name: field_domain_admin
 entity_type: user
 bundle: user
 label: 'Domain administrator'
-description: 'Select the domains this user may administer.'
+description: 'Sélectionner les domaines que cet utilisateur peut administrer.'
 required: false
 translatable: false
 default_value: {  }

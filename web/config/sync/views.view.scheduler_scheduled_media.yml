@@ -1,5 +1,5 @@
 uuid: c47569fe-2b8e-42f1-9ce1-4bddfd6f4a4b
-langcode: en
+langcode: fr
 status: false
 dependencies:
   config:
@@ -22,7 +22,7 @@ base_field: vid
 display:
   default:
     id: default
-    display_title: Master
+    display_title: Principal
     display_plugin: default
     position: 0
     display_options:
@@ -37,7 +37,7 @@ display:
           admin_label: ''
           entity_type: media
           plugin_id: bulk_form
-          label: 'Bulk update'
+          label: 'Mise à jour en masse'
           exclude: false
           alter:
             alter_text: false
@@ -91,7 +91,7 @@ display:
           entity_type: media
           entity_field: name
           plugin_id: field
-          label: 'Media Name'
+          label: 'Nom du média'
           exclude: false
           alter:
             alter_text: false
@@ -156,7 +156,7 @@ display:
           entity_type: media
           entity_field: bundle
           plugin_id: field
-          label: 'Media type'
+          label: 'Type de média'
           exclude: false
           alter:
             alter_text: false
@@ -221,7 +221,7 @@ display:
           entity_type: media
           entity_field: uid
           plugin_id: field
-          label: Author
+          label: Auteur
           exclude: false
           alter:
             alter_text: false
@@ -286,7 +286,7 @@ display:
           entity_type: media
           entity_field: status
           plugin_id: field
-          label: Status
+          label: État
           exclude: false
           alter:
             alter_text: false
@@ -331,8 +331,8 @@ display:
           type: boolean
           settings:
             format: custom
-            format_custom_false: Unpublished
-            format_custom_true: Published
+            format_custom_false: 'Non publié'
+            format_custom_true: Publié
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -353,7 +353,7 @@ display:
           entity_type: media
           entity_field: publish_on
           plugin_id: field
-          label: 'Publish on'
+          label: 'Publier le'
           exclude: false
           alter:
             alter_text: false
@@ -420,7 +420,7 @@ display:
           entity_type: media
           entity_field: unpublish_on
           plugin_id: field
-          label: 'Unpublish on'
+          label: 'Dépublier le'
           exclude: false
           alter:
             alter_text: false
@@ -486,7 +486,7 @@ display:
           admin_label: ''
           entity_type: media
           plugin_id: entity_operations
-          label: Operations
+          label: Actions
           exclude: false
           alter:
             alter_text: false
@@ -536,25 +536,25 @@ display:
           total_pages: null
           id: 0
           tags:
-            next: 'next ›'
-            previous: '‹ previous'
-            first: '« first'
-            last: 'last »'
+            next: "suivant\_›"
+            previous: "‹\_précédent"
+            first: "«\_premier"
+            last: "dernier\_»"
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Éléments par page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- Tout -'
             offset: false
-            offset_label: Offset
+            offset_label: Décalage
       exposed_form:
         type: basic
         options:
-          submit_button: Filter
+          submit_button: Filtrer
           reset_button: true
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Réinitialiser
+          exposed_sorts_label: 'Trier par'
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
@@ -635,7 +635,7 @@ display:
           exposed: true
           expose:
             operator_id: name_op
-            label: 'Media name'
+            label: 'Nom du média'
             description: ''
             use_operator: false
             operator: name_op
@@ -717,7 +717,7 @@ display:
           exposed: true
           expose:
             operator_id: ''
-            label: Status
+            label: État
             description: ''
             use_operator: false
             operator: status_op
@@ -731,7 +731,7 @@ display:
               authenticated: authenticated
           is_grouped: true
           group_info:
-            label: 'Published status'
+            label: 'Statut de publication'
             description: ''
             identifier: status
             optional: true
@@ -742,11 +742,11 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Published
+                title: Publié
                 operator: '='
                 value: '1'
               2:
-                title: Unpublished
+                title: 'Non publié'
                 operator: '='
                 value: '0'
         langcode:
@@ -765,7 +765,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Language
+            label: Langue
             description: ''
             use_operator: false
             operator: langcode_op
@@ -1027,7 +1027,7 @@ display:
       tags: {  }
   user_page:
     id: user_page
-    display_title: User
+    display_title: Utilisateur
     display_plugin: page
     position: 2
     display_options:

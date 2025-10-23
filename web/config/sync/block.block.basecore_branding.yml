@@ -1,5 +1,5 @@
 uuid: 2277d5e9-a6ef-4167-983b-ed9d4eb00f32
-langcode: en
+langcode: fr
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_branding_block
 settings:
   id: system_branding_block
-  label: 'Site branding'
+  label: 'Identité du site'
   label_display: '0'
   provider: system
   use_site_logo: true
@@ -25,5 +25,5 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /home-pages
     negate: true
+    pages: /home-pages

@@ -1,25 +1,25 @@
-langcode: en
+langcode: fr
 consentModal:
   title: 'Use of personal data and cookies'
   description: |
     Please choose the services and 3rd party applications we would like to use.
   privacyPolicy:
-    name: 'privacy policy'
+    name: 'politique de confidentialité'
     text: |
-      To learn more, please read our {privacyPolicy}.
+      Pour en savoir plus, merci de lire notre {privacyPolicy}.
     url: 'internal:/privacy-policy'
 consentNotice:
   title: 'Use of personal data and cookies'
-  changeDescription: 'There were changes since your last visit, please update your consent.'
+  changeDescription: 'Des changements ont été apportés depuis votre dernière visite, veuillez renouveler votre consentement.'
   description: |
-    We use cookies and process personal data for the following purposes: {purposes}.
-  learnMore: Customize
-ok: Accept
-save: Save
-decline: Decline
-close: Close
-acceptAll: 'Accept all'
-acceptSelected: 'Accept selected'
+    Nous utilisons des cookies et traitons des données personnelles pour les finalités suivantes : {purposes}.
+  learnMore: Personnaliser
+ok: Accepter
+save: Enregistrer
+decline: Refuser
+close: Fermer
+acceptAll: 'Tout accepter'
+acceptSelected: 'Accepter la sélection'
 service:
   disableAll:
     title: 'Toggle all services'
@@ -28,12 +28,12 @@ service:
     title: (opt-out)
     description: 'This service is loaded by default (opt-out possible).'
   required:
-    title: '(always required)'
-    description: 'This service is always required.'
-  purposes: Purposes
-  purpose: Purpose
+    title: '(toujours requis)'
+    description: 'Ce service est toujours requis.'
+  purposes: Finalités
+  purpose: Objectif
 contextualConsent:
-  acceptAlways: Always
-  acceptOnce: 'Yes (this time)'
-  description: 'Load external content supplied by {title}?'
-poweredBy: 'Powered by Klaro!'
+  acceptAlways: Toujours
+  acceptOnce: 'Oui (cette fois-ci)'
+  description: 'Charger le contenu externe fourni par {title} ?'
+poweredBy: 'Propulsé par Klaro!'

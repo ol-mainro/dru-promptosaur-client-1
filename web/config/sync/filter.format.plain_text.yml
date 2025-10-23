@@ -1,10 +1,10 @@
 uuid: dca977ea-e0b6-409c-a994-4866b9ac41a0
-langcode: en
+langcode: fr
 status: true
 dependencies: {  }
 _core:
   default_config_hash: JLMwODO0epnA_H-jFlH9ezVfa5YBJniRv3MmLqYNl_Q
-name: 'Plain text'
+name: 'Texte brut'
 format: plain_text
 weight: 10
 filters:

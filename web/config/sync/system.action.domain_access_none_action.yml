@@ -1,5 +1,5 @@
 uuid: dd9a887a-8e83-4b48-b3f6-0ea65cf71d7e
-langcode: en
+langcode: fr
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: xySFUYYaxq0BLj0-eAesthacXbTWPDJhR-SnqNhvhSg
 id: domain_access_none_action
-label: 'Remove content from all affiliates'
+label: 'Supprimer le contenu de tous les affiliés'
 type: node
 plugin: domain_access_none_action
 configuration: {  }

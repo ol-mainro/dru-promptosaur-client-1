@@ -1,5 +1,5 @@
 uuid: 838aa02c-cc85-459c-9135-28e3b7f338f3
-langcode: en
+langcode: fr
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: VYERDzPNi1-oUm7KMLjol4oLcjbHr-onKbitt4dZuN0
 id: config_pages.full
-label: Full
+label: Complet
 description: null
 targetEntityType: config_pages
 cache: true

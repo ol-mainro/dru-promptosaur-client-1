@@ -1,10 +1,10 @@
 uuid: b9af4a18-31cf-4589-874c-621d0824bb0a
-langcode: en
+langcode: fr
 status: true
 dependencies: {  }
 _core:
   default_config_hash: p0Xmtt8DXCK7YDyQCjx9e34PXU7oZopObzexorM4geo
 id: advertising
-label: 'Advertising and Marketing'
+label: 'Publicité et Marketing'
 description: ''
 weight: 0

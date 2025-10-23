@@ -1,4 +1,4 @@
-langcode: en
+langcode: fr
 sections:
   -
     layout_id: navigation_layout
@@ -20,7 +20,7 @@ sections:
         region: content
         configuration:
           id: 'navigation_menu:content'
-          label: Content
+          label: Contenu
           label_display: '0'
           provider: navigation
           level: 1
@@ -44,7 +44,7 @@ sections:
         region: footer
         configuration:
           id: navigation_user
-          label: User
+          label: Utilisateur
           label_display: '0'
           provider: navigation
         weight: 0

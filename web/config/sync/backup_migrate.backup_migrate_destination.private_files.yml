@@ -1,11 +1,11 @@
 uuid: 95475419-4094-414c-858d-d5cf772c8bbe
-langcode: en
+langcode: fr
 status: true
 dependencies: {  }
 _core:
   default_config_hash: 4iy5jeoTP0Y4BqSaV1C6cz4GKLFea1tWzk3ez1_CMVU
 id: private_files
-label: 'Private Files Directory'
+label: 'Répertoire des fichiers privés'
 type: Directory
 config:
   name: 'Private Files Directory'

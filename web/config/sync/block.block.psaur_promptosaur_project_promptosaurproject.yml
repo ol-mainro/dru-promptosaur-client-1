@@ -11,7 +11,7 @@ dependencies:
 id: psaur_promptosaur_project_promptosaurproject
 theme: psaur_promptosaur_project
 region: primary_menu
-weight: -5
+weight: -6
 provider: null
 plugin: 'system_menu_block:promptosaur-project-menu'
 settings:

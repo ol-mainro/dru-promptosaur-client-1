@@ -1,5 +1,5 @@
 uuid: f352c130-b6a1-4d2d-b475-c56d750c7393
-langcode: en
+langcode: fr
 status: true
 dependencies:
   config:
@@ -27,6 +27,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /landing-page-10
     negate: true
     context_mapping: {  }
+    pages: /landing-page-10

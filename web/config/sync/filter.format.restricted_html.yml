@@ -1,5 +1,5 @@
 uuid: 9af65611-634f-485c-acc7-84879e5c088d
-langcode: en
+langcode: fr
 status: true
 dependencies:
   enforced:
@@ -8,7 +8,7 @@ dependencies:
       - rules
 _core:
   default_config_hash: VrFjOQn2l2n6baaj2Z6IkYt9OdtsLjYPUVg7HgkkGLU
-name: 'Restricted HTML'
+name: 'HTML restreint'
 format: restricted_html
 weight: 1
 filters:

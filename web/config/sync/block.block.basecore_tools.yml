@@ -1,5 +1,5 @@
 uuid: 5a3e698d-a0ca-466b-b117-0fcf573c9e1a
-langcode: en
+langcode: fr
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:tools'
 settings:
   id: 'system_menu_block:tools'
-  label: Tools
+  label: Outils
   label_display: visible
   provider: system
   level: 1
@@ -27,6 +27,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /shortcodes
     negate: false
     context_mapping: {  }
+    pages: /shortcodes

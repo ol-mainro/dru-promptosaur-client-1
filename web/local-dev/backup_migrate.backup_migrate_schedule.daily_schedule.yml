@@ -1,11 +1,11 @@
 uuid: 2a109e71-2aaf-4d91-9e10-25e9dfdc07e0
-langcode: en
+langcode: fr
 status: true
 dependencies: {  }
 _core:
   default_config_hash: B6mQr6j7ZcqZB14S8ytJEXCYzOQ1mcOW9-oWYbtkbJc
 id: daily_schedule
-label: 'Daily Schedule'
+label: 'Planification quotidienne'
 enabled: true
 keep: 7
 period: 86400

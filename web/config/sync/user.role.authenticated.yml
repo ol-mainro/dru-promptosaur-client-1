@@ -1,5 +1,5 @@
 uuid: ed484240-73f4-4b5c-90c7-5100782e6174
-langcode: en
+langcode: fr
 status: true
 dependencies:
   config:
@@ -17,7 +17,7 @@ dependencies:
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
-label: 'Authenticated user'
+label: 'Utilisateur authentifié'
 weight: 1
 is_admin: false
 permissions:

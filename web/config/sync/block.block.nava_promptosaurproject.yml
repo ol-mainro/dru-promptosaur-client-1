@@ -1,0 +1,25 @@
+uuid: 1851d7e3-f4d2-4581-bd93-26b7bab04a7e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.promptosaur-project-menu
+  module:
+    - system
+  theme:
+    - nava
+id: nava_promptosaurproject
+theme: nava
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:promptosaur-project-menu'
+settings:
+  id: 'system_menu_block:promptosaur-project-menu'
+  label: 'Promptosaur project'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

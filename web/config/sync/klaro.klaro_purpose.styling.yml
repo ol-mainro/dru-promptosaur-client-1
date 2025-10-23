@@ -1,10 +1,10 @@
 uuid: 50eb80eb-34d8-4456-b23c-447a735d06a8
-langcode: en
+langcode: fr
 status: true
 dependencies: {  }
 _core:
   default_config_hash: zb5fw3XvVMA3iaOX1CO7qm1YLv0IzThvz3HQvDcsLA8
 id: styling
-label: Styling
+label: 'Mise en forme'
 description: ''
 weight: 5

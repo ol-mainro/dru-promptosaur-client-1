@@ -1,5 +1,5 @@
 uuid: ca2bcd66-e776-4191-b035-ed5ba471b60e
-langcode: en
+langcode: fr
 status: true
 dependencies:
   module:
@@ -16,12 +16,12 @@ provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Page title'
+  label: 'Titre de la page'
   label_display: '0'
   provider: core
 visibility:
   request_path:
     id: request_path
-    pages: "/blocks\r\n/hero-1\r\n/slideshow-fullscreen\r\n/slideshow-boxedwidth\r\n/slideshow-fullwidth\r\n/hero-2\r\n/hero-3\r\n/hero-form\r\n/hero-4\r\n/hero-5\r\n/hero-6\r\n/hero-7\r\n/landing-page-10\r\n/news-default\r\n/news-focus\r\n/news-card"
     negate: true
     context_mapping: {  }
+    pages: "/blocks\r\n/hero-1\r\n/slideshow-fullscreen\r\n/slideshow-boxedwidth\r\n/slideshow-fullwidth\r\n/hero-2\r\n/hero-3\r\n/hero-form\r\n/hero-4\r\n/hero-5\r\n/hero-6\r\n/hero-7\r\n/landing-page-10\r\n/news-default\r\n/news-focus\r\n/news-card"

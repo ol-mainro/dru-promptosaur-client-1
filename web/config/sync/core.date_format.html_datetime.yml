@@ -1,10 +1,10 @@
 uuid: 721b9629-60ac-4bf3-bca2-0d352bdba680
-langcode: en
+langcode: fr
 status: true
 dependencies: {  }
 _core:
   default_config_hash: jxfClwZIRXIdcvMrE--WkcZxDGUVoOIE3Sm2NRZlFuE
 id: html_datetime
-label: 'HTML Datetime'
+label: 'Date et heure HTML'
 locked: true
 pattern: 'Y-m-d\TH:i:sO'

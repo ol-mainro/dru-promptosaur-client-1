@@ -1,5 +1,5 @@
 uuid: 3eb6be60-499a-4c84-af6a-e1ab1c9d51d5
-langcode: en
+langcode: fr
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ base_field: id
 display:
   default:
     id: default
-    display_title: Default
+    display_title: 'Par défaut'
     display_plugin: default
     position: 0
     display_options:
@@ -32,7 +32,7 @@ display:
           entity_type: entity_import_status
           entity_field: id
           plugin_id: field
-          label: ID
+          label: 'Identifiant (ID)'
           exclude: false
           alter:
             alter_text: false
@@ -163,7 +163,7 @@ display:
           entity_type: entity_import_status
           entity_field: entity_id
           plugin_id: field
-          label: 'Entity ID'
+          label: "Identifiant (ID) de l'entité"
           exclude: false
           alter:
             alter_text: false
@@ -228,7 +228,7 @@ display:
           entity_type: entity_import_status
           entity_field: langcode
           plugin_id: field_language
-          label: Language
+          label: Langue
           exclude: false
           alter:
             alter_text: false
@@ -293,7 +293,7 @@ display:
           admin_label: ''
           entity_type: entity_import_status
           plugin_id: entity_share_client_entity_label
-          label: 'Link to entity'
+          label: "Lier à l'entité"
           exclude: false
           alter:
             alter_text: false
@@ -344,7 +344,7 @@ display:
           entity_type: entity_import_status
           entity_field: entity_type_id
           plugin_id: field
-          label: 'Entity type'
+          label: "Type d'entité"
           exclude: false
           alter:
             alter_text: false
@@ -409,7 +409,7 @@ display:
           entity_type: entity_import_status
           entity_field: entity_bundle
           plugin_id: entity_share_client_entity_bundle
-          label: Bundle
+          label: Type
           exclude: false
           alter:
             alter_text: false
@@ -460,7 +460,7 @@ display:
           entity_type: entity_import_status
           entity_field: remote_website
           plugin_id: field
-          label: Remote
+          label: 'A distance'
           exclude: false
           alter:
             alter_text: false
@@ -525,7 +525,7 @@ display:
           entity_type: entity_import_status
           entity_field: channel_id
           plugin_id: field
-          label: Channel
+          label: Canal
           exclude: false
           alter:
             alter_text: false
@@ -590,7 +590,7 @@ display:
           entity_type: entity_import_status
           entity_field: last_import
           plugin_id: field
-          label: 'Last import'
+          label: 'Dernière importation'
           exclude: false
           alter:
             alter_text: false
@@ -667,7 +667,7 @@ display:
           entity_type: entity_import_status
           entity_field: policy
           plugin_id: field
-          label: Policy
+          label: Politique
           exclude: false
           alter:
             alter_text: false
@@ -732,7 +732,7 @@ display:
           entity_type: null
           entity_field: null
           plugin_id: entity_operations
-          label: Operations
+          label: Actions
           exclude: false
           alter:
             alter_text: false
@@ -787,19 +787,19 @@ display:
             previous: ‹‹
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Éléments par page'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- Tout -'
             offset: false
-            offset_label: Offset
+            offset_label: Décalage
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Appliquer
           reset_button: true
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Réinitialiser
+          exposed_sorts_label: 'Trier par'
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
@@ -836,7 +836,7 @@ display:
           plugin_id: date
           order: DESC
           expose:
-            label: 'Last import'
+            label: 'Dernière importation'
             field_identifier: last_import
           exposed: true
           granularity: second
@@ -852,7 +852,7 @@ display:
           plugin_id: standard
           order: ASC
           expose:
-            label: Channel
+            label: Canal
             field_identifier: channel_id
           exposed: true
         entity_type_id:
@@ -867,7 +867,7 @@ display:
           plugin_id: standard
           order: ASC
           expose:
-            label: 'Entity type'
+            label: "Type d'entité"
             field_identifier: entity_type_id
           exposed: true
         langcode:
@@ -882,7 +882,7 @@ display:
           plugin_id: standard
           order: ASC
           expose:
-            label: Language
+            label: Langue
             field_identifier: langcode
           exposed: true
       arguments: {  }
@@ -903,7 +903,7 @@ display:
           exposed: true
           expose:
             operator_id: remote_website_op
-            label: Remote
+            label: 'A distance'
             description: ''
             use_operator: false
             operator: remote_website_op
@@ -944,7 +944,7 @@ display:
           exposed: true
           expose:
             operator_id: channel_id_op
-            label: Channel
+            label: Canal
             description: ''
             use_operator: false
             operator: channel_id_op
@@ -986,7 +986,7 @@ display:
           exposed: true
           expose:
             operator_id: entity_type_id_op
-            label: 'Entity type'
+            label: "Type d'entité"
             description: ''
             use_operator: false
             operator: entity_type_id_op
@@ -1027,7 +1027,7 @@ display:
           exposed: true
           expose:
             operator_id: entity_bundle_op
-            label: 'Entity bundle'
+            label: "Sous-type de l'entité"
             description: ''
             use_operator: false
             operator: entity_bundle_op
@@ -1068,7 +1068,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: 'Original language'
+            label: 'Langue initiale'
             description: ''
             use_operator: false
             operator: langcode_op
@@ -1109,7 +1109,7 @@ display:
           exposed: true
           expose:
             operator_id: entity_id_op
-            label: 'Entity ID'
+            label: "Identifiant (ID) de l'entité"
             description: ''
             use_operator: false
             operator: entity_id_op
@@ -1197,7 +1197,7 @@ display:
           exposed: true
           expose:
             operator_id: policy_op
-            label: Policy
+            label: Politique
             description: ''
             use_operator: false
             operator: policy_op

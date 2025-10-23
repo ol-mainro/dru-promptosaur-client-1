@@ -1,5 +1,5 @@
 uuid: 7ab3c995-1eca-46d1-b07d-c543464f33b5
-langcode: en
+langcode: fr
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: DlfMeJotYBEDBKUfJoO_srd8rHic6XNYvF4esU-kJPw
 id: domain_disable_action
-label: 'Disable domain record'
+label: 'Désactiver le domaine'
 type: domain
 plugin: domain_disable_action
 configuration: {  }

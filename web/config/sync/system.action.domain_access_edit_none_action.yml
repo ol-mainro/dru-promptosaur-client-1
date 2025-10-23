@@ -1,5 +1,5 @@
 uuid: 528dd3b2-2306-4768-a072-7e85ef98856c
-langcode: en
+langcode: fr
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: VEI1wqqkrV2aMO4mVMODRp6u6W0bnJcVKqxRE9IeduM
 id: domain_access_edit_none_action
-label: 'Remove editors from all affiliates'
+label: 'Supprimer les éditeurs de tous les affiliés'
 type: user
 plugin: domain_access_edit_none_action
 configuration: {  }

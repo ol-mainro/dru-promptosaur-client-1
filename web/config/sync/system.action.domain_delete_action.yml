@@ -1,5 +1,5 @@
 uuid: e0ec4fc8-9880-43b1-8454-d3e78ce398f7
-langcode: en
+langcode: fr
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: '-lXBfSljb21UO_YyDLm2I4Lg8Wo0o2nc70TGC1fMiMk'
 id: domain_delete_action
-label: 'Delete domain record'
+label: 'Supprimer le domaine'
 type: domain
 plugin: domain_delete_action
 configuration: {  }

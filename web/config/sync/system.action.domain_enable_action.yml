@@ -1,5 +1,5 @@
 uuid: 9af217f4-4ed7-410f-b350-7f792ed8c900
-langcode: en
+langcode: fr
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: dHl27Ind2610Z4RQ5fCivdUGZ9NP8mQu3_TbNXTZmiY
 id: domain_enable_action
-label: 'Enable domain record'
+label: 'Activer le domaine'
 type: domain
 plugin: domain_enable_action
 configuration: {  }

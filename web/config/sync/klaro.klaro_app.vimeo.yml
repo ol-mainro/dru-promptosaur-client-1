@@ -1,12 +1,12 @@
 uuid: d9e60533-37e4-4d5c-b95d-b9d14dece389
-langcode: en
+langcode: fr
 status: false
 dependencies: {  }
 _core:
   default_config_hash: U6qalwZKD1yRnEEimqvgovefpsmYuoXB7zSWZ_n-57U
 id: vimeo
 label: Vimeo
-description: 'Vimeo is a video sharing platform by Vimeo, LLC (USA).'
+description: 'Vimeo est une plateforme de partage de vidéos de Vimeo, LLC (USA).'
 default: false
 purposes:
   - external_content

@@ -101,6 +101,7 @@
         "drupal/metatag": "^2",
         "drupal/mili": "^11.1",
         "drupal/nava": "^1.0",
+        "drupal/node_revision_delete": "^2.0",
         "drupal/paragraphs": "^1.19",
         "drupal/pathauto": "^1.13",
         "drupal/podcast": "^1.10",

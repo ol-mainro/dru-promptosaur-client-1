@@ -12,12 +12,12 @@ container_width: '1170'
 header_width: header_width_contained
 main_width: main_width_contained
 footer_width: footer_width_contained
-slider_show: 0
+slider_show: 1
 slider_speed: '5000'
-slider_image_bg: 0
+slider_image_bg: 1
 slider_image: {  }
 slider_code: ''
-header_login_links: 1
+header_login_links: 0
 header_style: null
 header_main_default: 1
 header_main_padding_top: '1'

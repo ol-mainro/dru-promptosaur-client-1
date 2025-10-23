@@ -1,5 +1,5 @@
 uuid: bec487f8-ddbb-46da-9386-ddcccb3e8bd9
-langcode: en
+langcode: fr
 status: true
 dependencies:
   config:
@@ -12,7 +12,7 @@ dependencies:
 _core:
   default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
 id: anonymous
-label: 'Anonymous user'
+label: 'Utilisateur anonyme'
 weight: 0
 is_admin: false
 permissions:
