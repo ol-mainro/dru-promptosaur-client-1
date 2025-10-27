@@ -1,0 +1,25 @@
+uuid: 77826553-0b3c-4c5e-bcc3-ab7c8f872b89
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.promptosaur-project-menu
+  module:
+    - system
+  theme:
+    - psaur_promptosaur_project_cp
+id: psaur_promptosaur_project_cp_promptosaurproject
+theme: psaur_promptosaur_project_cp
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:promptosaur-project-menu'
+settings:
+  id: 'system_menu_block:promptosaur-project-menu'
+  label: 'Promptosaur project'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 993f7d16-28c7-481b-9134-dd70c50324ef
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_ai_consultant_solo
+_core:
+  default_config_hash: wgkVxN3uX_klZRZJifP1469jTcAV9BlwdMt0zd-_r5E
+id: psaur_ai_consultant_solo_messages
+theme: psaur_ai_consultant_solo
+region: highlighted
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  label_display: '0'
+  provider: system
+visibility: {  }

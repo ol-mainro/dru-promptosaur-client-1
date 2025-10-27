@@ -1,0 +1,25 @@
+uuid: 924a14a5-79f9-46d0-9afe-f58bcc0f4cd2
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_promptosaur_project_dxp
+_core:
+  default_config_hash: wqQ5RgTDWH35Q6PpZkxbTn_X8haCs3GYODj-ezlt8tQ
+id: psaur_promptosaur_project_dxp_site_branding
+theme: psaur_promptosaur_project_dxp
+region: header
+weight: -5
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Identité du site'
+  label_display: '0'
+  provider: system
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

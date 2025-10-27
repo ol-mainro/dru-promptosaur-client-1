@@ -1,0 +1,22 @@
+uuid: 3a0b49bc-e9c4-478e-a997-b742e9397f26
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_ai_consultant_solo
+_core:
+  default_config_hash: rtREBa7go5QUg8q0ya-bDK3bWWCovgvuopsIZEKQeBo
+id: psaur_ai_consultant_solo_content
+theme: psaur_ai_consultant_solo
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  label_display: '0'
+  provider: system
+visibility: {  }

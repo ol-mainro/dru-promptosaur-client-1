@@ -1,0 +1,7 @@
+name: 'Clap Studio'
+mail: ol.mainro@gmail.com
+slogan: ''
+page:
+  403: /user/login
+  404: ''
+  front: /front-content-list-grid

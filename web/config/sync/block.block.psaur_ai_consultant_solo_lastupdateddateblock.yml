@@ -1,0 +1,26 @@
+uuid: 2c8a1a3e-c364-4894-87d1-21be4eee4344
+langcode: en
+status: true
+dependencies:
+  module:
+    - updated
+  theme:
+    - psaur_ai_consultant_solo
+id: psaur_ai_consultant_solo_lastupdateddateblock
+theme: psaur_ai_consultant_solo
+region: content
+weight: -2
+provider: null
+plugin: updated_date_block
+settings:
+  id: updated_date_block
+  label: 'Last Updated date block'
+  label_display: '0'
+  provider: updated
+  context_mapping:
+    node: '@node.node_route_context:node'
+  date_prefix: 'Last updated on'
+  date_format: custom
+  custom_date_format: 'F j, Y g:ia'
+  timezone: ''
+visibility: {  }

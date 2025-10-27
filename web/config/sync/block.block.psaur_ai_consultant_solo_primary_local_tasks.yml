@@ -1,0 +1,22 @@
+uuid: fb1676a6-bfb6-4544-b372-a1bfe161720f
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - psaur_ai_consultant_solo
+_core:
+  default_config_hash: 3reyK-HSWIt5UPnepFKdL7LcxHA0-ikdJs7TRJQjvEo
+id: psaur_ai_consultant_solo_primary_local_tasks
+theme: psaur_ai_consultant_solo
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Onglets principaux'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

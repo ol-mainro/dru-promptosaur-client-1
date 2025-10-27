@@ -1,0 +1,20 @@
+uuid: 49c40241-4937-4637-8f3b-3d97b5b3b51e
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - psaur_ai_consultant_solo
+_core:
+  default_config_hash: wCsDJhKjXP870EIRux3yMmP2Siq6M4z8dk9_5omweaU
+id: psaur_ai_consultant_solo_primary_admin_actions
+theme: psaur_ai_consultant_solo
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: "Actions d'administration principales"
+  label_display: '0'
+  provider: core
+visibility: {  }

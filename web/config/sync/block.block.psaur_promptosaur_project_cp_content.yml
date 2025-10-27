@@ -1,0 +1,22 @@
+uuid: fd866607-c1f0-43ce-8c52-0ecd098a0a97
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_promptosaur_project_cp
+_core:
+  default_config_hash: rtREBa7go5QUg8q0ya-bDK3bWWCovgvuopsIZEKQeBo
+id: psaur_promptosaur_project_cp_content
+theme: psaur_promptosaur_project_cp
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  label_display: '0'
+  provider: system
+visibility: {  }

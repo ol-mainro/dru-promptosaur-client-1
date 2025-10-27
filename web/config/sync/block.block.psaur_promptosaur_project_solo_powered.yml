@@ -1,0 +1,22 @@
+uuid: a5bbf44a-5d57-460d-a151-c756d938bd7c
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_promptosaur_project_solo
+_core:
+  default_config_hash: yF1NcATLLhLNdhKxZGXUHr3AgkVf3mITKtTbmEGArQw
+id: psaur_promptosaur_project_solo_powered
+theme: psaur_promptosaur_project_solo
+region: sidebar_first
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Propulsé par Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

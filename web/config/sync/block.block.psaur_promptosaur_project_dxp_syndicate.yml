@@ -1,0 +1,23 @@
+uuid: ce2966b1-59ec-411c-b5e2-e689cf2e9560
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - psaur_promptosaur_project_dxp
+_core:
+  default_config_hash: VWb0lGWrFtZscO3FyYC0Za4_lgMhRIJgYcDJ69J8xWo
+id: psaur_promptosaur_project_dxp_syndicate
+theme: psaur_promptosaur_project_dxp
+region: sidebar_first
+weight: -6
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

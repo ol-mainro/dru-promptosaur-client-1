@@ -9,7 +9,7 @@ client_2_promptosaur_ddev_site_site: diba_clean
 client_2_promptosaur_ddev_site_admin: gin
 ai_blog_site: psaur_ai_blog
 ai_blog_admin: gin
-ai_consultant_site: psaur_ai_consultant
+ai_consultant_site: psaur_ai_consultant_solo
 ai_consultant_admin: gin
 alice_ecole_site: psaur_alice_ecole
 alice_ecole_admin: gin
@@ -17,7 +17,7 @@ humains_site: psaur_humans
 humains_admin: gin
 local_scientific_tourism_site: psaur_local_scientific_tourism
 local_scientific_tourism_admin: gin
-promptosaur_project_site: flexistyle_bootstrap_subtheme
+promptosaur_project_site: psaur_promptosaur_project_solo
 promptosaur_project_admin: gin
 clap_studio_site: psaur_clap_studio
 clap_studio_admin: gin

@@ -1,0 +1,23 @@
+uuid: 7120fc99-ad88-40f9-81f4-ed5e0db0b1fd
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - psaur_promptosaur_project_cp
+_core:
+  default_config_hash: VWb0lGWrFtZscO3FyYC0Za4_lgMhRIJgYcDJ69J8xWo
+id: psaur_promptosaur_project_cp_syndicate
+theme: psaur_promptosaur_project_cp
+region: sidebar_first
+weight: -17
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

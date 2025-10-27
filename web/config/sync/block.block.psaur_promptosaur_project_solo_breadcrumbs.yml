@@ -1,0 +1,22 @@
+uuid: 474d0dd3-f9c4-4794-a90b-0f2220785e1b
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_promptosaur_project_solo
+_core:
+  default_config_hash: EJYkls2r3VXweQ6HWA62xqSLC6wdvlEe5R3fsa-1RJc
+id: psaur_promptosaur_project_solo_breadcrumbs
+theme: psaur_promptosaur_project_solo
+region: breadcrumb
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: "Fils d'ariane"
+  label_display: '0'
+  provider: system
+visibility: {  }

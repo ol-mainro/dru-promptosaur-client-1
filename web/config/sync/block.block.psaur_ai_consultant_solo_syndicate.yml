@@ -1,0 +1,23 @@
+uuid: 56607494-eaa0-42df-ac8f-9b9fb6ec51b5
+langcode: fr
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - psaur_ai_consultant_solo
+_core:
+  default_config_hash: VWb0lGWrFtZscO3FyYC0Za4_lgMhRIJgYcDJ69J8xWo
+id: psaur_ai_consultant_solo_syndicate
+theme: psaur_ai_consultant_solo
+region: sidebar_first
+weight: -7
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

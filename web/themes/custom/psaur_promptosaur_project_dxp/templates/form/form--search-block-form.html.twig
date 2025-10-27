@@ -1,0 +1,30 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a 'form' element.
+ *
+ * Available variables
+ * - attributes: A list of HTML attributes for the wrapper element.
+ * - children: The child elements of the form.
+ *
+ * @see template_preprocess_form()
+ *
+ * @ingroup themeable
+ */
+#}
+{{ attach_library('flexistyle_bootstrap/form') }}
+{% set formClasses = [
+    'd-flex',
+    attributes.id | clean_class
+  ]
+%}
+<button class="btn btn-primary" type="button" aria-label="Search" data-bs-toggle="collapse" data-bs-target="#searchBox" aria-expanded="false" aria-controls="searchBox">
+  <span class="fa-solid fa-magnifying-glass text-white"></span>
+</button>
+<div class="collapse shadow" id="searchBox">
+  <div class="card card-body border-0 rounded-0">
+    <form{{ attributes.addClass(formClasses) }}>
+      {{ children }}
+    </form>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+uuid: c5cdb15b-4199-4c71-b599-503bb5e2fb5f
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - psaur_promptosaur_project_dxp
+_core:
+  default_config_hash: 3reyK-HSWIt5UPnepFKdL7LcxHA0-ikdJs7TRJQjvEo
+id: psaur_promptosaur_project_dxp_primary_local_tasks
+theme: psaur_promptosaur_project_dxp
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Onglets principaux'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

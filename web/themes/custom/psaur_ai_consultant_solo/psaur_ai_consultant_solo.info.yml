@@ -1,0 +1,8 @@
+name: 'AI consultant solo'
+type: theme
+description: 'AI consultant solo'
+core_version_requirement: '^9.4 || ^10 || ^11'
+base theme: solo
+
+libraries:
+  - psaur_ai_consultant_solo/global-styling

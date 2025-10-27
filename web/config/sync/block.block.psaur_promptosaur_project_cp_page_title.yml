@@ -1,0 +1,20 @@
+uuid: 3d8097bd-141e-46bc-bccd-70b7193a4f0f
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - psaur_promptosaur_project_cp
+_core:
+  default_config_hash: 211SKPSadXKk1lwHPehoeHE-Z7LesiPbP24b6hlADE4
+id: psaur_promptosaur_project_cp_page_title
+theme: psaur_promptosaur_project_cp
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de la page'
+  label_display: '0'
+  provider: core
+visibility: {  }

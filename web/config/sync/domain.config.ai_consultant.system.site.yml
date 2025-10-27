@@ -1,0 +1,7 @@
+name: 'Romain Dortier'
+mail: ol.mainro@gmail.com
+slogan: 'Spécialiste en IA générative'
+page:
+  403: /user/login
+  404: ''
+  front: /front-content-list-grid

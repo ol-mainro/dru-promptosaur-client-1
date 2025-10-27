@@ -1,0 +1,26 @@
+uuid: 176744c7-1cee-493a-95b7-2f5577254ced
+langcode: en
+status: true
+dependencies:
+  module:
+    - updated
+  theme:
+    - psaur_promptosaur_project_dxp
+id: psaur_promptosaur_project_dxp_lastupdateddateblock
+theme: psaur_promptosaur_project_dxp
+region: content
+weight: -2
+provider: null
+plugin: updated_date_block
+settings:
+  id: updated_date_block
+  label: 'Last Updated date block'
+  label_display: '0'
+  provider: updated
+  context_mapping:
+    node: '@node.node_route_context:node'
+  date_prefix: 'Last updated on'
+  date_format: custom
+  custom_date_format: 'F j, Y g:ia'
+  timezone: ''
+visibility: {  }

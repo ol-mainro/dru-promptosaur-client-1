@@ -1,0 +1,27 @@
+uuid: 7732971d-a358-4d7f-9ec5-296b127e2f43
+langcode: fr
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - psaur_promptosaur_project_solo
+_core:
+  default_config_hash: 2TBER4QGf3aDAR08p65ZBfVPstUa-Gg__7Alm6iLhaw
+id: psaur_promptosaur_project_solo_account_menu
+theme: psaur_promptosaur_project_solo
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: "Menu du compte de l'utilisateur"
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

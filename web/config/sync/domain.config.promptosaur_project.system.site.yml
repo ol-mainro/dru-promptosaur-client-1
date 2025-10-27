@@ -1,0 +1,7 @@
+name: 'Le projet Promptosaur'
+mail: ol.mainro@gmail.com
+slogan: 'Travaillez de manière structurée avec L’IA générative'
+page:
+  403: /user/login
+  404: ''
+  front: /front-content-list-grid

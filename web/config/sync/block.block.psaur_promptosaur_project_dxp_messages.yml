@@ -1,0 +1,22 @@
+uuid: a160eaec-f594-42a6-9cf4-f20c97dea959
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_promptosaur_project_dxp
+_core:
+  default_config_hash: wgkVxN3uX_klZRZJifP1469jTcAV9BlwdMt0zd-_r5E
+id: psaur_promptosaur_project_dxp_messages
+theme: psaur_promptosaur_project_dxp
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  label_display: '0'
+  provider: system
+visibility: {  }

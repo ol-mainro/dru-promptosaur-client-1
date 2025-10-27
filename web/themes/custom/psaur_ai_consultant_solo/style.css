@@ -1,0 +1,35 @@
+
+.block h1.page-title-text span {
+    font-size: var(--solo-px38);
+    line-height: var(--solo-px38);
+}
+
+@media (max-width: 47.9988rem) {
+    .block h1.page-title-text {
+        font-size: var(--solo-px18);
+        line-height: var(--solo-px18);
+    }
+}
+
+@media (max-width: 61.9988rem) {
+    .block h1.page-title-text {
+        font-size: var(--solo-px24);
+        line-height: var(--solo-px24);
+    }
+}
+
+@media (max-width: 74.9988rem) {
+    .block h1.page-title-text {
+        font-size: var(--solo-px36);
+        line-height: var(--solo-px36);
+    }
+}
+
+p{
+    margin-block-start: 0px;
+}
+
+
+.view .node--view-mode-teaser .node__content .field--name-field-image {
+    margin-block-start: var(--solo-px12);
+}
