@@ -5,8 +5,11 @@ dependencies:
   config:
     - block_content.type.basic_text_block
     - field.field.block_content.basic_text_block.body
+    - field.field.block_content.basic_text_block.field_image
     - field.field.block_content.basic_text_block.layout_builder__layout
+    - image.style.thumbnail
   module:
+    - svg_image
     - text
 id: block_content.basic_text_block.default
 targetEntityType: block_content
@@ -15,7 +18,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 26
+    weight: 2
     region: content
     settings:
       rows: 9
@@ -23,9 +26,17 @@ content:
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
   info:
     type: string_textfield
-    weight: -5
+    weight: 0
     region: content
     settings:
       size: 60
@@ -33,7 +44,7 @@ content:
     third_party_settings: {  }
   langcode:
     type: language_select
-    weight: 2
+    weight: 3
     region: content
     settings:
       include_locked: true
