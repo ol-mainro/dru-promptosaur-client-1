@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a31158e7e12827d7579899e061fd107d",
+    "content-hash": "2428acfde41012e41f8929b3813bd94b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2169,6 +2169,56 @@
             "time": "2024-10-09T13:47:03+00:00"
         },
         {
+            "name": "drupal/adaptivetheme",
+            "version": "7.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/adaptivetheme.git",
+                "reference": "7.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/adaptivetheme-7.1.1.zip",
+                "reference": "7.1.1",
+                "shasum": "0afc93c0741fca53ea6b541ae6dc415d5d0e1000"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "require-dev": {
+                "drupal/stable": "*"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "7.1.1",
+                    "datestamp": "1738511032",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Burnz",
+                    "homepage": "https://www.drupal.org/user/61393"
+                },
+                {
+                    "name": "mattbloomfield",
+                    "homepage": "https://www.drupal.org/user/3620586"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/adaptivetheme",
+            "support": {
+                "source": "https://git.drupalcode.org/project/adaptivetheme"
+            }
+        },
+        {
             "name": "drupal/add_content_by_bundle",
             "version": "1.2.2",
             "source": {
@@ -2754,6 +2804,58 @@
             "homepage": "https://www.drupal.org/project/alice",
             "support": {
                 "source": "https://git.drupalcode.org/project/alice"
+            }
+        },
+        {
+            "name": "drupal/at_tool",
+            "version": "3.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/at_tool.git",
+                "reference": "3.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/at_tool-3.1.2.zip",
+                "reference": "3.1.2",
+                "shasum": "0cf155882aabaf33d8d3b2fb4bf3b0c9146e1b2f"
+            },
+            "require": {
+                "drupal/adaptivetheme": "^7.0",
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.1.2",
+                    "datestamp": "1715439755",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Matt",
+                    "homepage": "http://adaptivethemes.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Rushikesh Raval",
+                    "homepage": "https://www.drupal.org/user/3773114"
+                }
+            ],
+            "description": "Tools to support Adaptivetheme 8.x and sub-themes, includes the AT Theme Generator.",
+            "homepage": "https://www.drupal.org/project/at_tool",
+            "support": {
+                "source": "http://git.drupal.org/project/at_tool.git",
+                "issues": "https://www.drupal.org/project/issues/at_tool",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
             }
         },
         {
@@ -6408,6 +6510,100 @@
                 "source": "https://cgit.drupalcode.org/focal_point",
                 "issues": "https://drupal.org/project/issues/focal_point",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/fortytwo",
+            "version": "5.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/fortytwo.git",
+                "reference": "5.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/fortytwo-5.0.3.zip",
+                "reference": "5.0.3",
+                "shasum": "0d297a1cd83028c9b76040b41fb1d33256d939c1"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "5.0.3",
+                    "datestamp": "1723362693",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/ScriptHandler.php"
+                ]
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "scripts": {
+                "subtheme": [
+                    "Drupal\\fortytwo\\ScriptHandler::subtheme"
+                ]
+            },
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "arantxio",
+                    "homepage": "https://www.drupal.org/user/3726285"
+                },
+                {
+                    "name": "batigolix",
+                    "homepage": "https://www.drupal.org/user/22175"
+                },
+                {
+                    "name": "drumanuel",
+                    "homepage": "https://www.drupal.org/user/2824201"
+                },
+                {
+                    "name": "fabianderijk",
+                    "homepage": "https://www.drupal.org/user/278745"
+                },
+                {
+                    "name": "finalist",
+                    "homepage": "https://www.drupal.org/user/2794715"
+                },
+                {
+                    "name": "immoreel",
+                    "homepage": "https://www.drupal.org/user/1695422"
+                },
+                {
+                    "name": "malphas",
+                    "homepage": "https://www.drupal.org/user/496642"
+                },
+                {
+                    "name": "tomvv",
+                    "homepage": "https://www.drupal.org/user/2748021"
+                },
+                {
+                    "name": "wiibe",
+                    "homepage": "https://www.drupal.org/user/3696476"
+                },
+                {
+                    "name": "yustintr",
+                    "homepage": "https://www.drupal.org/user/3751896"
+                },
+                {
+                    "name": "Zorath",
+                    "homepage": "https://www.drupal.org/user/1058994"
+                }
+            ],
+            "description": "Drupal responsive full featured base theme",
+            "homepage": "https://www.drupal.org/project/fortytwo",
+            "support": {
+                "source": "https://git.drupalcode.org/project/fortytwo"
             }
         },
         {
@@ -18625,7 +18821,7 @@
     },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }

@@ -1,0 +1,22 @@
+uuid: ff65250f-067c-4553-8a7b-61d15679585d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fortytwo
+_core:
+  default_config_hash: rtREBa7go5QUg8q0ya-bDK3bWWCovgvuopsIZEKQeBo
+id: fortytwo_content
+theme: fortytwo
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  label_display: '0'
+  provider: system
+visibility: {  }

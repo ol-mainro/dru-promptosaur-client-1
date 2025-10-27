@@ -1,0 +1,18 @@
+uuid: 06d3cf9a-3cab-46ef-ab47-daf04f06a9f3
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - starshot_demo
+id: starshot_demo_titredelapage
+theme: starshot_demo
+region: content
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de la page'
+  label_display: '0'
+  provider: core
+visibility: {  }

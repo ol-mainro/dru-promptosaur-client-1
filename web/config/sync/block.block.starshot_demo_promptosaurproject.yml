@@ -1,0 +1,25 @@
+uuid: 2a8777c3-01a7-48e9-8b32-aebe0527d1a8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.promptosaur-project-menu
+  module:
+    - system
+  theme:
+    - starshot_demo
+id: starshot_demo_promptosaurproject
+theme: starshot_demo
+region: header
+weight: -2
+provider: null
+plugin: 'system_menu_block:promptosaur-project-menu'
+settings:
+  id: 'system_menu_block:promptosaur-project-menu'
+  label: 'Promptosaur project'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

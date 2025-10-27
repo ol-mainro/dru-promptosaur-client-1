@@ -1,0 +1,26 @@
+uuid: 0cb98ee4-ae78-4b26-a60f-06e80ef7d93d
+langcode: en
+status: true
+dependencies:
+  module:
+    - updated
+  theme:
+    - fortytwo
+id: fortytwo_lastupdateddateblock
+theme: fortytwo
+region: content
+weight: -1
+provider: null
+plugin: updated_date_block
+settings:
+  id: updated_date_block
+  label: 'Last Updated date block'
+  label_display: '0'
+  provider: updated
+  context_mapping:
+    node: '@node.node_route_context:node'
+  date_prefix: 'Last updated on'
+  date_format: custom
+  custom_date_format: 'F j, Y g:ia'
+  timezone: ''
+visibility: {  }

@@ -17,7 +17,7 @@ humains_site: psaur_humans
 humains_admin: gin
 local_scientific_tourism_site: psaur_local_scientific_tourism
 local_scientific_tourism_admin: gin
-promptosaur_project_site: psaur_promptosaur_project
+promptosaur_project_site: flexistyle_bootstrap_subtheme
 promptosaur_project_admin: gin
 clap_studio_site: psaur_clap_studio
 clap_studio_admin: gin

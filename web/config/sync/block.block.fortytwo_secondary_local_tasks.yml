@@ -1,0 +1,22 @@
+uuid: 12c1850a-cddd-4c4b-8bb0-aaeec094f188
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - fortytwo
+_core:
+  default_config_hash: eqGUDDp50dv3qWHXkXyiLoHgYnXgnP6THlyBDfyX_4c
+id: fortytwo_secondary_local_tasks
+theme: fortytwo
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Onglets secondaires'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

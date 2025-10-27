@@ -7,12 +7,14 @@ dependencies:
     - field.field.node.generated_content.field_assigned_user
     - field.field.node.generated_content.field_domain_access
     - field.field.node.generated_content.field_domain_all_affiliates
+    - field.field.node.generated_content.field_image
     - field.field.node.generated_content.field_inline_tags
     - field.field.node.generated_content.field_llm_sources
     - field.field.node.generated_content.field_tags
     - field.field.node.generated_content.field_variant
     - node.type.generated_content
   module:
+    - svg_image
     - text
     - user
 id: node.generated_content.default
@@ -24,6 +26,21 @@ content:
     type: text_default
     label: hidden
     settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
     third_party_settings: {  }
     weight: 0
     region: content

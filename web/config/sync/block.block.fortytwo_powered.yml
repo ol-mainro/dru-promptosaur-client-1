@@ -1,0 +1,22 @@
+uuid: 2ff3886c-0b8a-46ed-b75a-c38b025a480d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fortytwo
+_core:
+  default_config_hash: yF1NcATLLhLNdhKxZGXUHr3AgkVf3mITKtTbmEGArQw
+id: fortytwo_powered
+theme: fortytwo
+region: header
+weight: -16
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Propulsé par Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

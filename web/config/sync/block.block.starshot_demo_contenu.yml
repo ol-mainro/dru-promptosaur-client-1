@@ -1,0 +1,25 @@
+uuid: 20f59130-1a49-4daa-8098-8d66b6e19c4d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.content
+  module:
+    - system
+  theme:
+    - starshot_demo
+id: starshot_demo_contenu
+theme: starshot_demo
+region: content
+weight: 0
+provider: null
+plugin: 'system_menu_block:content'
+settings:
+  id: 'system_menu_block:content'
+  label: Contenu
+  label_display: visible
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }
