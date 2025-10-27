@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.generated_content.field_assigned_user
     - field.field.node.generated_content.field_domain_access
     - field.field.node.generated_content.field_domain_all_affiliates
+    - field.field.node.generated_content.field_generation_metadata
     - field.field.node.generated_content.field_image
     - field.field.node.generated_content.field_inline_tags
     - field.field.node.generated_content.field_llm_sources
@@ -14,6 +15,7 @@ dependencies:
     - field.field.node.generated_content.field_variant
     - node.type.generated_content
   module:
+    - json_field
     - svg_image
     - text
     - user
@@ -28,6 +30,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_generation_metadata:
+    type: json
+    label: above
+    settings:
+      attach_library: true
+    third_party_settings: {  }
+    weight: 1
     region: content
   field_image:
     type: image

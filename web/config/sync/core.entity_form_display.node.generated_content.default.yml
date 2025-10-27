@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.generated_content.field_assigned_user
     - field.field.node.generated_content.field_domain_access
     - field.field.node.generated_content.field_domain_all_affiliates
+    - field.field.node.generated_content.field_generation_metadata
     - field.field.node.generated_content.field_image
     - field.field.node.generated_content.field_inline_tags
     - field.field.node.generated_content.field_llm_sources
@@ -16,6 +17,7 @@ dependencies:
     - node.type.generated_content
   module:
     - content_moderation
+    - json_field
     - path
     - readonly_field_widget
     - svg_image
@@ -74,6 +76,14 @@ content:
     region: content
     settings:
       display_label: true
+    third_party_settings: {  }
+  field_generation_metadata:
+    type: json_textarea
+    weight: 26
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
     third_party_settings: {  }
   field_image:
     type: image_image

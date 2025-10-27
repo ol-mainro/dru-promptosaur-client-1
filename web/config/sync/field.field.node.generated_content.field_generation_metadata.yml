@@ -1,0 +1,21 @@
+uuid: 16b84915-b630-422c-a69a-939a8cb89eef
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_generation_metadata
+    - node.type.generated_content
+  module:
+    - json_field
+id: node.generated_content.field_generation_metadata
+field_name: field_generation_metadata
+entity_type: node
+bundle: generated_content
+label: 'Méta-données de la génération'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: json_native_binary

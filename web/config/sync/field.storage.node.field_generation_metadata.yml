@@ -1,0 +1,19 @@
+uuid: 897e14e0-5a0b-4615-82ca-ac25444d5ec6
+langcode: fr
+status: true
+dependencies:
+  module:
+    - json_field
+    - node
+id: node.field_generation_metadata
+field_name: field_generation_metadata
+entity_type: node
+type: json_native_binary
+settings: {  }
+module: json_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
