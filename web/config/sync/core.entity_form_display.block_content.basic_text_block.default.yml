@@ -5,6 +5,7 @@ dependencies:
   config:
     - block_content.type.basic_text_block
     - field.field.block_content.basic_text_block.body
+    - field.field.block_content.basic_text_block.layout_builder__layout
   module:
     - text
 id: block_content.basic_text_block.default
@@ -37,4 +38,5 @@ content:
     settings:
       include_locked: true
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  layout_builder__layout: true

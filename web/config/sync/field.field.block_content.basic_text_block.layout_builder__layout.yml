@@ -1,0 +1,21 @@
+uuid: 4b6b9608-a62d-4e80-be11-0346c96d9e86
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.basic_text_block
+    - field.storage.block_content.layout_builder__layout
+  module:
+    - layout_builder
+id: block_content.basic_text_block.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: block_content
+bundle: basic_text_block
+label: 'Mise en page'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section
