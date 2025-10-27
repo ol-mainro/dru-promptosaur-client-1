@@ -9,7 +9,7 @@ dependencies:
 id: psaur_ai_blog_identitedusite
 theme: psaur_ai_blog
 region: header
-weight: -3
+weight: -6
 provider: null
 plugin: system_branding_block
 settings:

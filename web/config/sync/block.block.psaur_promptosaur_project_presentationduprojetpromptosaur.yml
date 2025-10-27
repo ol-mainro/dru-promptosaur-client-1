@@ -1,0 +1,25 @@
+uuid: f5e3ea2d-b926-44ca-a6ea-5daf2e32daa0
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic_text_block:8e2a15ab-7cae-4ce8-8643-c22b25160edd'
+  module:
+    - block_content
+  theme:
+    - psaur_promptosaur_project
+id: psaur_promptosaur_project_presentationduprojetpromptosaur
+theme: psaur_promptosaur_project
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:8e2a15ab-7cae-4ce8-8643-c22b25160edd'
+settings:
+  id: 'block_content:8e2a15ab-7cae-4ce8-8643-c22b25160edd'
+  label: 'Présentation du projet Promptosaur'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

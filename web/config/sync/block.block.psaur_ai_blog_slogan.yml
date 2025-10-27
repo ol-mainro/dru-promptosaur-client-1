@@ -12,7 +12,7 @@ dependencies:
 id: psaur_ai_blog_slogan
 theme: psaur_ai_blog
 region: primary_menu
-weight: -5
+weight: -7
 provider: null
 plugin: 'block_content:c8ef564b-8c2a-46b3-a2a0-5d2e856357f2'
 settings:
