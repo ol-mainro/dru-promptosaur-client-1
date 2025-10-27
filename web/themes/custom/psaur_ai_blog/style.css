@@ -4,8 +4,18 @@
     line-height: var(--solo-px38);
 }
 
+.node--view-mode-teaser h3 {
+    font-size: var(--solo-px38);
+    line-height: var(--solo-px38);
+}
+
 @media (max-width: 47.9988rem) {
     .block h1.page-title-text {
+        font-size: var(--solo-px18);
+        line-height: var(--solo-px18);
+    }
+    
+    .node--view-mode-teaser h3 {
         font-size: var(--solo-px18);
         line-height: var(--solo-px18);
     }
@@ -16,10 +26,20 @@
         font-size: var(--solo-px24);
         line-height: var(--solo-px24);
     }
+    
+    .node--view-mode-teaser h3 {
+        font-size: var(--solo-px24);
+        line-height: var(--solo-px24);
+    }
 }
 
 @media (max-width: 74.9988rem) {
     .block h1.page-title-text {
+        font-size: var(--solo-px36);
+        line-height: var(--solo-px36);
+    }
+    
+    .node--view-mode-teaser h3 {
         font-size: var(--solo-px36);
         line-height: var(--solo-px36);
     }
