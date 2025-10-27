@@ -16,11 +16,11 @@ settings:
   display_default: true
   uri_scheme: s3
   default_image:
-    uuid: ''
+    uuid: a099caa5-2ee0-4183-acc6-a1cbf6e00466
     alt: ''
     title: ''
-    width: null
-    height: null
+    width: 2498
+    height: 1086
 module: image
 locked: false
 cardinality: 1

@@ -1,0 +1,31 @@
+uuid: 5487ead6-8729-43a8-a741-c9446f5295db
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.global_contact_form
+    - field.field.contact_message.global_contact_form.field_body
+  module:
+    - text
+id: contact_message.global_contact_form.default
+targetEntityType: contact_message
+bundle: global_contact_form
+mode: default
+content:
+  field_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  message:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

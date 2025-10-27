@@ -1,0 +1,19 @@
+uuid: fc3fa588-28eb-4017-ab9f-6eaaa5263fe5
+langcode: fr
+status: true
+dependencies:
+  module:
+    - contact
+    - text
+id: contact_message.field_body
+field_name: field_body
+entity_type: contact_message
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

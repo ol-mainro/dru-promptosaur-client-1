@@ -1,0 +1,28 @@
+uuid: 47796de0-e940-4fa2-ac60-1f137f765c5e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.personal
+    - field.storage.contact_message.field_body
+    - filter.format.content_format
+    - filter.format.markdown
+    - filter.format.restricted_html
+  module:
+    - text
+id: contact_message.personal.field_body
+field_name: field_body
+entity_type: contact_message
+bundle: personal
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - markdown
+    - content_format
+    - restricted_html
+field_type: text_long

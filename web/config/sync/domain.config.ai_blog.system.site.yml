@@ -4,4 +4,4 @@ slogan: ''
 page:
   403: /user/login
   404: ''
-  front: /front-content-list
+  front: /front-content-list-grid

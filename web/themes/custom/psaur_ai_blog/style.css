@@ -28,3 +28,8 @@
 p{
     margin-block-start: 0px;
 }
+
+
+.view .node--view-mode-teaser .node__content .field--name-field-image {
+    margin-block-start: var(--solo-px12);
+}

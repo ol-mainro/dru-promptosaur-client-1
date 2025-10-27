@@ -1,0 +1,12 @@
+uuid: b558772c-0619-43ce-92bf-3d0241dc0ce5
+langcode: fr
+status: true
+dependencies: {  }
+id: promptosaur_contact_form
+label: 'Nous contacter'
+recipients:
+  - romain.dortier@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

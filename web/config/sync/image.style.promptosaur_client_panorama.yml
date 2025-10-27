@@ -1,0 +1,17 @@
+uuid: 7ead2992-c733-45d1-ad05-cd5291a430ec
+langcode: fr
+status: true
+dependencies:
+  module:
+    - focal_point
+name: promptosaur_client_panorama
+label: 'Promptosaur client panorama'
+effects:
+  c776ef47-09a8-4738-89d3-b2026d332821:
+    uuid: c776ef47-09a8-4738-89d3-b2026d332821
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1800
+      height: 500
+      crop_type: focal_point

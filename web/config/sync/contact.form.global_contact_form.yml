@@ -1,0 +1,12 @@
+uuid: 5519b26b-fb46-4988-820a-bb8017d151d4
+langcode: fr
+status: true
+dependencies: {  }
+id: global_contact_form
+label: 'Me contacter'
+recipients:
+  - romain.dortier@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

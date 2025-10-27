@@ -13,6 +13,7 @@ dependencies:
     - field.field.node.generated_content.field_llm_sources
     - field.field.node.generated_content.field_tags
     - field.field.node.generated_content.field_variant
+    - image.style.promptosaur_client_panorama
     - node.type.generated_content
   module:
     - svg_image
@@ -28,14 +29,14 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 0
+    weight: 1
     region: content
   field_image:
     type: image
     label: hidden
     settings:
       image_link: ''
-      image_style: ''
+      image_style: promptosaur_client_panorama
       image_loading:
         attribute: lazy
       svg_attributes:
@@ -43,7 +44,7 @@ content:
         height: null
       svg_render_as_image: true
     third_party_settings: {  }
-    weight: 1
+    weight: 0
     region: content
 hidden:
   display_updated: true
