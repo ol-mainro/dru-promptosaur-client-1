@@ -14,7 +14,7 @@
         font-size: var(--solo-px18);
         line-height: var(--solo-px18);
     }
-    
+
     .node--view-mode-teaser h3 {
         font-size: var(--solo-px18);
         line-height: var(--solo-px18);
@@ -52,4 +52,12 @@ p{
 
 .view .node--view-mode-teaser .node__content .field--name-field-image {
     margin-block-start: var(--solo-px12);
+}
+
+.layout--twocol-section layout--twocol-section--50-50 .layout__region--first{
+    margin-right: 20px;
+}
+
+.block-field-blockblock-contentbasic-text-blockbody p{
+    font-size:30px;
 }
