@@ -9,6 +9,7 @@ dependencies:
     - coffee
     - contact
     - dashboard
+    - empty_page
     - file
     - honeypot
     - klaro
@@ -29,6 +30,7 @@ permissions:
   - 'delete own files'
   - 'skip CAPTCHA'
   - 'use klaro'
+  - 'view empty pages'
   - 'view media'
   - 'view own unpublished content'
   - 'view welcome dashboard'
