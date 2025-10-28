@@ -61,3 +61,7 @@ p{
 .block-field-blockblock-contentbasic-text-blockbody p{
     font-size:25px;
 }
+
+.views-view-responsive-grid__item{
+    margin-right:20px;
+}
