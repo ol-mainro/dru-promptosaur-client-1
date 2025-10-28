@@ -10,7 +10,6 @@ dependencies:
     - field.field.block_content.basic_text_block.layout_builder__layout
   module:
     - layout_builder
-    - layout_discovery
     - svg_image
     - text
 third_party_settings:
@@ -19,18 +18,23 @@ third_party_settings:
     allow_custom: true
     sections:
       -
-        layout_id: layout_onecol
+        layout_id: layout_twocol_section
         layout_settings:
-          label: ''
+          label: 'top_2 _columns'
+          context_mapping: {  }
+          column_widths: 50-50
         components:
-          12cfa6bb-5831-41fc-b531-519198bf8d9e:
-            uuid: 12cfa6bb-5831-41fc-b531-519198bf8d9e
-            region: content
+          4ca14fa9-27c4-4b4f-951f-f02294d859ea:
+            uuid: 4ca14fa9-27c4-4b4f-951f-f02294d859ea
+            region: first
             configuration:
               id: 'field_block:block_content:basic_text_block:body'
+              label: Body
               label_display: '0'
+              provider: layout_builder
               context_mapping:
                 entity: layout_builder.entity
+                view_mode: view_mode
               formatter:
                 type: text_default
                 label: hidden
@@ -38,20 +42,23 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 0
             additional: {  }
-          3f4cbfdf-47df-4e65-9bc6-37c27b477b77:
-            uuid: 3f4cbfdf-47df-4e65-9bc6-37c27b477b77
-            region: content
+          1c612faa-4218-4f3c-bd9d-9528d291614b:
+            uuid: 1c612faa-4218-4f3c-bd9d-9528d291614b
+            region: second
             configuration:
               id: 'field_block:block_content:basic_text_block:field_image'
+              label: Image
               label_display: '0'
+              provider: layout_builder
               context_mapping:
                 entity: layout_builder.entity
+                view_mode: view_mode
               formatter:
                 type: image
-                label: above
+                label: hidden
                 settings:
                   image_link: ''
-                  image_style: ''
+                  image_style: medium
                   image_loading:
                     attribute: lazy
                   svg_attributes:
@@ -59,23 +66,7 @@ third_party_settings:
                     height: null
                   svg_render_as_image: true
                 third_party_settings: {  }
-            weight: 1
-            additional: {  }
-          50b259f9-19ba-4361-b176-3ec7f3f80262:
-            uuid: 50b259f9-19ba-4361-b176-3ec7f3f80262
-            region: content
-            configuration:
-              id: 'field_block:block_content:basic_text_block:field_locations'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: string
-                label: above
-                settings:
-                  link_to_entity: false
-                third_party_settings: {  }
-            weight: 2
+            weight: 0
             additional: {  }
         third_party_settings: {  }
 id: block_content.basic_text_block.default
