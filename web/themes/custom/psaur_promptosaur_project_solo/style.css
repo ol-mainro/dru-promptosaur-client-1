@@ -60,6 +60,9 @@ p{
     margin-bottom: 15px;
 }
 
+.layout--twocol-section {
+    flex-wrap: nowrap;
+}
 .block-field-blockblock-contentbasic-text-blockbody p{
     font-size:25px;
 }
