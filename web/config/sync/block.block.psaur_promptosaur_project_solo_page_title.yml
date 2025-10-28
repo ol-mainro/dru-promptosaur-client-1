@@ -9,7 +9,7 @@ _core:
 id: psaur_promptosaur_project_solo_page_title
 theme: psaur_promptosaur_project_solo
 region: content
-weight: -5
+weight: -6
 provider: null
 plugin: page_title_block
 settings:

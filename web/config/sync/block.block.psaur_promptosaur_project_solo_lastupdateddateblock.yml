@@ -9,7 +9,7 @@ dependencies:
 id: psaur_promptosaur_project_solo_lastupdateddateblock
 theme: psaur_promptosaur_project_solo
 region: content
-weight: 0
+weight: -5
 provider: null
 plugin: updated_date_block
 settings:

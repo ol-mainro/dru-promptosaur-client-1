@@ -11,6 +11,7 @@ dependencies:
     - node.type.page
     - workflows.workflow.basic_editorial
   module:
+    - contact
     - content_moderation
     - contextual
     - file
@@ -37,6 +38,7 @@ permissions:
   - 'access media overview'
   - 'access navigation'
   - 'access trash'
+  - 'administer contact forms'
   - 'administer menu'
   - 'administer redirects'
   - 'administer url aliases'
