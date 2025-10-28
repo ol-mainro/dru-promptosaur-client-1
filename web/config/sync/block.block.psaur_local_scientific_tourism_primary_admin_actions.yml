@@ -9,7 +9,7 @@ _core:
 id: psaur_local_scientific_tourism_primary_admin_actions
 theme: psaur_local_scientific_tourism
 region: content
-weight: -13
+weight: -5
 provider: null
 plugin: local_actions_block
 settings:

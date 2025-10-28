@@ -1,4 +1,4 @@
-uuid: e88ba08b-09b4-41dc-834f-74bb2ef65ee4
+uuid: b7789818-54b4-41fd-9779-68e93894dfbb
 langcode: fr
 status: true
 dependencies:
@@ -8,19 +8,18 @@ dependencies:
     - system
     - views
   theme:
-    - psaur_promptosaur_project_solo
-id: promptosaur_blocks_list_block
-theme: psaur_promptosaur_project_solo
+    - psaur_local_scientific_tourism
+id: local_scientific_tourism_views_block__content_blocks_list_block
+theme: psaur_local_scientific_tourism
 region: content
 weight: -6
 provider: null
-plugin: 'views_block:content_blocks_list-block_3'
+plugin: 'views_block:content_blocks_list-block_8'
 settings:
-  id: 'views_block:content_blocks_list-block_3'
+  id: 'views_block:content_blocks_list-block_8'
   label: ''
   label_display: '0'
   provider: views
-  context_mapping: {  }
   views_label: ''
   items_per_page: null
 visibility:

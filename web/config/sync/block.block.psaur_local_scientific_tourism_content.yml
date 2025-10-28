@@ -11,7 +11,7 @@ _core:
 id: psaur_local_scientific_tourism_content
 theme: psaur_local_scientific_tourism
 region: content
-weight: -9
+weight: -2
 provider: null
 plugin: system_main_block
 settings:

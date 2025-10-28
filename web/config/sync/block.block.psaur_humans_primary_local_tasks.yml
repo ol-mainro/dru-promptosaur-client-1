@@ -9,7 +9,7 @@ _core:
 id: psaur_humans_primary_local_tasks
 theme: psaur_humans
 region: content
-weight: -12
+weight: -4
 provider: null
 plugin: local_tasks_block
 settings:

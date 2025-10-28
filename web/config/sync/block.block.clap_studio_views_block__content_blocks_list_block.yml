@@ -1,4 +1,4 @@
-uuid: e88ba08b-09b4-41dc-834f-74bb2ef65ee4
+uuid: 2af3d607-589e-48c1-a9dc-aca75376fbdf
 langcode: fr
 status: true
 dependencies:
@@ -8,19 +8,18 @@ dependencies:
     - system
     - views
   theme:
-    - psaur_promptosaur_project_solo
-id: promptosaur_blocks_list_block
-theme: psaur_promptosaur_project_solo
+    - psaur_clap_studio
+id: clap_studio_views_block__content_blocks_list_block
+theme: psaur_clap_studio
 region: content
 weight: -6
 provider: null
-plugin: 'views_block:content_blocks_list-block_3'
+plugin: 'views_block:content_blocks_list-block_6'
 settings:
-  id: 'views_block:content_blocks_list-block_3'
+  id: 'views_block:content_blocks_list-block_6'
   label: ''
   label_display: '0'
   provider: views
-  context_mapping: {  }
   views_label: ''
   items_per_page: null
 visibility:

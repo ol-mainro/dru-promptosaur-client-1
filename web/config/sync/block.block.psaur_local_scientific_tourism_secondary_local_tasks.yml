@@ -9,7 +9,7 @@ _core:
 id: psaur_local_scientific_tourism_secondary_local_tasks
 theme: psaur_local_scientific_tourism
 region: content
-weight: -11
+weight: -3
 provider: null
 plugin: local_tasks_block
 settings:

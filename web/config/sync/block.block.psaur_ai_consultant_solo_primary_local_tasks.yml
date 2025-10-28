@@ -9,7 +9,7 @@ _core:
 id: psaur_ai_consultant_solo_primary_local_tasks
 theme: psaur_ai_consultant_solo
 region: content
-weight: -5
+weight: -3
 provider: null
 plugin: local_tasks_block
 settings:
