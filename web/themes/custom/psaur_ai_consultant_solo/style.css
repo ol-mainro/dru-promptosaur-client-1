@@ -5,8 +5,8 @@
 }
 
 .node--view-mode-teaser h3 {
-    font-size: var(--solo-px38);
-    line-height: var(--solo-px38);
+    font-size: var(--solo-px32);
+    line-height: var(--solo-px32);
 }
 
 @media (max-width: 47.9988rem) {
@@ -40,8 +40,8 @@
     }
     
     .node--view-mode-teaser h3 {
-        font-size: var(--solo-px36);
-        line-height: var(--solo-px36);
+        font-size: var(--solo-px32);
+        line-height: var(--solo-px32);
     }
 }
 
@@ -54,10 +54,15 @@ p{
     margin-block-start: var(--solo-px12);
 }
 
-.layout--twocol-section layout--twocol-section--50-50 .layout__region--first{
+.layout--twocol-section
+ .layout__region--first{
     margin-right: 20px;
 }
 
 .block-field-blockblock-contentbasic-text-blockbody p{
-    font-size:30px;
+    font-size:25px;
+}
+
+.views-view-responsive-grid__item{
+    margin-right:20px;
 }

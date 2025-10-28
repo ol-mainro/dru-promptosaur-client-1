@@ -136,7 +136,7 @@
         "drupal/sitemap": "^2",
         "drupal/smart_date": "^4.2.1",
         "drupal/solo": "^1.0",
-        "drupal/svg_image": "^3.1",
+        "drupal/svg_image": "^3.2",
         "drupal/symfony_mailer_lite": "^2.0.1",
         "drupal/tagify": "^1.2",
         "drupal/thex": "^11.0",

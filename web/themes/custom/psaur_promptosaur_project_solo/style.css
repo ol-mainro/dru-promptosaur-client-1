@@ -54,7 +54,7 @@ p{
     margin-block-start: var(--solo-px12);
 }
 
-.layout--twocol-section layout--twocol-section--50-50 .layout__region--first{
+.layout--twocol-section .layout__region--first{
     margin-right: 20px;
 }
 
