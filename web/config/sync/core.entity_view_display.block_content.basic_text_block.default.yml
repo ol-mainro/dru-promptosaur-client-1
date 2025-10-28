@@ -6,6 +6,7 @@ dependencies:
     - block_content.type.basic_text_block
     - field.field.block_content.basic_text_block.body
     - field.field.block_content.basic_text_block.field_image
+    - field.field.block_content.basic_text_block.field_locations
     - field.field.block_content.basic_text_block.layout_builder__layout
   module:
     - layout_builder
@@ -60,6 +61,22 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 1
             additional: {  }
+          50b259f9-19ba-4361-b176-3ec7f3f80262:
+            uuid: 50b259f9-19ba-4361-b176-3ec7f3f80262
+            region: content
+            configuration:
+              id: 'field_block:block_content:basic_text_block:field_locations'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
         third_party_settings: {  }
 id: block_content.basic_text_block.default
 targetEntityType: block_content
@@ -87,6 +104,14 @@ content:
       svg_render_as_image: true
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_locations:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
     region: content
 hidden:
   langcode: true

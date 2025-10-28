@@ -1,0 +1,19 @@
+uuid: ad9a9d16-8687-4025-9782-d3d09a257940
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.basic_text_block
+    - field.storage.block_content.field_locations
+id: block_content.basic_text_block.field_locations
+field_name: field_locations
+entity_type: block_content
+bundle: basic_text_block
+label: Localisation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

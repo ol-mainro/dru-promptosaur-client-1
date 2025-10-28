@@ -6,6 +6,7 @@ dependencies:
     - block_content.type.basic_text_block
     - field.field.block_content.basic_text_block.body
     - field.field.block_content.basic_text_block.field_image
+    - field.field.block_content.basic_text_block.field_locations
     - field.field.block_content.basic_text_block.layout_builder__layout
     - image.style.thumbnail
   module:
@@ -33,6 +34,14 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_locations:
+    type: string_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   info:
     type: string_textfield
