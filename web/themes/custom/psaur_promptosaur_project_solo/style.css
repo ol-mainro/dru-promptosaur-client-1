@@ -70,3 +70,9 @@ p{
 .views-view-responsive-grid__item{
     margin-right:20px;
 }
+
+.layout--twocol-section img{
+    -webkit-border-radius: 30px / 30px;
+    -moz-border-radius: 30px / 30px;
+    border-radius: 30px / 30px;
+}
