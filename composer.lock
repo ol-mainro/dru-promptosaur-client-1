@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b12532b940c2bf461a91c4949339832",
+    "content-hash": "9a3b6baa0a7605b6ca6b575817327c58",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6078,6 +6078,71 @@
             "homepage": "https://www.drupal.org/project/edux",
             "support": {
                 "source": "https://git.drupalcode.org/project/edux"
+            }
+        },
+        {
+            "name": "drupal/empty_page",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/empty_page.git",
+                "reference": "4.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/empty_page-4.0.0.zip",
+                "reference": "4.0.0",
+                "shasum": "0ab48d4366d32c03dc95cd86610dd0eedd511da8"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11 || ^12"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "4.0.0",
+                    "datestamp": "1747813892",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bleen",
+                    "homepage": "https://www.drupal.org/user/77375"
+                },
+                {
+                    "name": "merauluka",
+                    "homepage": "https://www.drupal.org/user/780004"
+                },
+                {
+                    "name": "mukila",
+                    "homepage": "https://www.drupal.org/user/3223526"
+                },
+                {
+                    "name": "Nick Robillard",
+                    "homepage": "https://www.drupal.org/user/176017"
+                },
+                {
+                    "name": "NormySan",
+                    "homepage": "https://www.drupal.org/user/112352"
+                },
+                {
+                    "name": "vladimiraus",
+                    "homepage": "https://www.drupal.org/user/673120"
+                }
+            ],
+            "description": "A simple empty page solution. Assists in creating empty menu callbacks mostly used for pages that only consist of blocks.",
+            "homepage": "https://www.drupal.org/project/empty_page",
+            "support": {
+                "source": "https://git.drupalcode.org/project/empty_page",
+                "issues": "https://www.drupal.org/project/issues/empty_page"
             }
         },
         {

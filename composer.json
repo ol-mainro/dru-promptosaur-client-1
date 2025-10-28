@@ -74,6 +74,7 @@
         "drupal/eca": "^2.1.4",
         "drupal/editoria11y": "^2.2",
         "drupal/edux": "^11.0",
+        "drupal/empty_page": "^4.0",
         "drupal/entity_share": "^3.9",
         "drupal/entity_share_cron": "^3.0",
         "drupal/field_group": "^3.6 || ^4",
