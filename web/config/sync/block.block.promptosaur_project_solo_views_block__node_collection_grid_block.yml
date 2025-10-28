@@ -1,0 +1,29 @@
+uuid: 5bd2334d-9b50-4697-bf77-93deb629ba89
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.node_collection_grid
+  module:
+    - system
+    - views
+  theme:
+    - psaur_promptosaur_project_solo
+id: promptosaur_project_solo_views_block__node_collection_grid_block
+theme: psaur_promptosaur_project_solo
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:node_collection_grid-block_2'
+settings:
+  id: 'views_block:node_collection_grid-block_2'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: 48
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

@@ -54,8 +54,10 @@ p{
     margin-block-start: var(--solo-px12);
 }
 
-.layout--twocol-section .layout__region--first{
+.layout--twocol-section
+ .layout__region--first{
     margin-right: 20px;
+    margin-bottom: 15px;
 }
 
 .block-field-blockblock-contentbasic-text-blockbody p{

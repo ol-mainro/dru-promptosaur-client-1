@@ -1,0 +1,30 @@
+uuid: 152f1073-0ef7-4827-82ba-0c65ca411927
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain_access
+    - node.type.node_collection
+  module:
+    - domain_access
+third_party_settings:
+  domain_access:
+    add_current_domain: true
+id: node.node_collection.field_domain_access
+field_name: field_domain_access
+entity_type: node
+bundle: node_collection
+label: 'Domain Access'
+description: 'Select the affiliate domain(s) for this content'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:domain'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: weight
+      direction: ASC
+field_type: entity_reference

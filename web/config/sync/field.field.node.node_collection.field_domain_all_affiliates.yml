@@ -1,0 +1,21 @@
+uuid: c10cae04-6200-4922-a343-5128edb2c221
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain_all_affiliates
+    - node.type.node_collection
+id: node.node_collection.field_domain_all_affiliates
+field_name: field_domain_all_affiliates
+entity_type: node
+bundle: node_collection
+label: 'Send to all affiliates'
+description: 'Make this content available on all domains.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

@@ -1,0 +1,32 @@
+uuid: 9d6398f2-e1fd-4566-85a7-10cf2bf558ab
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.node_collection
+    - field.field.block_content.node_collection.body
+    - field.field.block_content.node_collection.field_node_reference
+  module:
+    - text
+id: block_content.node_collection.default
+targetEntityType: block_content
+bundle: node_collection
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_node_reference:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

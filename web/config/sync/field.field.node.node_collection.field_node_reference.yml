@@ -1,0 +1,32 @@
+uuid: 85c680c8-0a2a-44dd-9c95-5d97e2593a64
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_node_reference
+    - node.type.base_content
+    - node.type.generated_content
+    - node.type.node_collection
+id: node.node_collection.field_node_reference
+field_name: field_node_reference
+entity_type: node
+bundle: node_collection
+label: Contenus(s)
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      base_content: base_content
+      generated_content: generated_content
+      node_collection: node_collection
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: base_content
+field_type: entity_reference

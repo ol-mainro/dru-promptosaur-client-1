@@ -1,0 +1,29 @@
+uuid: cba4afa0-f89b-4c25-a17b-6efa53668861
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.node_collection_grid
+  module:
+    - system
+    - views
+  theme:
+    - nava
+id: nava_views_block__node_collection_grid_block_1
+theme: nava
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:node_collection_grid-block_1'
+settings:
+  id: 'views_block:node_collection_grid-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: 48
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

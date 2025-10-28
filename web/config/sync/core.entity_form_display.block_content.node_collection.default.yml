@@ -1,0 +1,55 @@
+uuid: 83f2a70f-c268-49e6-b922-4331437545a5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.node_collection
+    - field.field.block_content.node_collection.body
+    - field.field.block_content.node_collection.field_node_reference
+  module:
+    - tagify
+    - text
+id: block_content.node_collection.default
+targetEntityType: block_content
+bundle: node_collection
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_node_reference:
+    type: tagify_entity_reference_autocomplete_widget
+    weight: 27
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      placeholder: ''
+      suggestions_dropdown: 1
+      show_entity_id: 0
+      show_info_label: 0
+      info_label: ''
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

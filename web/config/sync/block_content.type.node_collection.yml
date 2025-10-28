@@ -1,0 +1,8 @@
+uuid: f5160da7-0ca1-4670-8a39-05bb728522a1
+langcode: fr
+status: true
+dependencies: {  }
+id: node_collection
+label: 'Node collection'
+revision: false
+description: null
