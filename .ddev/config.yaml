@@ -14,6 +14,7 @@ additional_hostnames:
   - family-assistant.promptosaur
   - clap-studio.promptosaur
   - promptosaur-project.promptosaur
+  - humanologue.promptosaur
   - test-promptosaur
   - test.promptosaur
 additional_fqdns: []

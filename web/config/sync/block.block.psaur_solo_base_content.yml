@@ -1,0 +1,22 @@
+uuid: 73104bf1-add3-4566-a710-13a08b87e6a8
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_solo_base
+_core:
+  default_config_hash: rtREBa7go5QUg8q0ya-bDK3bWWCovgvuopsIZEKQeBo
+id: psaur_solo_base_content
+theme: psaur_solo_base
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  label_display: '0'
+  provider: system
+visibility: {  }

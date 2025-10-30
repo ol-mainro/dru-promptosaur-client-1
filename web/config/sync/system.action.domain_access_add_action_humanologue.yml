@@ -1,0 +1,15 @@
+uuid: 0061b62b-ba65-49ed-b492-6daa16ab7559
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.humanologue
+  module:
+    - domain_access
+id: domain_access_add_action_humanologue
+label: 'Ajouter le contenu sélectionné au domaine My Drupal CMS site'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id:
+    - humanologue

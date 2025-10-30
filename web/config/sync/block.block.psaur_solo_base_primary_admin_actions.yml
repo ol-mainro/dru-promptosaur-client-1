@@ -1,0 +1,20 @@
+uuid: 0842a190-e167-41d9-aca3-475c0c3de76d
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - psaur_solo_base
+_core:
+  default_config_hash: wCsDJhKjXP870EIRux3yMmP2Siq6M4z8dk9_5omweaU
+id: psaur_solo_base_primary_admin_actions
+theme: psaur_solo_base
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: "Actions d'administration principales"
+  label_display: '0'
+  provider: core
+visibility: {  }

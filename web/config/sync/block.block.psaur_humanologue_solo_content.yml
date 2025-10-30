@@ -1,0 +1,22 @@
+uuid: 42d4e728-ca4d-4655-93ca-072c95c4b4c9
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_humanologue_solo
+_core:
+  default_config_hash: rtREBa7go5QUg8q0ya-bDK3bWWCovgvuopsIZEKQeBo
+id: psaur_humanologue_solo_content
+theme: psaur_humanologue_solo
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  label_display: '0'
+  provider: system
+visibility: {  }

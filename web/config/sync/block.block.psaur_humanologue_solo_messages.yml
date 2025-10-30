@@ -1,0 +1,22 @@
+uuid: f2f80fea-a1cf-4bec-bd9e-39570d70e330
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_humanologue_solo
+_core:
+  default_config_hash: wgkVxN3uX_klZRZJifP1469jTcAV9BlwdMt0zd-_r5E
+id: psaur_humanologue_solo_messages
+theme: psaur_humanologue_solo
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  label_display: '0'
+  provider: system
+visibility: {  }

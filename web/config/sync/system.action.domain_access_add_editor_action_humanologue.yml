@@ -1,0 +1,15 @@
+uuid: f44b0981-8246-4891-88ad-6380c192699e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.humanologue
+  module:
+    - domain_access
+id: domain_access_add_editor_action_humanologue
+label: 'Ajouter des éditeurs au domaine My Drupal CMS site'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id:
+    - humanologue

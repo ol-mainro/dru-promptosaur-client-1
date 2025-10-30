@@ -1,0 +1,22 @@
+uuid: 09023abf-1c34-4e61-80e9-52d0be42de9e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_solo_base
+_core:
+  default_config_hash: EJYkls2r3VXweQ6HWA62xqSLC6wdvlEe5R3fsa-1RJc
+id: psaur_solo_base_breadcrumbs
+theme: psaur_solo_base
+region: highlighted
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: "Fils d'ariane"
+  label_display: '0'
+  provider: system
+visibility: {  }

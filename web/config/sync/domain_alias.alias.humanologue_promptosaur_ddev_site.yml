@@ -1,0 +1,9 @@
+uuid: 0cdd0639-694b-4b40-8e9e-870a3dfea001
+langcode: fr
+status: true
+dependencies: {  }
+id: humanologue_promptosaur_ddev_site
+domain_id: humanologue
+pattern: humanologue.promptosaur.ddev.site
+redirect: 0
+environment: default

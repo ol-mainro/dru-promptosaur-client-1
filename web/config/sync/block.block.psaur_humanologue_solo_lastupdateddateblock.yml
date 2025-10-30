@@ -1,0 +1,26 @@
+uuid: 3b6df55c-a1bb-4b6b-a6a9-d6ca895cc7d7
+langcode: en
+status: true
+dependencies:
+  module:
+    - updated
+  theme:
+    - psaur_humanologue_solo
+id: psaur_humanologue_solo_lastupdateddateblock
+theme: psaur_humanologue_solo
+region: content
+weight: -1
+provider: null
+plugin: updated_date_block
+settings:
+  id: updated_date_block
+  label: 'Last Updated date block'
+  label_display: '0'
+  provider: updated
+  context_mapping:
+    node: '@node.node_route_context:node'
+  date_prefix: 'Last updated on'
+  date_format: custom
+  custom_date_format: 'F j, Y g:ia'
+  timezone: ''
+visibility: {  }

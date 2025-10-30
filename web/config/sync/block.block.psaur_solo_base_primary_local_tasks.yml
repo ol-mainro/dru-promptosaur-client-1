@@ -1,0 +1,22 @@
+uuid: aebd64af-b340-4cee-b617-01bc0018d458
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - psaur_solo_base
+_core:
+  default_config_hash: 3reyK-HSWIt5UPnepFKdL7LcxHA0-ikdJs7TRJQjvEo
+id: psaur_solo_base_primary_local_tasks
+theme: psaur_solo_base
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Onglets principaux'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 30218991-a1a9-43a2-aca7-c963d11fb20a
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - psaur_humanologue_solo
+_core:
+  default_config_hash: eqGUDDp50dv3qWHXkXyiLoHgYnXgnP6THlyBDfyX_4c
+id: psaur_humanologue_solo_secondary_local_tasks
+theme: psaur_humanologue_solo
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Onglets secondaires'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

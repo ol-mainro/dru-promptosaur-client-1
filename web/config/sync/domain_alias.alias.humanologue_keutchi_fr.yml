@@ -1,0 +1,9 @@
+uuid: 5843faab-70bd-4cdb-819c-46face33accd
+langcode: fr
+status: true
+dependencies: {  }
+id: humanologue_keutchi_fr
+domain_id: humanologue
+pattern: humanologue.keutchi.fr
+redirect: 0
+environment: default

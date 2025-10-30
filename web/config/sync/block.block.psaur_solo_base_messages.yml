@@ -1,0 +1,22 @@
+uuid: 60423f40-15af-4354-a2f3-43c973d3cfdc
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_solo_base
+_core:
+  default_config_hash: wgkVxN3uX_klZRZJifP1469jTcAV9BlwdMt0zd-_r5E
+id: psaur_solo_base_messages
+theme: psaur_solo_base
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  label_display: '0'
+  provider: system
+visibility: {  }

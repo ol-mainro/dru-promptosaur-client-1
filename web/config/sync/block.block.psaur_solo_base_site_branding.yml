@@ -1,0 +1,25 @@
+uuid: 835099c4-c904-4e0e-bcaf-058ac1f41cf2
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - psaur_solo_base
+_core:
+  default_config_hash: wqQ5RgTDWH35Q6PpZkxbTn_X8haCs3GYODj-ezlt8tQ
+id: psaur_solo_base_site_branding
+theme: psaur_solo_base
+region: sidebar_first
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Identité du site'
+  label_display: '0'
+  provider: system
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

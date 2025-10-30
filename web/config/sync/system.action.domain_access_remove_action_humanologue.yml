@@ -1,0 +1,15 @@
+uuid: 718f8875-68c7-446c-be11-f7e8d591f059
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.humanologue
+  module:
+    - domain_access
+id: domain_access_remove_action_humanologue
+label: 'Supprimer le contenu sélectionné du domaine My Drupal CMS site'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id:
+    - humanologue

@@ -1,0 +1,20 @@
+uuid: bf95c426-188f-4cf3-a076-5e10a4665f46
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - psaur_humanologue_solo
+_core:
+  default_config_hash: wCsDJhKjXP870EIRux3yMmP2Siq6M4z8dk9_5omweaU
+id: psaur_humanologue_solo_primary_admin_actions
+theme: psaur_humanologue_solo
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: "Actions d'administration principales"
+  label_display: '0'
+  provider: core
+visibility: {  }

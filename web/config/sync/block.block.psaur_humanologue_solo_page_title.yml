@@ -1,0 +1,20 @@
+uuid: 65ab8767-9b8f-4261-acab-0ecbe3323ab8
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - psaur_humanologue_solo
+_core:
+  default_config_hash: 211SKPSadXKk1lwHPehoeHE-Z7LesiPbP24b6hlADE4
+id: psaur_humanologue_solo_page_title
+theme: psaur_humanologue_solo
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de la page'
+  label_display: '0'
+  provider: core
+visibility: {  }

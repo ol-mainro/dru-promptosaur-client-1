@@ -1,0 +1,22 @@
+uuid: 3cd3c87f-0e96-420a-a40e-8e45ba8c92ae
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - psaur_humanologue_solo
+_core:
+  default_config_hash: 3reyK-HSWIt5UPnepFKdL7LcxHA0-ikdJs7TRJQjvEo
+id: psaur_humanologue_solo_primary_local_tasks
+theme: psaur_humanologue_solo
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Onglets principaux'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

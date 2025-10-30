@@ -1,0 +1,8 @@
+name: 'Le projet Humanologue Solo'
+type: theme
+description: 'Le projet Humanologue Solo'
+core_version_requirement: '^9.4 || ^10 || ^11'
+base theme: solo
+
+libraries:
+  - psaur_humanologue_project_solo/global-styling

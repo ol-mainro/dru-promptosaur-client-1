@@ -48,6 +48,7 @@
         "drupal/config_pages": "^2.19",
         "drupal/config_split": "^2.0",
         "drupal/configurable_views_filter_block": "^1.0",
+        "drupal/convert_bundles": "^3.0@alpha",
         "drupal/core": "^11.2",
         "drupal/core-composer-scaffold": "^11.2.4",
         "drupal/core-project-message": "^11.2.4",

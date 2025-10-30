@@ -1,0 +1,15 @@
+uuid: fdcd2210-9e8f-4453-967b-6227cc5ff15d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.humanologue
+  module:
+    - domain_access
+id: domain_access_remove_editor_action_humanologue
+label: 'Supprimer les éditeurs du domaine My Drupal CMS site'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id:
+    - humanologue
