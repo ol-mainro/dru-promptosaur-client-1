@@ -10,8 +10,8 @@ _core:
   default_config_hash: wgkVxN3uX_klZRZJifP1469jTcAV9BlwdMt0zd-_r5E
 id: psaur_humanologue_solo_messages
 theme: psaur_humanologue_solo
-region: highlighted
-weight: -5
+region: secondary_menu
+weight: -7
 provider: null
 plugin: system_messages_block
 settings:

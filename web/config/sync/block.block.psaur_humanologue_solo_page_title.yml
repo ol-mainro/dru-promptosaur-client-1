@@ -9,7 +9,7 @@ _core:
 id: psaur_humanologue_solo_page_title
 theme: psaur_humanologue_solo
 region: content
-weight: -6
+weight: -8
 provider: null
 plugin: page_title_block
 settings:

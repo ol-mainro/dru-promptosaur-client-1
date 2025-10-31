@@ -27,5 +27,5 @@ family_assistant_site: psaur_family_assistant
 family_assistant_admin: gin
 personal_assistant_site: psaur_personal_assistant
 personal_assistant_admin: gin
-humanologue_site: psaur_solo_base
+humanologue_site: psaur_humanologue_solo
 humanologue_admin: gin

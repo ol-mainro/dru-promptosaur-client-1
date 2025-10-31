@@ -1,6 +1,6 @@
 uuid: 1768e90b-c7fe-406b-b46a-4702e58fc83a
 langcode: fr
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: psaur_humanologue_solo_powered
 theme: psaur_humanologue_solo
 region: sidebar_first
-weight: -16
+weight: -7
 provider: null
 plugin: system_powered_by_block
 settings:

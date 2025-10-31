@@ -11,7 +11,7 @@ _core:
 id: psaur_humanologue_solo_content
 theme: psaur_humanologue_solo
 region: content
-weight: -2
+weight: -4
 provider: null
 plugin: system_main_block
 settings:

@@ -1,8 +1,8 @@
-name: 'Le projet Humanologue Solo'
+name: 'Promptosaur Solo Base'
 type: theme
-description: 'Le projet Humanologue Solo'
+description: 'Promptosaur Solo Base'
 core_version_requirement: '^9.4 || ^10 || ^11'
 base theme: solo
 
 libraries:
-  - psaur_humanologue_project_solo/global-styling
+  - psaur_solo_base/global-styling

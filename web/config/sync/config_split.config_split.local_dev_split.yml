@@ -9,7 +9,7 @@ weight: 0
 stackable: false
 no_patching: false
 storage: folder
-folder: local-dev
+folder: config/local-dev
 module: {  }
 theme: {  }
 complete_list:

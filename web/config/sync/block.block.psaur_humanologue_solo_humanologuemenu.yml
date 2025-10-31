@@ -1,22 +1,22 @@
-uuid: 603c9a5c-de25-4b9d-877a-c2889aed2827
+uuid: ad97ddd3-c727-4f82-9d21-98a89580ff52
 langcode: fr
-status: false
+status: true
 dependencies:
   config:
-    - system.menu.promptosaur-project-menu
+    - system.menu.humanologue-menu
   module:
     - system
   theme:
     - psaur_humanologue_solo
-id: psaur_humanologue_solo_promptosaurproject
+id: psaur_humanologue_solo_humanologuemenu
 theme: psaur_humanologue_solo
 region: primary_menu
 weight: 0
 provider: null
-plugin: 'system_menu_block:promptosaur-project-menu'
+plugin: 'system_menu_block:humanologue-menu'
 settings:
-  id: 'system_menu_block:promptosaur-project-menu'
-  label: 'Promptosaur project'
+  id: 'system_menu_block:humanologue-menu'
+  label: 'Humanologue menu'
   label_display: '0'
   provider: system
   level: 1

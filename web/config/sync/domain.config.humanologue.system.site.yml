@@ -1,0 +1,7 @@
+name: L’humanologue
+mail: ol.mainro@gmail.com
+slogan: ''
+page:
+  403: /user/login
+  404: ''
+  front: /empty_page

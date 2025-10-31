@@ -1,0 +1,8 @@
+uuid: 95eb790b-8686-486b-85bb-4d3aecbdd6c0
+langcode: fr
+status: true
+dependencies: {  }
+id: humanologue-menu
+label: 'Humanologue menu'
+description: ''
+locked: false

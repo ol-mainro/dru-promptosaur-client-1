@@ -9,7 +9,7 @@ dependencies:
 id: psaur_humanologue_solo_lastupdateddateblock
 theme: psaur_humanologue_solo
 region: content
-weight: -1
+weight: -3
 provider: null
 plugin: updated_date_block
 settings:

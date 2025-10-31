@@ -9,7 +9,7 @@ weight: 0
 stackable: false
 no_patching: false
 storage: folder
-folder: remote
+folder: config/remote
 module: {  }
 theme: {  }
 complete_list:
