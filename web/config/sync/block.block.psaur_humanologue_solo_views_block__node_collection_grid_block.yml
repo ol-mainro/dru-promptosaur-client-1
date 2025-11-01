@@ -1,6 +1,6 @@
 uuid: c276873a-c20b-45bd-b122-5ce3c404d1fd
 langcode: fr
-status: true
+status: false
 dependencies:
   config:
     - views.view.node_collection_grid
