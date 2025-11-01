@@ -40,8 +40,8 @@ site_font_awesome_on: '0'
 site_font_google_global_on: ''
 site_font_google_heading_on: ''
 site_font_google_special_on: ''
-theme_category: bold_and_dramatic_colors
-predefined_current_theme: bold_and_dramatic_colors|solo-eclipse-noir
+theme_category: ocean_and_deep_sea
+predefined_current_theme: ocean_and_deep_sea|solo-deep-sea-echo
 placeholder_info: ''
 classes_page_wrapper: ''
 opacity_page_wrapper: 0
