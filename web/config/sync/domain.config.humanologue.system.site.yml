@@ -4,4 +4,4 @@ slogan: ''
 page:
   403: /user/login
   404: ''
-  front: /empty_page
+  front: /node-collection-grid/humanologue_front

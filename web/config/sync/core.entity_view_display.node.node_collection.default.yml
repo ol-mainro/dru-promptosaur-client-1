@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.node_collection.field_domain_access
     - field.field.node.node_collection.field_domain_all_affiliates
+    - field.field.node.node_collection.field_inline_tags
     - field.field.node.node_collection.field_node_reference
     - node.type.node_collection
   module:
@@ -20,15 +21,16 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    weight: 101
+    weight: 1
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
 hidden:
   display_updated: true
   field_domain_access: true
   field_domain_all_affiliates: true
+  field_inline_tags: true
   langcode: true

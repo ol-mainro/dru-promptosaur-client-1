@@ -1,6 +1,6 @@
 #!/bin/bash
 vendor/bin/drush config:set system.maintenance message "Maintenance en cours..." -y
-vendor/bin/drush state:set system.maintenance_mode 1 --input-format=integer
+# vendor/bin/drush state:set system.maintenance_mode 1 --input-format=integer
 git fetch --all
 git clean -f
 git reset --hard HEAD

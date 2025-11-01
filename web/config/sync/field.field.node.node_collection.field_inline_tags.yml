@@ -1,0 +1,19 @@
+uuid: a249dc82-3f45-474e-9a10-72c7e66c217e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_inline_tags
+    - node.type.node_collection
+id: node.node_collection.field_inline_tags
+field_name: field_inline_tags
+entity_type: node
+bundle: node_collection
+label: 'Inline tags'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
