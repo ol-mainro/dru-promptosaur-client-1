@@ -36,6 +36,18 @@ remotes:
         operations:
           create: true
           update: true
+      content_blocks:
+        enabled: false
+        import_config: import_generated_contet
+        operations:
+          create: true
+          update: true
+      humanologue_channel:
+        enabled: true
+        import_config: import_generated_contet
+        operations:
+          create: true
+          update: true
       humans_channel:
         enabled: true
         import_config: import_generated_contet

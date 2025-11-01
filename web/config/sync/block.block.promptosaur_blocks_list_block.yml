@@ -12,7 +12,7 @@ dependencies:
 id: promptosaur_blocks_list_block
 theme: psaur_promptosaur_project_solo
 region: content
-weight: -7
+weight: -6
 provider: null
 plugin: 'views_block:content_blocks_list-block_3'
 settings:
