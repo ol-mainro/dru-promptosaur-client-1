@@ -3,8 +3,12 @@ langcode: fr
 status: true
 dependencies:
   module:
+    - field_permissions
     - json_field
     - node
+third_party_settings:
+  field_permissions:
+    permission_type: custom
 id: node.field_generation_metadata
 field_name: field_generation_metadata
 entity_type: node

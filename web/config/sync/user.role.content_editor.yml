@@ -14,6 +14,7 @@ dependencies:
     - contact
     - content_moderation
     - contextual
+    - field_permissions
     - file
     - filter
     - media
@@ -68,6 +69,8 @@ permissions:
   - 'use text format content_format'
   - 'view all revisions'
   - 'view any unpublished content'
+  - 'view field_generation_metadata'
+  - 'view own field_generation_metadata'
   - 'view own unpublished content'
   - 'view own unpublished media'
   - 'view scheduled content'

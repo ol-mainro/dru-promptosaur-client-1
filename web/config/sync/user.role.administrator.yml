@@ -1,11 +1,18 @@
 uuid: 603b6e87-bc0f-4c08-b3d6-7ba085069a69
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - field_permissions
 _core:
   default_config_hash: OeKGIkmZA_c-t6QLH81WNQx8gDCc1MRmxaTuQgxBByU
 id: administrator
 label: Administrator
 weight: 3
 is_admin: true
-permissions: {  }
+permissions:
+  - 'create field_generation_metadata'
+  - 'edit field_generation_metadata'
+  - 'edit own field_generation_metadata'
+  - 'view field_generation_metadata'
+  - 'view own field_generation_metadata'

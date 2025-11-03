@@ -42,6 +42,7 @@ module:
   domain_theme_switch: 0
   dropzonejs: 0
   drupal_cms_helper: 0
+  dynamic_entity_reference: 0
   dynamic_page_cache: 0
   easy_breadcrumb: 0
   easy_email: 0
@@ -63,6 +64,8 @@ module:
   entity_share_client: 0
   entity_share_cron: 0
   field: 0
+  field_group: 0
+  field_permissions: 0
   field_ui: 0
   file: 0
   filter: 0

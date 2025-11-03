@@ -16,9 +16,30 @@ dependencies:
     - image.style.promptosaur_client_panorama
     - node.type.generated_content
   module:
+    - field_group
+    - json_field
     - svg_image
     - text
     - user
+third_party_settings:
+  field_group:
+    group_generation_metadata:
+      children:
+        - field_generation_metadata
+      label: 'Generation metadata'
+      parent_name: ''
+      region: content
+      weight: 2
+      format_type: details_sidebar
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        open: false
+        description: ''
+        required_fields: false
+        weight: 0
 id: node.generated_content.default
 targetEntityType: node
 bundle: generated_content
@@ -30,6 +51,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_generation_metadata:
+    type: pretty
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
     region: content
   field_image:
     type: image
@@ -51,7 +79,6 @@ hidden:
   field_assigned_user: true
   field_domain_access: true
   field_domain_all_affiliates: true
-  field_generation_metadata: true
   field_inline_tags: true
   field_llm_sources: true
   field_tags: true
