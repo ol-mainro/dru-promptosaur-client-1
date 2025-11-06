@@ -23,7 +23,7 @@ import_processor_settings:
   entity_share_bypass_fields:
     weights:
       prepare_entity_data: -100
-    manual_bypassed_fields: "field_assigned_user\r\nfield_variant\r\nfield_generated_from\r\nfield_output_destination"
+    manual_bypassed_fields: "field_assigned_user\r\nfield_variant\r\nfield_generated_from\r\nfield_output_destination\r\nfield_evaluation"
   promptosaur_domain_affiliation:
     weights:
       post_entity_save: 0
