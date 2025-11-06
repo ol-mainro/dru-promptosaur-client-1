@@ -1,13 +1,13 @@
-uuid: 8a543382-8a16-4966-ad49-53a529ec91c2
+uuid: 83934986-d165-4b24-a978-416ec116b179
 langcode: fr
 status: true
 dependencies: {  }
-id: weekly
-label: Weekly
+id: prod_weekly
+label: 'Weekly (prod)'
 enabled: true
-keep: 10
+keep: null
 period: 604800
 cron: null
 source_id: default_db
 destination_id: aws_s3
-settings_profile_id: aws_s3
+settings_profile_id: prod_backup

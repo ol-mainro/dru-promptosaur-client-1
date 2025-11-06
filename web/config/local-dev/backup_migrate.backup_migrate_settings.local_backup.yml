@@ -1,12 +1,12 @@
-uuid: b77604f5-daf8-48e8-8c3e-5781f7e22102
-langcode: en
+uuid: dea3442f-0839-43c0-b3c8-2848ef9df38e
+langcode: fr
 status: true
 dependencies: {  }
-id: aws_s3
-label: 'AWS S3'
+id: local_backup
+label: 'Local backup'
 config:
   namer:
-    filename: promptosaur-websites-backup-local
+    filename: promptosaur_websites_local_backup
     timestamp: true
     timestamp_format: Y-m-d\TH-i-s
   compressor:

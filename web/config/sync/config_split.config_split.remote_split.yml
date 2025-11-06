@@ -13,6 +13,7 @@ folder: config/remote
 module: {  }
 theme: {  }
 complete_list:
-  - 'backup_migrate.backup_migrate_schedule.*'
-  - 'backup_migrate.backup_migrate_settings.*'
+  - backup_migrate.backup_migrate_settings.prod_backup
+  - backup_migrate.backup_migrate_schedule.prod_daily
+  - backup_migrate.backup_migrate_schedule.prod_weekly
 partial_list: {  }
