@@ -61,6 +61,7 @@ module:
   entity_reference_revisions: 0
   entity_share: 0
   entity_share_async: 0
+  entity_share_bypass_fields: 0
   entity_share_client: 0
   entity_share_cron: 0
   field: 0

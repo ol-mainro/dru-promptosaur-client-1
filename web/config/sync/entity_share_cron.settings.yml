@@ -7,31 +7,31 @@ remotes:
     enabled: true
     channels:
       ai_blog_channel:
-        enabled: true
+        enabled: false
         import_config: import_generated_contet
         operations:
           create: true
           update: true
       ai_consultant_channel:
-        enabled: true
+        enabled: false
         import_config: import_generated_contet
         operations:
           create: true
           update: true
       alice_ecole_channel:
-        enabled: true
+        enabled: false
         import_config: import_generated_contet
         operations:
           create: true
           update: true
       base_contents:
-        enabled: true
+        enabled: false
         import_config: import_generated_contet
         operations:
           create: true
           update: true
       clap_studio_channel:
-        enabled: true
+        enabled: false
         import_config: import_generated_contet
         operations:
           create: true
@@ -49,19 +49,19 @@ remotes:
           create: true
           update: true
       humans_channel:
-        enabled: true
+        enabled: false
         import_config: import_generated_contet
         operations:
           create: true
           update: true
       local_scientific_tourism_channel:
-        enabled: true
+        enabled: false
         import_config: import_generated_contet
         operations:
           create: true
           update: true
       promptosaur_project_channel:
-        enabled: true
+        enabled: false
         import_config: import_generated_contet
         operations:
           create: true
