@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.base_content.body
     - field.field.node.base_content.field_domain_access
     - field.field.node.base_content.field_domain_all_affiliates
+    - field.field.node.base_content.field_evaluation
     - field.field.node.base_content.field_image
     - field.field.node.base_content.field_inline_tags
     - image.style.medium
@@ -47,6 +48,7 @@ hidden:
   display_updated: true
   field_domain_access: true
   field_domain_all_affiliates: true
+  field_evaluation: true
   field_inline_tags: true
   langcode: true
   links: true

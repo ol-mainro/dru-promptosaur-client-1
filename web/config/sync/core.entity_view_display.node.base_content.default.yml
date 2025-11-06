@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.base_content.body
     - field.field.node.base_content.field_domain_access
     - field.field.node.base_content.field_domain_all_affiliates
+    - field.field.node.base_content.field_evaluation
     - field.field.node.base_content.field_image
     - field.field.node.base_content.field_inline_tags
     - image.style.promptosaur_client_panorama
@@ -25,6 +26,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_evaluation:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
     region: content
   field_image:
     type: image

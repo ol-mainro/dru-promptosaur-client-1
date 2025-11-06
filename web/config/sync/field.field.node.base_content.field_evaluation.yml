@@ -1,0 +1,19 @@
+uuid: 18674c75-c24c-42fe-bb94-6b5e387ad336
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_evaluation
+    - node.type.base_content
+id: node.base_content.field_evaluation
+field_name: field_evaluation
+entity_type: node
+bundle: base_content
+label: Évaluation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
