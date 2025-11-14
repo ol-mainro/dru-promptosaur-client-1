@@ -1,0 +1,9 @@
+uuid: 2eab6002-8e08-4acd-a65b-2051b61fb1a1
+langcode: fr
+status: true
+dependencies: {  }
+id: corps_promptosaur_ddev_site
+domain_id: corps
+pattern: corps.promptosaur.ddev.site
+redirect: 0
+environment: default

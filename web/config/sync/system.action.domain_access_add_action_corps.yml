@@ -1,0 +1,15 @@
+uuid: 4118da3a-8125-43ab-9c18-5701bdc35877
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.corps
+  module:
+    - domain_access
+id: domain_access_add_action_corps
+label: 'Ajouter le contenu sélectionné au domaine Sport et santé'
+type: node
+plugin: domain_access_add_action
+configuration:
+  domain_id:
+    - corps

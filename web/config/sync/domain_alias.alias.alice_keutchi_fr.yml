@@ -1,0 +1,9 @@
+uuid: 1888a0e2-8a80-4cbf-9d46-955ed546f217
+langcode: fr
+status: true
+dependencies: {  }
+id: alice_keutchi_fr
+domain_id: alice_ecole
+pattern: alice.keutchi.fr
+redirect: 0
+environment: default

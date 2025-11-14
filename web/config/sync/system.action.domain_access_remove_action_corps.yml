@@ -1,0 +1,15 @@
+uuid: af1a6eb4-becb-4b47-8d0d-e410734375b3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.corps
+  module:
+    - domain_access
+id: domain_access_remove_action_corps
+label: 'Supprimer le contenu sélectionné du domaine Sport et santé'
+type: node
+plugin: domain_access_remove_action
+configuration:
+  domain_id:
+    - corps

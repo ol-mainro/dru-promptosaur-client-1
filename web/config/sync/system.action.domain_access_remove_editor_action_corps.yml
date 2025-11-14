@@ -1,0 +1,15 @@
+uuid: 16803c53-c841-43d3-a5be-f78656393266
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.corps
+  module:
+    - domain_access
+id: domain_access_remove_editor_action_corps
+label: 'Supprimer les éditeurs du domaine Sport et santé'
+type: user
+plugin: domain_access_remove_editor_action
+configuration:
+  domain_id:
+    - corps

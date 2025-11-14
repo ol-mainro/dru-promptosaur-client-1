@@ -1,0 +1,15 @@
+uuid: 8f99c9fa-31b0-4210-8b8a-96bd8dd32bee
+langcode: fr
+status: true
+dependencies:
+  config:
+    - domain.record.corps
+  module:
+    - domain_access
+id: domain_access_add_editor_action_corps
+label: 'Ajouter des éditeurs au domaine Sport et santé'
+type: user
+plugin: domain_access_add_editor_action
+configuration:
+  domain_id:
+    - corps
