@@ -76,3 +76,16 @@ p{
     -moz-border-radius: 30px / 30px;
     border-radius: 30px / 30px;
 }
+
+.site-name a.site-name-link{
+    color: #ffffff;
+    --r-tx: #ffffff;
+    font-size:40px;
+}
+
+.page-wrapper .login-button-open, .page-wrapper .hamburger-icon button, .page-wrapper .main-navigation-wrapper, .page-wrapper .main-navigation-wrapper ul, .page-wrapper .main-navigation-wrapper li, .page-wrapper .header li.nav__menu-item>a, .page-wrapper .main-navigation-wrapper li>a, .page-wrapper .header li.nav__menu-item>button, .page-wrapper .main-navigation-wrapper li>button {
+    --r-br: none;
+    --r-bg: none;
+    --r-tx: none;
+    font-weight: bold;
+}

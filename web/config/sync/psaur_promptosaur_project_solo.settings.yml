@@ -37,11 +37,11 @@ site_toggle_speed: normal
 site_load_w3css_on: 0
 site_font_google_local_on: 0
 site_font_awesome_on: '0'
-site_font_google_global_on: ''
-site_font_google_heading_on: ''
+site_font_google_global_on: solo-spline-sans
+site_font_google_heading_on: solo-archivo-black
 site_font_google_special_on: ''
-theme_category: bold_and_dramatic_colors
-predefined_current_theme: bold_and_dramatic_colors|solo-nocturnal-velvet
+theme_category: soft_and_subtle_hues
+predefined_current_theme: soft_and_subtle_hues|solo-cotton-candy-whispers
 placeholder_info: ''
 classes_page_wrapper: ''
 opacity_page_wrapper: 0
@@ -86,7 +86,7 @@ header_change_icons: 0
 header_logo_image_alt: ''
 site_name_font_size_s: ''
 site_name_font_size_l: ''
-site_name_google_font: ''
+site_name_google_font: solo-fugaz-one
 site_name_animate_on: ''
 skip_header_content: 0
 settings_header___r_bg: ''
@@ -252,6 +252,8 @@ solo_layout_main_2col_generated_content: solo-col-2-1
 solo_layout_main_3col_generated_content: solo-col-1-2-1
 solo_layout_main_2col_modular_base_content: solo-col-2-1
 solo_layout_main_3col_modular_base_content: solo-col-1-2-1
+solo_layout_main_2col_node_collection: solo-col-2-1
+solo_layout_main_3col_node_collection: solo-col-1-2-1
 solo_layout_main_2col_page: solo-col-2-1
 solo_layout_main_3col_page: solo-col-1-2-1
 header_login_links: Login
