@@ -15,6 +15,11 @@
         line-height: var(--solo-px18);
     }
 
+    h2, h2 a{
+        font-size: var(--solo-px18);
+        line-height: var(--solo-px18);
+    }
+
     .node--view-mode-teaser h3 {
         font-size: var(--solo-px18);
         line-height: var(--solo-px18);
@@ -22,14 +27,27 @@
 }
 
 @media (max-width: 61.9988rem) {
+    .layout--twocol-section--33-67 .layout__region--first{
+    display:none;
+    }
+    
+    .layout--twocol-section--67-33 .layout__region--first{
+    display:none;
+    }
+
     .block h1.page-title-text {
-        font-size: var(--solo-px24);
-        line-height: var(--solo-px24);
+        font-size: var(--solo-px30);
+        line-height: var(--solo-px30);
+    }
+
+    h2, h2 a{
+        font-size: var(--solo-px28);
+        line-height: var(--solo-px28);
     }
     
     .node--view-mode-teaser h3 {
-        font-size: var(--solo-px24);
-        line-height: var(--solo-px24);
+        font-size: var(--solo-px28);
+        line-height: var(--solo-px28);
     }
 }
 
