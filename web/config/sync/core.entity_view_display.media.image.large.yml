@@ -8,6 +8,7 @@ dependencies:
     - media.type.image
     - responsive_image.styles.psaur_panorama
   module:
+    - media_parent_entity_link
     - responsive_image
 _core:
   default_config_hash: XvmVZ_yi02p9yC65erQMoAF3IWDKwKjXeOuwDTrsws8
@@ -24,7 +25,9 @@ content:
       image_link: content
       image_loading:
         attribute: lazy
-    third_party_settings: {  }
+    third_party_settings:
+      media_parent_entity_link:
+        link_to_parent: '1'
     weight: 1
     region: content
 hidden:

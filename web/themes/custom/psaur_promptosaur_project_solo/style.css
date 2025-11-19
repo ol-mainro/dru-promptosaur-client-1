@@ -4,9 +4,24 @@
     line-height: var(--solo-px38);
 }
 
+h3 {
+    font-size: var(--solo-px32);
+    line-height: var(--solo-px32);
+}
+
 .node--view-mode-teaser h3 {
     font-size: var(--solo-px32);
     line-height: var(--solo-px32);
+}
+
+.node--view-mode-full h3, h3 a{
+    font-size: var(--solo-px28);
+    line-height: var(--solo-px28);
+    margin-bottom:26px;
+}
+
+.node--view-mode-full p{
+    margin-bottom: 40px;
 }
 
 @media (max-width: 47.9988rem) {
@@ -18,6 +33,11 @@
     h2, h2 a{
         font-size: var(--solo-px18);
         line-height: var(--solo-px18);
+    }
+
+    .node--view-mode-full h3, h3 a{
+        font-size: var(--solo-px24);
+        line-height: var(--solo-px24);
     }
 
     .node--view-mode-teaser h3 {
