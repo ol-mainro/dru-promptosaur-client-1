@@ -4,9 +4,24 @@
     line-height: var(--solo-px38);
 }
 
+h3 {
+    font-size: var(--solo-px32);
+    line-height: var(--solo-px32);
+}
+
 .node--view-mode-teaser h3 {
     font-size: var(--solo-px32);
     line-height: var(--solo-px32);
+}
+
+.node--view-mode-full h3, h3 a{
+    font-size: var(--solo-px28);
+    line-height: var(--solo-px28);
+    margin-bottom:26px;
+}
+
+.node--view-mode-full p{
+    margin-bottom: 40px;
 }
 
 @media (max-width: 47.9988rem) {
@@ -15,21 +30,121 @@
         line-height: var(--solo-px18);
     }
 
+    h2, h2 a{
+        font-size: var(--solo-px18);
+        line-height: var(--solo-px18);
+    }
+
+    .node--view-mode-full h3, h3 a{
+        font-size: var(--solo-px24);
+        line-height: var(--solo-px24);
+    }
+
     .node--view-mode-teaser h3 {
         font-size: var(--solo-px18);
         line-height: var(--solo-px18);
     }
 }
 
+
+.layout--twocol-section{
+   margin-left: 60px;
+}
+
+.view-content-blocks-list{
+    margin-bottom: 60px;
+}
+
+.layout--twocol-section
+.layout__region--first{
+    margin-bottom: 15px;
+}
+
+.layout--twocol-section {
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+.layout--twocol-section--33-67 .layout__region--second{
+    margin-top: 40px;
+    margin-left: 50px;
+    max-width: 600px;
+    display: block;
+}
+
+.layout--twocol-section--67-33 .layout__region--first{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 50px;
+    max-width: 500px;
+    display: block;
+}
+
 @media (max-width: 61.9988rem) {
+
+    .view-content-blocks-list{
+        margin-bottom: 40px;
+    }    
+
+    .layout--twocol-section{
+        margin-left: 0px;
+        display: block;
+    }
+    
+    .layout--twocol-section
+    .layout__region--first{
+        margin-bottom: 15px;
+    }
+    
+    .layout--twocol-section {
+        flex-wrap:nowrap;
+    }
+    
+    .layout--twocol-section--33-67 .layout__region--second{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        max-width: unset;
+    }
+    
+    .layout--twocol-section--67-33 .layout__region--first{
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-right: unset;
+        max-width: unset;
+    }
+}
+
+@media (max-width: 61.9988rem) {
+    .layout--twocol-section--33-67 .layout__region--first{
+        /*display:none;*/
+        /*
+        flex: none;
+        display: inline;
+        width: 100%;
+        */
+    }
+
+    .layout--twocol-section--67-33 .layout__region--second{
+        /*
+        display:none;
+        */
+    }
+
     .block h1.page-title-text {
-        font-size: var(--solo-px24);
-        line-height: var(--solo-px24);
+        font-size: var(--solo-px30);
+        line-height: var(--solo-px30);
+    }
+
+    h2, h2 a{
+        font-size: var(--solo-px28);
+        line-height: var(--solo-px28);
     }
     
     .node--view-mode-teaser h3 {
-        font-size: var(--solo-px24);
-        line-height: var(--solo-px24);
+        font-size: var(--solo-px28);
+        line-height: var(--solo-px28);
     }
 }
 
@@ -54,15 +169,6 @@ p{
     margin-block-start: var(--solo-px12);
 }
 
-.layout--twocol-section
- .layout__region--first{
-    margin-right: 20px;
-    margin-bottom: 15px;
-}
-
-.layout--twocol-section {
-    flex-wrap: nowrap;
-}
 .block-field-blockblock-contentbasic-text-blockbody p{
     font-size:25px;
 }
@@ -75,4 +181,17 @@ p{
     -webkit-border-radius: 30px / 30px;
     -moz-border-radius: 30px / 30px;
     border-radius: 30px / 30px;
+}
+
+.site-name a.site-name-link{
+    color: #ffffff;
+    --r-tx: #ffffff;
+    font-size:40px;
+}
+
+.page-wrapper .login-button-open, .page-wrapper .hamburger-icon button, .page-wrapper .main-navigation-wrapper, .page-wrapper .main-navigation-wrapper ul, .page-wrapper .main-navigation-wrapper li, .page-wrapper .header li.nav__menu-item>a, .page-wrapper .main-navigation-wrapper li>a, .page-wrapper .header li.nav__menu-item>button, .page-wrapper .main-navigation-wrapper li>button {
+    --r-br: none;
+    --r-bg: none;
+    --r-tx: none;
+    font-weight: bold;
 }
