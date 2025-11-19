@@ -19,11 +19,11 @@ import_processor_settings:
   entity_reference:
     weights:
       process_entity: 30
-    max_recursion_depth: -1
+    max_recursion_depth: 0
   entity_share_bypass_fields:
     weights:
       prepare_entity_data: -100
-    manual_bypassed_fields: 'field_assigned_user,field_variant,field_generated_from,field_output_destination,field_evaluation'
+    manual_bypassed_fields: 'field_assigned_user,field_variant,field_generated_from,field_output_destination,field_image,field_evaluation'
   promptosaur_domain_affiliation:
     weights:
       post_entity_save: 0

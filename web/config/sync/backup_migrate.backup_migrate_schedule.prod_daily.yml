@@ -1,13 +1,13 @@
-uuid: f68878d4-9f2b-4556-b68f-77f46f554f52
+uuid: 9999bffe-7fde-4981-9cbf-90a9fd8a5614
 langcode: fr
 status: true
 dependencies: {  }
-id: local_daily
-label: 'Daily (local)'
+id: prod_daily
+label: 'Daily (prod)'
 enabled: true
 keep: null
 period: 86400
 cron: null
 source_id: default_db
 destination_id: aws_s3
-settings_profile_id: local_backup
+settings_profile_id: prod_backup

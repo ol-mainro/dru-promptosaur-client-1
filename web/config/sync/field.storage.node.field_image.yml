@@ -14,13 +14,13 @@ settings:
   target_type: file
   display_field: false
   display_default: true
-  uri_scheme: s3
+  uri_scheme: public
   default_image:
-    uuid: a099caa5-2ee0-4183-acc6-a1cbf6e00466
+    uuid: ''
     alt: ''
     title: ''
-    width: 2498
-    height: 1086
+    width: 1536
+    height: 1024
 module: image
 locked: false
 cardinality: 1

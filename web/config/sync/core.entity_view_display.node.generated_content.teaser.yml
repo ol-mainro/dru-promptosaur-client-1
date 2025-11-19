@@ -8,10 +8,12 @@ dependencies:
     - field.field.node.generated_content.field_assigned_user
     - field.field.node.generated_content.field_domain_access
     - field.field.node.generated_content.field_domain_all_affiliates
+    - field.field.node.generated_content.field_evaluation
     - field.field.node.generated_content.field_generation_metadata
     - field.field.node.generated_content.field_image
     - field.field.node.generated_content.field_inline_tags
     - field.field.node.generated_content.field_llm_sources
+    - field.field.node.generated_content.field_media
     - field.field.node.generated_content.field_tags
     - field.field.node.generated_content.field_variant
     - image.style.medium
@@ -36,7 +38,7 @@ content:
     settings:
       trim_length: 350
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
   field_image:
     type: image
@@ -51,6 +53,15 @@ content:
         height: null
       svg_render_as_image: true
     third_party_settings: {  }
+    weight: 1
+    region: content
+  field_media:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: large
+      link: false
+    third_party_settings: {  }
     weight: 0
     region: content
 hidden:
@@ -58,6 +69,7 @@ hidden:
   field_assigned_user: true
   field_domain_access: true
   field_domain_all_affiliates: true
+  field_evaluation: true
   field_generation_metadata: true
   field_inline_tags: true
   field_llm_sources: true

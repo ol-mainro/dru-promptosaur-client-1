@@ -16,15 +16,11 @@ bundle: node_collection
 mode: default
 content:
   field_node_reference:
-    type: entity_reference_label
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      link: true
-    third_party_settings: {  }
-    weight: 1
-    region: content
-  links:
-    settings: {  }
+      view_mode: teaser
+      link: false
     third_party_settings: {  }
     weight: 0
     region: content
@@ -34,3 +30,4 @@ hidden:
   field_domain_all_affiliates: true
   field_inline_tags: true
   langcode: true
+  links: true

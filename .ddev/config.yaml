@@ -15,7 +15,7 @@ additional_hostnames:
   - clap-studio.promptosaur
   - promptosaur-project.promptosaur
   - humanologue.promptosaur
-  - test-promptosaur
+  - corps.promptosaur
   - test.promptosaur
 additional_fqdns: []
 database:

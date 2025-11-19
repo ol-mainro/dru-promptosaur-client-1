@@ -1,0 +1,16 @@
+uuid: 05564052-dea6-4ce1-8507-9df05e02f0d8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - image.style.promptosaur_client_panorama
+id: psaur_panorama
+label: psaur_panorama
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: promptosaur_client_panorama
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+breakpoint_group: responsive_image
+fallback_image_style: promptosaur_client_panorama

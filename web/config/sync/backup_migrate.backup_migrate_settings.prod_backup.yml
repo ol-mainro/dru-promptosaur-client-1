@@ -1,12 +1,12 @@
-uuid: dea3442f-0839-43c0-b3c8-2848ef9df38e
+uuid: c06913b7-309a-41ba-9fbd-f5a766b518ac
 langcode: fr
 status: true
 dependencies: {  }
-id: local_backup
-label: 'Local backup'
+id: prod_backup
+label: 'Prod backup'
 config:
   namer:
-    filename: promptosaur_websites_local_backup
+    filename: promptosaur_websites_prod_backup
     timestamp: true
     timestamp_format: Y-m-d\TH-i-s
   compressor:
