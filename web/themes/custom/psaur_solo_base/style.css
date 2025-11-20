@@ -48,7 +48,7 @@ h3 {
 
 
 .layout--twocol-section{
-   margin-left: 60px;
+   margin-left: 160px;
 }
 
 .view-content-blocks-list{
@@ -78,6 +78,20 @@ h3 {
     margin-right: 50px;
     max-width: 500px;
     display: block;
+}
+
+.layout--onecol{
+    width:100%;
+    text-align: center;
+}
+
+.layout--onecol .block-field-blockblock-contentbasic-text-blockbody{
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:700px;
+    margin-right:100px;
 }
 
 @media (max-width: 61.9988rem) {
@@ -110,9 +124,23 @@ h3 {
     .layout--twocol-section--67-33 .layout__region--first{
         margin-top: 10px;
         margin-left: 0px;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
         margin-right: unset;
         max-width: unset;
+    }
+
+    .layout--onecol{
+        width: unset;
+        text-align: left;
+    }
+    
+    .layout--onecol .block-field-blockblock-contentbasic-text-blockbody{
+        display: inline-block;
+        text-align: left;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        width: unset;
+        margin-right:unset;
     }
 }
 
@@ -157,6 +185,12 @@ h3 {
     .node--view-mode-teaser h3 {
         font-size: var(--solo-px32);
         line-height: var(--solo-px32);
+    }
+
+
+    
+    .layout--onecol .block-field-blockblock-contentbasic-text-blockbody{
+        margin-right:unset;
     }
 }
 

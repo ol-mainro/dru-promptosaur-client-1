@@ -1,0 +1,30 @@
+uuid: 694ad185-9ee4-47c6-8535-7038621badaa
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain_access
+    - node.type.blocks_list
+  module:
+    - domain_access
+third_party_settings:
+  domain_access:
+    add_current_domain: true
+id: node.blocks_list.field_domain_access
+field_name: field_domain_access
+entity_type: node
+bundle: blocks_list
+label: 'Domain Access'
+description: 'Select the affiliate domain(s) for this content'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:domain'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: weight
+      direction: ASC
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: d22a5b22-f21f-40d6-84e9-196d20cbab03
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_domain_all_affiliates
+    - node.type.blocks_list
+id: node.blocks_list.field_domain_all_affiliates
+field_name: field_domain_all_affiliates
+entity_type: node
+bundle: blocks_list
+label: 'Send to all affiliates'
+description: 'Make this content available on all domains.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

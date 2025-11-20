@@ -1,0 +1,35 @@
+uuid: 92725e58-27f2-4a89-bed1-95fc9c58083b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.blocks_list.field_block
+    - field.field.node.blocks_list.field_domain_access
+    - field.field.node.blocks_list.field_domain_all_affiliates
+    - node.type.blocks_list
+  module:
+    - user
+id: node.blocks_list.default
+targetEntityType: node
+bundle: blocks_list
+mode: default
+content:
+  field_block:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: full
+      link: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  display_updated: true
+  field_domain_access: true
+  field_domain_all_affiliates: true
+  langcode: true

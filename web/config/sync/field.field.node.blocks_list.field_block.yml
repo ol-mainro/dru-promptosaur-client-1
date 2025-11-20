@@ -1,0 +1,29 @@
+uuid: a4f3d1d2-b3bb-4019-a852-e81e5ef51b20
+langcode: fr
+status: true
+dependencies:
+  config:
+    - block_content.type.basic_text_block
+    - field.storage.node.field_block
+    - node.type.blocks_list
+id: node.blocks_list.field_block
+field_name: field_block
+entity_type: node
+bundle: blocks_list
+label: Bloc(s)
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      basic_text_block: basic_text_block
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
