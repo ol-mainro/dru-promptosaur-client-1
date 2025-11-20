@@ -65,7 +65,7 @@ h3 {
     display: flex;
 }
 
-.layout--twocol-section strong{
+.layout--twocol-section strong, .layout--onecol strong{
     color: #f66d93;
 }
 
