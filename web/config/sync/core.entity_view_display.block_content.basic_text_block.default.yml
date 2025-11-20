@@ -7,6 +7,7 @@ dependencies:
     - field.field.block_content.basic_text_block.body
     - field.field.block_content.basic_text_block.field_image
     - field.field.block_content.basic_text_block.field_locations
+    - field.field.block_content.basic_text_block.field_media
     - field.field.block_content.basic_text_block.layout_builder__layout
   module:
     - layout_builder
@@ -68,6 +69,25 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 0
             additional: {  }
+          32692211-ffe2-493b-94ff-cb3abbcba00e:
+            uuid: 32692211-ffe2-493b-94ff-cb3abbcba00e
+            region: first
+            configuration:
+              id: 'field_block:block_content:basic_text_block:field_media'
+              label: Media
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_entity_view
+                label: hidden
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
         third_party_settings: {  }
 id: block_content.basic_text_block.default
 targetEntityType: block_content
@@ -104,6 +124,15 @@ content:
     third_party_settings: {  }
     weight: 2
     region: content
+  field_media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 3
+    region: first
 hidden:
   langcode: true
   layout_builder__layout: true

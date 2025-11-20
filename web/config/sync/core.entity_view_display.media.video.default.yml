@@ -22,8 +22,8 @@ content:
       multiple_file_display_type: tags
       muted: false
       playsinline: false
-      width: 960
-      height: 540
+      width: 1280
+      height: 720
     third_party_settings: {  }
     weight: 0
     region: content
